@@ -51,16 +51,10 @@
             }
             // Poll for changes in the DOM to ensure the button additions are made after the questionnaire content is added
             let pollInterval = setInterval(function () {
-                //adding approve and reject buttons to the navbar
-                const approveButtonMarkup = '<button type="button" class="btn btn-success me-2 mt-1" onclick="onApprove()">Approve</button>';
-                const rejectButtonMarkup = '<button type="button" class="btn btn-danger me-2 mt-1" onclick="onReject()">Reject</button>';
-                const notesButtonMarkup = '<button type="button" class="btn btn-light me-2 mt-1" onclick="toggleNotes()">Notes</button>';
+                //adding approve and reject ui functionality
                 const languageBarDiv = document.getElementById("languageBar");
                 if(languageBarDiv){
-                    // Append the button elements to the selected div
-                    languageBarDiv.innerHTML += approveButtonMarkup;
-                    languageBarDiv.innerHTML += rejectButtonMarkup;
-                    languageBarDiv.innerHTML += notesButtonMarkup;
+                    initButtons();
                     initNotes();
                     clearInterval(pollInterval);
                 }
@@ -197,10 +191,34 @@
             return textBox.value;
         }
 
-        function initNotes() {
-            const textBoxMarkup = '<div id="text-box-container" class="text-box-container"><input type="text" id="text-box" class="form-control" placeholder="Enter your text here"></div>';
+        function initButtons() {
+            const buttonRowMarkup = '<div id="button-row" class="row"></div>';
+            const buttonGroupMarkup = '<div id="button-group" class="btn-group"></div>';
+            const spacerMarkup = '<div class="col"></div>';
+            const approveButtonMarkup = '<div class="col-auto"><button type="button" class="btn btn-success me-1 mt-1 mb-1" onclick="onApprove()">Approve</button></div>';
+            const rejectButtonMarkup = '<div class="col-auto"><button type="button" class="btn btn-danger me-1 mt-1 mb-1" onclick="onReject()">Reject</button></div>';
+            const notesButtonMarkup = '<div class="col-auto"><button type="button" class="btn btn-light me-1 mt-1 mb-1" onclick="toggleNotes()">Notes</button></div>';
+
             const languageBarDiv = document.getElementById("languageBar");
-            languageBarDiv.innerHTML += textBoxMarkup;
+            languageBarDiv.innerHTML += buttonRowMarkup;
+            const buttonRowDiv = document.getElementById("button-row");
+            buttonRowDiv.innerHTML += buttonGroupMarkup;
+            const buttonGroupDiv = document.getElementById("button-group");
+            buttonGroupDiv.innerHTML += spacerMarkup;
+            buttonGroupDiv.innerHTML += approveButtonMarkup;
+            buttonGroupDiv.innerHTML += rejectButtonMarkup;
+            buttonGroupDiv.innerHTML += notesButtonMarkup;
+        }
+
+        function initNotes() {
+            const noteRowMarkup = '<div id="note-row" class="row justify-content-end"></div>';
+            const textBoxMarkup = '<div class=col-auto><div id="text-box-container" class="text-box-container me-1  mb-1"><input type="text" id="text-box" class="form-control" placeholder="Enter your text here"></div></div>';
+            
+            const languageBarDiv = document.getElementById("languageBar");
+            languageBarDiv.innerHTML += noteRowMarkup;
+
+            const noteRowDiv = document.getElementById("note-row");
+            noteRowDiv.innerHTML += textBoxMarkup;
 
             const notesContainerDiv = document.getElementById("text-box-container");
             notesContainerDiv.style.display = 'none';
@@ -208,11 +226,10 @@
 
             const notesTextBoxDiv = document.getElementById("text-box");
             notesTextBoxDiv.style.width = '300px';
-            notesTextBoxDiv.style.padding = '10px';
-            //notesTextBoxDiv.style.border = '1px solid #ccc';
-            notesTextBoxDiv.style.borderRadius = '5px';
+            //notesTextBoxDiv.style.padding = '10px';
+            //notesTextBoxDiv.style.borderRadius = '5px';
             notesTextBoxDiv.style.fontSize = '16px';
-            notesTextBoxDiv.style.boxSizing = 'border-box';
+            //notesTextBoxDiv.style.boxSizing = 'border-box';
 
             const note = CS.UI.getInputData().note;
             notesTextBoxDiv.value = note.value;
