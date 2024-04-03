@@ -195,9 +195,20 @@
             const buttonRowMarkup = '<div id="button-row" class="row"></div>';
             const buttonGroupMarkup = '<div id="button-group" class="btn-group"></div>';
             const spacerMarkup = '<div class="col"></div>';
-            const approveButtonMarkup = '<div class="col-auto"><button type="button" class="btn btn-success me-1 mt-1 mb-1" onclick="onApprove()">Approve</button></div>';
-            const rejectButtonMarkup = '<div class="col-auto"><button type="button" class="btn btn-danger me-1 mt-1 mb-1" onclick="onReject()">Reject</button></div>';
-            const notesButtonMarkup = '<div class="col-auto"><button type="button" class="btn btn-light me-1 mt-1 mb-1" onclick="toggleNotes()">Notes</button></div>';
+            const approveButtonMarkup =
+                                    `<div class="col-auto">
+                                        <button type="button" id="approve-btn" class="btn btn-custom btn-success me-1 mt-1 mb-1" onclick="onApprove()">Approve</button>
+                                    </div>`;
+            const rejectButtonMarkup =
+                                    `<div class="col-auto">
+                                        <button type="button" id="reject-btn" class="btn btn-custom btn-danger me-1 mt-1 mb-1" onclick="onReject()">Reject</button>
+                                    </div>`;
+            const notesButtonMarkup =
+                                    `<div class="col-auto">
+                                        <button type="button" id="notes-btn" class="btn btn-custom btn-light me-1 mt-1 mb-1" onclick="toggleNotes()">
+                                            <img src="../Household-Review/Notes.png" alt="Notes" style="max-height: 20px;">
+                                        </button>
+                                    </div>`;
 
             const languageBarDiv = document.getElementById("languageBar");
             languageBarDiv.innerHTML += buttonRowMarkup;
@@ -208,28 +219,35 @@
             buttonGroupDiv.innerHTML += approveButtonMarkup;
             buttonGroupDiv.innerHTML += rejectButtonMarkup;
             buttonGroupDiv.innerHTML += notesButtonMarkup;
+            
+            if (window.matchMedia("(max-width: 767px)").matches) {
+                // Use small buttons on phones
+                const approveButton = document.getElementById("approve-btn");
+                approveButton.classList.add("btn-sm");
+                const rejectButton = document.getElementById("reject-btn");
+                rejectButton.classList.add("btn-sm");
+                const notesButton = document.getElementById("notes-btn");	
+                notesButton.classList.add("btn-sm");
+            }
         }
 
         function initNotes() {
-            const noteRowMarkup = '<div id="note-row" class="row justify-content-end"></div>';
-            const textBoxMarkup = '<div class=col-auto><div id="text-box-container" class="text-box-container me-1  mb-1"><input type="text" id="text-box" class="form-control" placeholder="Enter your text here"></div></div>';
-            
-            const languageBarDiv = document.getElementById("languageBar");
-            languageBarDiv.innerHTML += noteRowMarkup;
-
-            const noteRowDiv = document.getElementById("note-row");
+			const rowDiv = document.getElementsByClassName("row show no-gutters d-flex h-100 position-relative")[0];
+			const noteRowDiv = document.createElement("div");
+			noteRowDiv.className = "row float-end";
+			rowDiv.parentNode.insertBefore(noteRowDiv, rowDiv.nextSibling);
+			
+            const textBoxMarkup =
+								`<div id="text-box-container" class="text-box-container me-1 mb-1 p-1">
+									<input type="text" id="text-box" class="form-control" placeholder="Enter your feedback here">
+								</div>`;
             noteRowDiv.innerHTML += textBoxMarkup;
 
             const notesContainerDiv = document.getElementById("text-box-container");
             notesContainerDiv.style.display = 'none';
-            notesContainerDiv.style.marginTop = '20';
-
+ 
             const notesTextBoxDiv = document.getElementById("text-box");
-            notesTextBoxDiv.style.width = '300px';
-            //notesTextBoxDiv.style.padding = '10px';
-            //notesTextBoxDiv.style.borderRadius = '5px';
-            notesTextBoxDiv.style.fontSize = '16px';
-            //notesTextBoxDiv.style.boxSizing = 'border-box';
+            notesTextBoxDiv.style.padding = '11px';
 
             const note = CS.UI.getInputData().note;
             notesTextBoxDiv.value = note.value;
