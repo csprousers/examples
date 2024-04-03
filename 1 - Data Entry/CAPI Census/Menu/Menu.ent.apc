@@ -149,9 +149,7 @@ function LaunchHouseholdProgram()
 	household_pff.setProperty("StaffName", LookupStaffName(M_CURRENT_STAFF_CODE));
 
 	// Set review note
-	if loadcase(PSC_HOUSEHOLD_REVIEW_DICT, HH_PROVINCE, HH_DISTRICT, HH_EA, HH_SEGMENT, HH_NUMBER) then
-		household_pff.setProperty("ReviewNote", HR_NOTE);
-	endif;
+	household_pff.setProperty("ReviewNote", getnote(PSC_HOUSEHOLD_REVIEW_DICT));
 	
 	// Run the household application
 	household_pff.exec();
@@ -209,7 +207,7 @@ function OnApprove(string message)
 	HR_SEGMENT = M_REVIEW_SEGMENT;
 	HR_NUMBER = M_REVIEW_HOUSEHOLD;
 	HR_STATUS = 1;
-	HR_NOTE = message;
+	putnote(message, PSC_HOUSEHOLD_REVIEW_DICT);
 	writecase(PSC_HOUSEHOLD_REVIEW_DICT);
 	errmsg("Approved household interview.");
 	
@@ -227,7 +225,7 @@ function OnReject(string message)
 	HR_SEGMENT = M_REVIEW_SEGMENT;
 	HR_NUMBER = M_REVIEW_HOUSEHOLD;
 	HR_STATUS = 2;
-	HR_NOTE = message;
+	putnote(message, PSC_HOUSEHOLD_REVIEW_DICT);
 	writecase(PSC_HOUSEHOLD_REVIEW_DICT);
 	errmsg("Rejected household interview.");
 	
@@ -913,17 +911,13 @@ postproc
 		// Construct the input needed for the household review
 		string dictionary_path = SetDictionaryPath();
 		string form_path = SetFormPath();
-		string note;
-		if loadcase(PSC_HOUSEHOLD_REVIEW_DICT, HH_PROVINCE, HH_DISTRICT, HH_EA, HH_SEGMENT, HH_NUMBER) then
-			note = strip(HR_NOTE);
-		endif;
 		
 		string householdReviewInput =
 			maketext("{ \"dictionary\": %s, \"forms\": %s, \"case\": %s, \"note\": {\"value\":\"%s\"}}",
 					 CS.Dictionary.getDictionary(path := dictionary_path),
 					 CS.Application.getFormFile(path := form_path),
 					 CS.Data.getCase(name := "PSC_HOUSEHOLD_DICT"),
-					 note);
+					 getnote(PSC_HOUSEHOLD_REVIEW_DICT));
 					 
 		// Populate the Household-Review.html with the input data
 		CS.UI.view(path := "Household-Review.html", inputData := @object householdReviewInput);

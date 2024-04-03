@@ -99,12 +99,6 @@
                   ]
                 }
               ]
-            }, 
-            {
-              "name": "HR_NOTE", 
-              "labels": [ { "text": "Note" } ], 
-              "contentType": "alpha", 
-              "length": 160
             }
           ]
         }
