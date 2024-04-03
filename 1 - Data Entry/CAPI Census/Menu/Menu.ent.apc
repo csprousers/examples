@@ -162,40 +162,6 @@ end;
 // ------------------
 
 
-function string SetDictionaryPath()
-
-	string file_path;
-	string default_path = @"../Dictionaries/Household.dcf";
-	string deploy_plath = @"../Household-Review/Household.dcf";
-	
-	if fileexist(default_path) then
-		file_path = default_path;
-	elseif fileexist(deploy_plath) then
-		file_path = deploy_plath;
-	endif;
-
-	exit file_path;
-	
-end;
-
-
-function string SetFormPath()
-
-	string file_path;
-	string default_path = @"../Household/Household.fmf";
-	string deploy_plath = @"../Household-Review/Household.fmf";
-	
-	if fileexist(default_path) then
-		file_path = default_path;
-	elseif fileexist(deploy_plath) then
-		file_path = deploy_plath;
-	endif;
-
-	exit file_path;
-	
-end;
-
-
 function OnApprove(string message)
 
 	// This function is called when the Approve button is pressed in Questionnaire-Review.html. This
@@ -907,20 +873,16 @@ postproc
 	if loadcase(PSC_HOUSEHOLD_DICT, M_CURRENT_PROVINCE, M_CURRENT_DISTRICT, M_REVIEW_EA, M_REVIEW_SEGMENT, M_REVIEW_HOUSEHOLD) then
 		// Enable all variables in PSC_HOUSEHOLD_DICT to be available to be read
 		#setProperty(PSC_HOUSEHOLD_DICT, @"readOptimization", false);
-				
-		// Construct the input needed for the household review
-		string dictionary_path = SetDictionaryPath();
-		string form_path = SetFormPath();
 		
 		string householdReviewInput =
 			maketext("{ \"dictionary\": %s, \"forms\": %s, \"case\": %s, \"note\": {\"value\":\"%s\"}}",
-					 CS.Dictionary.getDictionary(path := dictionary_path),
-					 CS.Application.getFormFile(path := form_path),
+					 CS.Dictionary.getDictionary(path := "../Dictionaries/Household.dcf"),
+					 CS.Application.getFormFile(path := "../Household/Household.fmf"),
 					 CS.Data.getCase(name := "PSC_HOUSEHOLD_DICT"),
 					 getnote(PSC_HOUSEHOLD_REVIEW_DICT));
 					 
 		// Populate the Household-Review.html with the input data
-		CS.UI.view(path := "Household-Review.html", inputData := @object householdReviewInput);
+		CS.UI.view(path := "../Household-Review/Household-Review.html", inputData := @object householdReviewInput);
 	endif;
 	
 	reenter;
