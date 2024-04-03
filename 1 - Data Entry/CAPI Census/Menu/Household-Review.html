@@ -193,8 +193,7 @@
 
         function initButtons() {
             const buttonRowMarkup = '<div id="button-row" class="row"></div>';
-            const buttonGroupMarkup = '<div id="button-group" class="btn-group"></div>';
-            const spacerMarkup = '<div class="col"></div>';
+            const buttonGroupMarkup = '<div id="button-group" class="btn-group justify-content-end"></div>';
             const approveButtonMarkup =
                                     `<div class="col-auto">
                                         <button type="button" id="approve-btn" class="btn btn-custom btn-success me-1 mt-1 mb-1" onclick="onApprove()">Approve</button>
@@ -215,7 +214,6 @@
             const buttonRowDiv = document.getElementById("button-row");
             buttonRowDiv.innerHTML += buttonGroupMarkup;
             const buttonGroupDiv = document.getElementById("button-group");
-            buttonGroupDiv.innerHTML += spacerMarkup;
             buttonGroupDiv.innerHTML += approveButtonMarkup;
             buttonGroupDiv.innerHTML += rejectButtonMarkup;
             buttonGroupDiv.innerHTML += notesButtonMarkup;
