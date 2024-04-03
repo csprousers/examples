@@ -167,15 +167,19 @@ function OnApprove(string message)
 	// This function is called when the Approve button is pressed in Questionnaire-Review.html. This
 	// is done by specifying an asynchronous action using the action invoker to call this function from
 	// the onApprove function in JavaScript.
-	HR_PROVINCE = M_CURRENT_PROVINCE;
-	HR_DISTRICT = M_CURRENT_DISTRICT;
-	HR_EA = M_REVIEW_EA;
-	HR_SEGMENT = M_REVIEW_SEGMENT;
-	HR_NUMBER = M_REVIEW_HOUSEHOLD;
-	HR_STATUS = 1;
-	putnote(message, PSC_HOUSEHOLD_REVIEW_DICT);
-	writecase(PSC_HOUSEHOLD_REVIEW_DICT);
-	errmsg("Approved household interview.");
+	numeric result = errmsg("Are you sure you want to approve this household interview?")
+		select("Confim", continue, "Cancel", continue);
+	if result = 1 then
+		HR_PROVINCE = M_CURRENT_PROVINCE;
+		HR_DISTRICT = M_CURRENT_DISTRICT;
+		HR_EA = M_REVIEW_EA;
+		HR_SEGMENT = M_REVIEW_SEGMENT;
+		HR_NUMBER = M_REVIEW_HOUSEHOLD;
+		HR_STATUS = 1;
+		putnote(message, PSC_HOUSEHOLD_REVIEW_DICT);
+		writecase(PSC_HOUSEHOLD_REVIEW_DICT);
+		CS.UI.closeDialog();
+	endif;
 	
 end;
 
@@ -184,16 +188,20 @@ function OnReject(string message)
 
 	// This function is called when the Reject button is pressed in Questionnaire-Review.html. This
 	// is done by specifying an asynchronous action using the action invoker to call this function from
-	// the onReject function in JavaScript.
-	HR_PROVINCE = M_CURRENT_PROVINCE;
-	HR_DISTRICT = M_CURRENT_DISTRICT;
-	HR_EA = M_REVIEW_EA;
-	HR_SEGMENT = M_REVIEW_SEGMENT;
-	HR_NUMBER = M_REVIEW_HOUSEHOLD;
-	HR_STATUS = 2;
-	putnote(message, PSC_HOUSEHOLD_REVIEW_DICT);
-	writecase(PSC_HOUSEHOLD_REVIEW_DICT);
-	errmsg("Rejected household interview.");
+	// the onReject function in JavaScript.	
+	numeric result = errmsg("Are you sure you want to reject this household interview?")
+		select("Confim", continue, "Cancel", continue);
+	if result = 1 then
+		HR_PROVINCE = M_CURRENT_PROVINCE;
+		HR_DISTRICT = M_CURRENT_DISTRICT;
+		HR_EA = M_REVIEW_EA;
+		HR_SEGMENT = M_REVIEW_SEGMENT;
+		HR_NUMBER = M_REVIEW_HOUSEHOLD;
+		HR_STATUS = 2;
+		putnote(message, PSC_HOUSEHOLD_REVIEW_DICT);
+		writecase(PSC_HOUSEHOLD_REVIEW_DICT);
+		CS.UI.closeDialog();
+	endif;
 	
 end;
 
