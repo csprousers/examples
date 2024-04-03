@@ -297,6 +297,13 @@ preproc
 
 	// For testing on Windows, make the value sets bigger
 	setfont(valuesets, "Calibri", 20);
+	
+	// This uuid was generated for the CAPI census project. The access token is used by the
+	// external caller, Household-Review.html to instantiate the Action Invoker. The Menu
+	// application registers an access token. If the two agree then the external caller
+	// is trusted and the trusted source dialog is not shown. You will want to generate
+	// your own private access token using the uuid function and use it in your project.
+	CS.registerAccessToken(accessToken := "b082da4b-6a3b-4069-aa07-0a2dd6f0b715");
 
 PROC M_VERIFY_CREDENTIALS
 
