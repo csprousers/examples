@@ -22,10 +22,22 @@
       "path": "Data\\Staff.csdb"
     }, 
     {
+      "path": "Dictionaries\\Household.dcf"
+    }, 
+    {
       "path": "Household\\Household.ent"
     }, 
     {
+      "path": "Household\\Household.fmf"
+    }, 
+    {
       "path": "Household\\Household.pff"
+    }, 
+    {
+      "path": "Household-Review\\Household-Review.html"
+    }, 
+    {
+      "path": "Household-Review\\Notes.png"
     }, 
     {
       "path": "Login\\Login.ent"
@@ -49,6 +61,9 @@
     }, 
     {
       "path": "Dictionaries\\Household.dcf"
+    }, 
+    {
+      "path": "Dictionaries\\Household-Review.dcf"
     }, 
     {
       "path": "Dictionaries\\Login.dcf"
