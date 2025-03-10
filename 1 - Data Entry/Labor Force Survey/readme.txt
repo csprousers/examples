@@ -44,7 +44,7 @@ CreateSampleFromExcel) are provided for this purpose.
 The initial versions of the staff and sample files will be deployed with the
 application itself. Once interviewers are in the field, these files will be
 updated using data synchronization. Upload the updated staff and sample files
-to Dropbox using the DataViewer tool and the next time the supervisor
+to Dropbox using the Data Manager tool and the next time the supervisor
 synchronizes with headquarters they will download it. When the supervisor then
 synchronizes with the interviewer over Bluetooth the files will be updated on
 the interviewers device.
@@ -77,8 +77,8 @@ headquarters sending all data from the interviewers to the central server. For
 this application, Dropbox will be our central server but it can be changed to
 another server by modifying the syncconnect(Dropbox) call in the menu program.
 
-Use DataViewer to download the combined data file from the server that contains
-the data sent from all the supervisors.
+Use Data Manager to download the combined data file from the server that
+contains the data sent from all the supervisors.
 
 
 Editing the application
