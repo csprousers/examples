@@ -1,126 +1,126 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "MENU_DICT", 
-  "labels": [ { "text": "Menu" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "MENU_DICT",
+  "labels": [ { "text": "Menu" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "999d42d7897bed5f009565546d99f7d44df25e48bca7db388b81f5d2d8353af3"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "MENU_QUEST", 
-      "labels": [ { "text": "Menu questionnaire" } ], 
+      "name": "MENU_QUEST",
+      "labels": [ { "text": "Menu questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "MENU_ID", 
-            "labels": [ { "text": "Menu identification" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "MENU_ID",
+            "labels": [ { "text": "Menu identification" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": false
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "MENU_REC", 
-          "labels": [ { "text": "Menu record" } ], 
-          "recordType": "1", 
+          "name": "MENU_REC",
+          "labels": [ { "text": "Menu record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "LOGIN", 
-              "labels": [ { "text": "Login" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "LOGIN",
+              "labels": [ { "text": "Login" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "LOGIN_VS1", 
-                  "labels": [ { "text": "Login" } ], 
+                  "name": "LOGIN_VS1",
+                  "labels": [ { "text": "Login" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Interviewer" } ], 
+                      "labels": [ { "text": "Interviewer" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Supervisor" } ], 
+                      "labels": [ { "text": "Supervisor" } ],
                       "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "INTERVIEWER_MENU", 
-              "labels": [ { "text": "Interviewer menu" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "INTERVIEWER_MENU",
+              "labels": [ { "text": "Interviewer menu" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "INTERVIEWER_MENU_VS1", 
-                  "labels": [ { "text": "Interviewer menu" } ], 
+                  "name": "INTERVIEWER_MENU_VS1",
+                  "labels": [ { "text": "Interviewer menu" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Enter data" } ], 
+                      "labels": [ { "text": "Enter data" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sync with supervisor (Bluetooth)" } ], 
+                      "labels": [ { "text": "Sync with supervisor (Bluetooth)" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Exit" } ], 
+                      "labels": [ { "text": "Exit" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "SUPERVISOR_MENU", 
-              "labels": [ { "text": "Supervisor menu" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "SUPERVISOR_MENU",
+              "labels": [ { "text": "Supervisor menu" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "SUPERVISOR_MENU_VS1", 
-                  "labels": [ { "text": "Supervisor menu" } ], 
+                  "name": "SUPERVISOR_MENU_VS1",
+                  "labels": [ { "text": "Supervisor menu" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Enter data" } ], 
+                      "labels": [ { "text": "Enter data" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sync with interviewer (Bluetooth)" } ], 
+                      "labels": [ { "text": "Sync with interviewer (Bluetooth)" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sync with headquarters (Internet)" } ], 
+                      "labels": [ { "text": "Sync with headquarters (Internet)" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Exit" } ], 
+                      "labels": [ { "text": "Exit" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]

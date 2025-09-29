@@ -1,48 +1,50 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "batch", 
-  "name": "DECKARRAYS3", 
-  "label": "DECKARRAYS3", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "batch",
+  "name": "DECKARRAYS3",
+  "label": "DECKARRAYS3",
   "dictionaries": [
     {
-      "type": "input", 
-      "path": "Popstan.dcf", 
-      "parent": "PopstanDeckArray.ord"
+      "type": "input",
+      "path": "Popstan.dcf",
+      "parent": "PopstanDeckArray.ord",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "order": [
     "PopstanDeckArray.ord"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "PopstanDeckArray.bch.apc"
     }
-  ], 
+  ],
   "messages": [
     "PopstanDeckArray.bch.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "htmlDialogs": true, 
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "none", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
       "recordValues": false
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

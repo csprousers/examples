@@ -1,80 +1,80 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "PSC_STAFF_DICT", 
-  "labels": [ { "text": "Popstan Census Staff Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "PSC_STAFF_DICT",
+  "labels": [ { "text": "Popstan Census Staff Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "8f029e977c6dbfe6bc28dcd74fb6109cbb946e478b1789f4adcc4deab160dfe6"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "STAFF_LEVEL", 
-      "labels": [ { "text": "Staff Level" } ], 
+      "name": "STAFF_LEVEL",
+      "labels": [ { "text": "Staff Level" } ],
       "ids": {
         "items": [
           {
-            "name": "S_STAFF_CODE", 
-            "labels": [ { "text": "Staff Code" } ], 
-            "contentType": "alpha", 
-            "start": 2, 
+            "name": "S_STAFF_CODE",
+            "labels": [ { "text": "Staff Code" } ],
+            "contentType": "alpha",
+            "start": 2,
             "length": 36
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "STAFF_REC", 
-          "labels": [ { "text": "Staff Record" } ], 
-          "recordType": "1", 
+          "name": "STAFF_REC",
+          "labels": [ { "text": "Staff Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "S_STAFF_NAME", 
-              "labels": [ { "text": "Staff Name" } ], 
-              "contentType": "alpha", 
+              "name": "S_STAFF_NAME",
+              "labels": [ { "text": "Staff Name" } ],
+              "contentType": "alpha",
               "length": 50
-            }, 
+            },
             {
-              "name": "S_PIN_CODE", 
-              "labels": [ { "text": "Pin Code" } ], 
-              "contentType": "numeric", 
-              "length": 4, 
+              "name": "S_PIN_CODE",
+              "labels": [ { "text": "Pin Code" } ],
+              "contentType": "numeric",
+              "length": 4,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "S_DEVICE_ID", 
-              "labels": [ { "text": "Device ID" } ], 
-              "contentType": "alpha", 
+              "name": "S_DEVICE_ID",
+              "labels": [ { "text": "Device ID" } ],
+              "contentType": "alpha",
               "length": 20
-            }, 
+            },
             {
-              "name": "S_SUPERVISOR_STAFF_CODE", 
-              "labels": [ { "text": "Supervisor Staff Code" } ], 
-              "contentType": "alpha", 
+              "name": "S_SUPERVISOR_STAFF_CODE",
+              "labels": [ { "text": "Supervisor Staff Code" } ],
+              "contentType": "alpha",
               "length": 36
-            }, 
+            },
             {
-              "name": "S_TIME_CREATED_ACCOUNT", 
-              "labels": [ { "text": "Time Created Account" } ], 
-              "contentType": "numeric", 
-              "length": 10, 
+              "name": "S_TIME_CREATED_ACCOUNT",
+              "labels": [ { "text": "Time Created Account" } ],
+              "contentType": "numeric",
+              "length": 10,
               "zeroFill": true
             }
           ]

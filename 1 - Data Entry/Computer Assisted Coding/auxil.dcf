@@ -1,74 +1,74 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "AUXIL_DICT", 
-  "labels": [ { "text": "auxil" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "AUXIL_DICT",
+  "labels": [ { "text": "auxil" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "c3ed33b4f8fa28756ab52aca356939cfc23e6c33d154b72ba423b18bbe5528b1"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "AUXIL_QUEST", 
-      "labels": [ { "text": "auxil questionnaire" } ], 
+      "name": "AUXIL_QUEST",
+      "labels": [ { "text": "auxil questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "AUXIL_ID", 
-            "labels": [ { "text": "auxil identification" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 1, 
+            "name": "AUXIL_ID",
+            "labels": [ { "text": "auxil identification" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 1,
             "zeroFill": false
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "AUXIL_REC", 
-          "labels": [ { "text": "auxil record" } ], 
+          "name": "AUXIL_REC",
+          "labels": [ { "text": "auxil record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "AUXILTYPE", 
-              "labels": [ { "text": "Coding Type" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "AUXILTYPE",
+              "labels": [ { "text": "Coding Type" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "AUXILTXT", 
-              "labels": [ { "text": "Coding Text" } ], 
-              "contentType": "alpha", 
+              "name": "AUXILTXT",
+              "labels": [ { "text": "Coding Text" } ],
+              "contentType": "alpha",
               "length": 10
-            }, 
+            },
             {
-              "name": "AUXILKEY", 
-              "labels": [ { "text": "Occupation or Industry Text" } ], 
-              "contentType": "alpha", 
+              "name": "AUXILKEY",
+              "labels": [ { "text": "Occupation or Industry Text" } ],
+              "contentType": "alpha",
               "length": 14
-            }, 
+            },
             {
-              "name": "AUXILCODE", 
-              "labels": [ { "text": "Occupation/Industry Code" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
+              "name": "AUXILCODE",
+              "labels": [ { "text": "Occupation/Industry Code" } ],
+              "contentType": "numeric",
+              "length": 3,
               "zeroFill": true
             }
           ]

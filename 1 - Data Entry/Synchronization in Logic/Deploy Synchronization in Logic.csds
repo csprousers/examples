@@ -1,33 +1,33 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "deployment", 
-  "name": "Synchronization in Logic", 
-  "description": "Example of using synchronization logic functions", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "deployment",
+  "name": "Synchronization in Logic",
+  "description": "Example of using synchronization logic functions",
   "files": [
     {
       "path": "Household\\HouseholdQuestionnaire.ent"
-    }, 
+    },
     {
       "path": "Household\\HouseholdQuestionnaire.pff"
-    }, 
+    },
     {
       "path": "Menu\\Menu.ent"
-    }, 
+    },
     {
       "path": "Menu\\Menu.pff"
     }
-  ], 
+  ],
   "dictionaries": [
     {
       "path": "Dict\\HouseholdQuestionnaire.dcf"
-    }, 
+    },
     {
       "path": "Menu\\Menu.dcf"
     }
-  ], 
+  ],
   "deployment": {
-    "type": "LocalFolder", 
+    "type": "LocalFolder",
     "localFolderPath": "Deployment"
   }
 }

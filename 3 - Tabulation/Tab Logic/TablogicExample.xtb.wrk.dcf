@@ -1,207 +1,207 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "WS_DICT", 
-  "labels": [ { "text": "TablogicExample - Working Storage Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "WS_DICT",
+  "labels": [ { "text": "TablogicExample - Working Storage Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "3ecc60f56c442de7547b22e511bd2ce9bc5c955e888b4943713b141063a4c8cd"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "WS_LEVEL", 
-      "labels": [ { "text": "Working Storage Level" } ], 
+      "name": "WS_LEVEL",
+      "labels": [ { "text": "Working Storage Level" } ],
       "ids": {
         "items": [
           {
-            "name": "DUMMY_ID", 
-            "labels": [ { "text": "Dummy Id" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "DUMMY_ID",
+            "labels": [ { "text": "Dummy Id" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": false
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "WS_REC", 
-          "labels": [ { "text": "Working Storage Record" } ], 
-          "recordType": "1", 
+          "name": "WS_REC",
+          "labels": [ { "text": "Working Storage Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "SYSTEM_TOTAL", 
-              "labels": [ { "text": "System Total" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SYSTEM_TOTAL",
+              "labels": [ { "text": "System Total" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "COMPLETE_PLUMBING", 
-              "labels": [ { "text": "Complete Plumbing" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "COMPLETE_PLUMBING",
+              "labels": [ { "text": "Complete Plumbing" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "COMPLETE_PLUMBING_VS1", 
-                  "labels": [ { "text": "Complete Plumbing" } ], 
+                  "name": "COMPLETE_PLUMBING_VS1",
+                  "labels": [ { "text": "Complete Plumbing" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Complete" } ], 
+                      "labels": [ { "text": "Complete" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Some but not all" } ], 
+                      "labels": [ { "text": "Some but not all" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "None" } ], 
+                      "labels": [ { "text": "None" } ],
                       "pairs": [ { "value": "3" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "CHILDREN_0_TO_5", 
-              "labels": [ { "text": "Children 0 to 5" } ], 
-              "contentType": "numeric", 
-              "length": 2, 
-              "zeroFill": false, 
+              "name": "CHILDREN_0_TO_5",
+              "labels": [ { "text": "Children 0 to 5" } ],
+              "contentType": "numeric",
+              "length": 2,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "CHILDREN_0_TO_5_VS1", 
-                  "labels": [ { "text": "Children 0 to 5" } ], 
+                  "name": "CHILDREN_0_TO_5_VS1",
+                  "labels": [ { "text": "Children 0 to 5" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "0" } ], 
+                      "labels": [ { "text": "0" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "1" } ], 
+                      "labels": [ { "text": "1" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "2" } ], 
+                      "labels": [ { "text": "2" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "3" } ], 
+                      "labels": [ { "text": "3" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "4" } ], 
+                      "labels": [ { "text": "4" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "5+" } ], 
+                      "labels": [ { "text": "5+" } ],
                       "pairs": [ { "range": [ "5", "99" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "CHILDREN_6_TO_17", 
-              "labels": [ { "text": "Children 6 to 17" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "CHILDREN_6_TO_17",
+              "labels": [ { "text": "Children 6 to 17" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "CHILDREN_6_TO_17_VS1", 
-                  "labels": [ { "text": "Children 6 to 17" } ], 
+                  "name": "CHILDREN_6_TO_17_VS1",
+                  "labels": [ { "text": "Children 6 to 17" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "0" } ], 
+                      "labels": [ { "text": "0" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "1" } ], 
+                      "labels": [ { "text": "1" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "2" } ], 
+                      "labels": [ { "text": "2" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "3" } ], 
+                      "labels": [ { "text": "3" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "4" } ], 
+                      "labels": [ { "text": "4" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "5+" } ], 
+                      "labels": [ { "text": "5+" } ],
                       "pairs": [ { "range": [ "5", "9" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "LIFETIME_MIGRATION", 
-              "labels": [ { "text": "Lifetime Migration" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "LIFETIME_MIGRATION",
+              "labels": [ { "text": "Lifetime Migration" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "LIFETIME_MIGRATION_VS1", 
-                  "labels": [ { "text": "Lifetime Migration" } ], 
+                  "name": "LIFETIME_MIGRATION_VS1",
+                  "labels": [ { "text": "Lifetime Migration" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Born This Province" } ], 
+                      "labels": [ { "text": "Born This Province" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Born Other Province" } ], 
+                      "labels": [ { "text": "Born Other Province" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Born Outside Popstan" } ], 
+                      "labels": [ { "text": "Born Outside Popstan" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Unknown" } ], 
+                      "labels": [ { "text": "Unknown" } ],
                       "pairs": [ { "value": "4" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "FOO", 
-              "labels": [ { "text": "foo" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "FOO",
+              "labels": [ { "text": "foo" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "FOO_VS1", 
-                  "labels": [ { "text": "foo" } ], 
+                  "name": "FOO_VS1",
+                  "labels": [ { "text": "foo" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "foo" } ], 
+                      "labels": [ { "text": "foo" } ],
                       "pairs": [ { "range": [ "0", "9" ] } ]
                     }
                   ]

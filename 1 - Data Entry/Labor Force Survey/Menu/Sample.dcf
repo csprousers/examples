@@ -1,136 +1,136 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "SAMPLE_DICT", 
-  "labels": [ { "text": "SAMPLE Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "SAMPLE_DICT",
+  "labels": [ { "text": "SAMPLE Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "6524f4ec205a2b0fff4718247ba4e6280c83e70463411f72bd6d9ccdd547b219"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "SAMPLE_LEVEL", 
-      "labels": [ { "text": "SAMPLE Level" } ], 
+      "name": "SAMPLE_LEVEL",
+      "labels": [ { "text": "SAMPLE Level" } ],
       "ids": {
         "items": [
           {
-            "name": "SAMPROV", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 1, 
+            "name": "SAMPROV",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 1,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "SAMDIST", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 2, 
+            "name": "SAMDIST",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "SAMDWNO", 
-            "labels": [ { "text": "Dwelling unit number" } ], 
-            "contentType": "numeric", 
-            "start": 4, 
-            "length": 3, 
+            "name": "SAMDWNO",
+            "labels": [ { "text": "Dwelling unit number" } ],
+            "contentType": "numeric",
+            "start": 4,
+            "length": 3,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "SAMHHNO", 
-            "labels": [ { "text": "Household number" } ], 
-            "contentType": "numeric", 
-            "start": 7, 
-            "length": 3, 
+            "name": "SAMHHNO",
+            "labels": [ { "text": "Household number" } ],
+            "contentType": "numeric",
+            "start": 7,
+            "length": 3,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "SAMPLE_REC", 
-          "labels": [ { "text": "SAMPLE Record" } ], 
+          "name": "SAMPLE_REC",
+          "labels": [ { "text": "SAMPLE Record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "SAMAREA", 
-              "labels": [ { "text": "Type of area" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SAMAREA",
+              "labels": [ { "text": "Type of area" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "SAMRPL", 
-              "labels": [ { "text": "Household replacement status" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SAMRPL",
+              "labels": [ { "text": "Household replacement status" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "SAMGPSLAT", 
-              "labels": [ { "text": "Latitude" } ], 
-              "contentType": "numeric", 
-              "length": 14, 
-              "decimals": 9, 
-              "decimalMark": true, 
+              "name": "SAMGPSLAT",
+              "labels": [ { "text": "Latitude" } ],
+              "contentType": "numeric",
+              "length": 14,
+              "decimals": 9,
+              "decimalMark": true,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "SAMGPSLON", 
-              "labels": [ { "text": "Longitude" } ], 
-              "contentType": "numeric", 
-              "length": 14, 
-              "decimals": 9, 
-              "decimalMark": true, 
+              "name": "SAMGPSLON",
+              "labels": [ { "text": "Longitude" } ],
+              "contentType": "numeric",
+              "length": 14,
+              "decimals": 9,
+              "decimalMark": true,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "SAMHA", 
-              "labels": [ { "text": "Household address" } ], 
-              "contentType": "alpha", 
+              "name": "SAMHA",
+              "labels": [ { "text": "Household address" } ],
+              "contentType": "alpha",
               "length": 30
-            }, 
+            },
             {
-              "name": "SAMHNA", 
-              "labels": [ { "text": "Household head name" } ], 
-              "contentType": "alpha", 
+              "name": "SAMHNA",
+              "labels": [ { "text": "Household head name" } ],
+              "contentType": "alpha",
               "length": 30
-            }, 
+            },
             {
-              "name": "SAMHCT", 
-              "labels": [ { "text": "Household contact phone" } ], 
-              "contentType": "alpha", 
+              "name": "SAMHCT",
+              "labels": [ { "text": "Household contact phone" } ],
+              "contentType": "alpha",
               "length": 15
-            }, 
+            },
             {
-              "name": "SAMINT", 
-              "labels": [ { "text": "Assigned interviewer" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SAMINT",
+              "labels": [ { "text": "Assigned interviewer" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "SAMSUP", 
-              "labels": [ { "text": "Assigned supervisor" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SAMSUP",
+              "labels": [ { "text": "Assigned supervisor" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": true
             }
           ]

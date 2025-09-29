@@ -1,93 +1,93 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "OTHERS_DICT", 
-  "labels": [ { "text": "Others" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "OTHERS_DICT",
+  "labels": [ { "text": "Others" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "03b90e2094f5f338bec949ea7e03dec219e4ba71e65707057431cabccc658c0c"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "OTHERS_QUEST", 
-      "labels": [ { "text": "Others questionnaire" } ], 
+      "name": "OTHERS_QUEST",
+      "labels": [ { "text": "Others questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "OPROV", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 2, 
+            "name": "OPROV",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "ODIST", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 3, 
-            "length": 2, 
+            "name": "ODIST",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 3,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "OVILL", 
-            "labels": [ { "text": "Village" } ], 
-            "contentType": "numeric", 
-            "start": 5, 
-            "length": 3, 
+            "name": "OVILL",
+            "labels": [ { "text": "Village" } ],
+            "contentType": "numeric",
+            "start": 5,
+            "length": 3,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "OEA", 
-            "labels": [ { "text": "EA" } ], 
-            "contentType": "numeric", 
-            "start": 8, 
-            "length": 3, 
+            "name": "OEA",
+            "labels": [ { "text": "EA" } ],
+            "contentType": "numeric",
+            "start": 8,
+            "length": 3,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "OHU", 
-            "labels": [ { "text": "Housing Unit" } ], 
-            "contentType": "numeric", 
-            "start": 11, 
-            "length": 3, 
+            "name": "OHU",
+            "labels": [ { "text": "Housing Unit" } ],
+            "contentType": "numeric",
+            "start": 11,
+            "length": 3,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "QUESTNUM", 
-            "labels": [ { "text": "Question Number" } ], 
-            "contentType": "alpha", 
-            "start": 14, 
+            "name": "QUESTNUM",
+            "labels": [ { "text": "Question Number" } ],
+            "contentType": "alpha",
+            "start": 14,
             "length": 3
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "OTHERS_REC", 
-          "labels": [ { "text": "Others record" } ], 
+          "name": "OTHERS_REC",
+          "labels": [ { "text": "Others record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "OTHER_ANSWER", 
-              "labels": [ { "text": "Other answer" } ], 
-              "contentType": "alpha", 
+              "name": "OTHER_ANSWER",
+              "labels": [ { "text": "Other answer" } ],
+              "contentType": "alpha",
               "length": 40
             }
           ]

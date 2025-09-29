@@ -1,80 +1,80 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "PSC_ASSIGNMENTS_DICT", 
-  "labels": [ { "text": "Popstan Census Assignments Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "PSC_ASSIGNMENTS_DICT",
+  "labels": [ { "text": "Popstan Census Assignments Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "355063393fc89406ffd3773df8f6c6a8c9e732b93962bf0a15a54b3b60fdd5c2"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "ASSIGNMENTS_LEVEL", 
-      "labels": [ { "text": "Assignments Level" } ], 
+      "name": "ASSIGNMENTS_LEVEL",
+      "labels": [ { "text": "Assignments Level" } ],
       "ids": {
         "items": [
           {
-            "name": "A_PROVINCE", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 2, 
+            "name": "A_PROVINCE",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "A_DISTRICT", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 4, 
-            "length": 2, 
+            "name": "A_DISTRICT",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 4,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "A_EA", 
-            "labels": [ { "text": "EA" } ], 
-            "contentType": "numeric", 
-            "start": 6, 
-            "length": 3, 
+            "name": "A_EA",
+            "labels": [ { "text": "EA" } ],
+            "contentType": "numeric",
+            "start": 6,
+            "length": 3,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "A_STAFF_CODE", 
-            "labels": [ { "text": "Staff Code" } ], 
-            "contentType": "alpha", 
-            "start": 9, 
+            "name": "A_STAFF_CODE",
+            "labels": [ { "text": "Staff Code" } ],
+            "contentType": "alpha",
+            "start": 9,
             "length": 36
-          }, 
+          },
           {
-            "name": "A_ROLE", 
-            "labels": [ { "text": "Role" } ], 
-            "contentType": "numeric", 
-            "start": 45, 
-            "length": 1, 
-            "zeroFill": true, 
+            "name": "A_ROLE",
+            "labels": [ { "text": "Role" } ],
+            "contentType": "numeric",
+            "start": 45,
+            "length": 1,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "A_ROLE_VS1", 
-                "labels": [ { "text": "Role" } ], 
+                "name": "A_ROLE_VS1",
+                "labels": [ { "text": "Role" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "INTERVIEWER" } ], 
+                    "labels": [ { "text": "INTERVIEWER" } ],
                     "pairs": [ { "value": "1" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "SUPERVISOR" } ], 
+                    "labels": [ { "text": "SUPERVISOR" } ],
                     "pairs": [ { "value": "2" } ]
                   }
                 ]
@@ -82,28 +82,28 @@
             ]
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "ASSIGNMENTS_REC", 
-          "labels": [ { "text": "Assignments Record" } ], 
-          "recordType": "1", 
+          "name": "ASSIGNMENTS_REC",
+          "labels": [ { "text": "Assignments Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "A_SEGMENT", 
-              "labels": [ { "text": "Segment" } ], 
-              "contentType": "alpha", 
+              "name": "A_SEGMENT",
+              "labels": [ { "text": "Segment" } ],
+              "contentType": "alpha",
               "length": 1
-            }, 
+            },
             {
-              "name": "A_DATE_ASSIGNED", 
-              "labels": [ { "text": "Date Assigned EA" } ], 
-              "contentType": "numeric", 
-              "length": 10, 
+              "name": "A_DATE_ASSIGNED",
+              "labels": [ { "text": "Date Assigned EA" } ],
+              "contentType": "numeric",
+              "length": 10,
               "zeroFill": true
             }
           ]

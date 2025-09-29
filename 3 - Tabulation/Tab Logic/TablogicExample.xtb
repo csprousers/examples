@@ -1,47 +1,49 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "tabulation", 
-  "name": "TABLOGICEXAMPLE", 
-  "label": "TABLOGICEXAMPLE", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "tabulation",
+  "name": "TABLOGICEXAMPLE",
+  "label": "TABLOGICEXAMPLE",
   "dictionaries": [
     {
-      "type": "working", 
-      "path": "TablogicExample.xtb.wrk.dcf"
+      "type": "working",
+      "path": "TablogicExample.xtb.wrk.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "tableSpecs": [
     "TablogicExample.xts"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "TablogicExample.xtb.apc"
     }
-  ], 
+  ],
   "messages": [
     "TablogicExample.xtb.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "htmlDialogs": true, 
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "none", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
       "recordValues": false
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

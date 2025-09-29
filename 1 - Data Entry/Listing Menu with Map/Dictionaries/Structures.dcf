@@ -1,45 +1,45 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "STRUCTURES_DICT", 
-  "labels": [ { "text": "Structures" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "STRUCTURES_DICT",
+  "labels": [ { "text": "Structures" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "a0488702868d20670a47f94d1a8ddd265748571f84f77573cb95992de4b73198"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "STRUCTURES_LEVEL", 
-      "labels": [ { "text": "Structures Level" } ], 
+      "name": "STRUCTURES_LEVEL",
+      "labels": [ { "text": "Structures Level" } ],
       "ids": {
         "items": [
           {
-            "name": "ST_NUMBER", 
-            "labels": [ { "text": "Structure Number" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 3, 
-            "zeroFill": true, 
+            "name": "ST_NUMBER",
+            "labels": [ { "text": "Structure Number" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 3,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "ST_NUMBER_VS1", 
-                "labels": [ { "text": "Structure Number" } ], 
+                "name": "ST_NUMBER_VS1",
+                "labels": [ { "text": "Structure Number" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "1-999" } ], 
+                    "labels": [ { "text": "1-999" } ],
                     "pairs": [ { "range": [ "1", "999" ] } ]
                   }
                 ]
@@ -47,99 +47,99 @@
             ]
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "STRUCTURES_REC", 
-          "labels": [ { "text": "Structures Record" } ], 
-          "recordType": "1", 
+          "name": "STRUCTURES_REC",
+          "labels": [ { "text": "Structures Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "ST_TYPE", 
-              "labels": [ { "text": "Type" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "ST_TYPE",
+              "labels": [ { "text": "Type" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "ST_TYPE_VS1", 
-                  "labels": [ { "text": "Type" } ], 
+                  "name": "ST_TYPE_VS1",
+                  "labels": [ { "text": "Type" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Ordinary Household" } ], 
+                      "labels": [ { "text": "Ordinary Household" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Enterprise" } ], 
+                      "labels": [ { "text": "Enterprise" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "School" } ], 
+                      "labels": [ { "text": "School" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Health Facility" } ], 
+                      "labels": [ { "text": "Health Facility" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Hotel" } ], 
+                      "labels": [ { "text": "Hotel" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other Government Facility" } ], 
+                      "labels": [ { "text": "Other Government Facility" } ],
                       "pairs": [ { "value": "6" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "ST_LOCATION_PLACEHOLDER", 
-              "labels": [ { "text": "Location" } ], 
-              "contentType": "alpha", 
+              "name": "ST_LOCATION_PLACEHOLDER",
+              "labels": [ { "text": "Location" } ],
+              "contentType": "alpha",
               "length": 1
-            }, 
+            },
             {
-              "name": "ST_LATITUDE", 
-              "labels": [ { "text": "Latitude" } ], 
-              "contentType": "numeric", 
-              "length": 10, 
-              "decimals": 6, 
-              "decimalMark": true, 
+              "name": "ST_LATITUDE",
+              "labels": [ { "text": "Latitude" } ],
+              "contentType": "numeric",
+              "length": 10,
+              "decimals": 6,
+              "decimalMark": true,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "ST_LONGITUDE", 
-              "labels": [ { "text": "Longitude" } ], 
-              "contentType": "numeric", 
-              "length": 11, 
-              "decimals": 6, 
-              "decimalMark": true, 
+              "name": "ST_LONGITUDE",
+              "labels": [ { "text": "Longitude" } ],
+              "contentType": "numeric",
+              "length": 11,
+              "decimals": 6,
+              "decimalMark": true,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "ST_NAME", 
-              "labels": [ { "text": "Name of enterprise, facility or head of household" } ], 
-              "contentType": "alpha", 
+              "name": "ST_NAME",
+              "labels": [ { "text": "Name of enterprise, facility or head of household" } ],
+              "contentType": "alpha",
               "length": 50
-            }, 
+            },
             {
-              "name": "ST_NUM_MEMBERS", 
-              "labels": [ { "text": "Number of Usual Members" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
-              "zeroFill": true, 
+              "name": "ST_NUM_MEMBERS",
+              "labels": [ { "text": "Number of Usual Members" } ],
+              "contentType": "numeric",
+              "length": 3,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "ST_NUM_MEMBERS_VS1", 
-                  "labels": [ { "text": "Number of Usual Members" } ], 
+                  "name": "ST_NUM_MEMBERS_VS1",
+                  "labels": [ { "text": "Number of Usual Members" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "1-999" } ], 
+                      "labels": [ { "text": "1-999" } ],
                       "pairs": [ { "range": [ "1", "999" ] } ]
                     }
                   ]

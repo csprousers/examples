@@ -1,83 +1,91 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "entry", 
-  "name": "LISTINGMENU", 
-  "label": "LISTINGMENU", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "entry",
+  "name": "LISTINGMENU",
+  "label": "LISTINGMENU",
   "dictionaries": [
     {
-      "type": "input", 
-      "path": "../Dictionaries/ListingMenu.dcf", 
-      "parent": "ListingMenu.fmf"
-    }, 
+      "type": "input",
+      "path": "../Dictionaries/ListingMenu.dcf",
+      "parent": "ListingMenu.fmf",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
+    },
     {
-      "type": "external", 
-      "path": "../Dictionaries/Structures.dcf"
+      "type": "external",
+      "path": "../Dictionaries/Structures.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "forms": [
     "ListingMenu.fmf"
-  ], 
+  ],
   "questionText": [
     "ListingMenu.ent.qsf"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "ListingMenu.ent.apc"
     }
-  ], 
+  ],
   "messages": [
     "ListingMenu.ent.mgf"
-  ], 
+  ],
   "resources": [
-    "Resources"
-  ], 
+    {
+      "path": "Resources",
+      "includeInCompiledApplication": true,
+      "recursive": true
+    }
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "askOperatorId": false, 
-    "autoAdvanceOnSelection": false, 
-    "caseTree": "off", 
-    "centerForms": false, 
-    "createListing": false, 
-    "createLog": false, 
-    "decimalMark": "dot", 
-    "displayCodesAlongsideLabels": false, 
+    "askOperatorId": false,
+    "autoAdvanceOnSelection": false,
+    "caseTree": "off",
+    "centerForms": false,
+    "createListing": false,
+    "createLog": false,
+    "decimalMark": "dot",
+    "displayCodesAlongsideLabels": false,
     "notes": {
-      "delete": "all", 
+      "delete": "all",
       "edit": "all"
-    }, 
+    },
     "partialSave": {
       "operatorEnabled": false
-    }, 
-    "showEndCaseMessage": false, 
-    "showOnlyDiscreteValuesInComboBoxes": true, 
-    "showFieldLabels": true, 
-    "showErrorMessageNumbers": false, 
-    "showQuestionText": true, 
-    "showRefusals": true, 
+    },
+    "showEndCaseMessage": false,
+    "showOnlyDiscreteValuesInComboBoxes": true,
+    "showFieldLabels": true,
+    "showErrorMessageNumbers": false,
+    "showQuestionText": true,
+    "showRefusals": true,
     "verify": {
-      "frequency": 1, 
+      "frequency": 1,
       "start": 1
-    }, 
-    "htmlDialogs": true, 
+    },
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "none", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
       "recordValues": false
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

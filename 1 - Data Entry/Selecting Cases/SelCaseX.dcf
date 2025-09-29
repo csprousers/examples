@@ -1,61 +1,61 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "SELCASEX_DICT", 
-  "labels": [ { "text": "SelCaseX" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "SELCASEX_DICT",
+  "labels": [ { "text": "SelCaseX" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "4dd967fbff671646e7696688a3fca239cdb757db1d9ddf3c52eed58b72668fb3"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "SELCASEX_LEVEL", 
-      "labels": [ { "text": "SelCaseX Level" } ], 
+      "name": "SELCASEX_LEVEL",
+      "labels": [ { "text": "SelCaseX Level" } ],
       "ids": {
         "items": [
           {
-            "name": "DUMMY_ID", 
-            "labels": [ { "text": "Dummy ID" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 1, 
+            "name": "DUMMY_ID",
+            "labels": [ { "text": "Dummy ID" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 1,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "DEMO_SELCASE", 
-          "labels": [ { "text": "Demo SelCase" } ], 
+          "name": "DEMO_SELCASE",
+          "labels": [ { "text": "Demo SelCase" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "OPTION", 
-              "labels": [ { "text": "Option" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "OPTION",
+              "labels": [ { "text": "Option" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "DATA_SEARCH", 
-              "labels": [ { "text": "Data Search" } ], 
-              "contentType": "alpha", 
+              "name": "DATA_SEARCH",
+              "labels": [ { "text": "Data Search" } ],
+              "contentType": "alpha",
               "length": 20
             }
           ]

@@ -1,127 +1,127 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "STATUS_DICT", 
-  "labels": [ { "text": "Status" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "STATUS_DICT",
+  "labels": [ { "text": "Status" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "ecee78d7a06ea8b42f044264c529397202fcdb2e3c6a6155e7bbaee3408d583d"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "STATUS_QUEST", 
-      "labels": [ { "text": "Status questionnaire" } ], 
+      "name": "STATUS_QUEST",
+      "labels": [ { "text": "Status questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "STATPROV", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 1, 
+            "name": "STATPROV",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 1,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "STATDIST", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 2, 
+            "name": "STATDIST",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "STATDWNO", 
-            "labels": [ { "text": "Dwelling unit number" } ], 
-            "contentType": "numeric", 
-            "start": 4, 
-            "length": 3, 
+            "name": "STATDWNO",
+            "labels": [ { "text": "Dwelling unit number" } ],
+            "contentType": "numeric",
+            "start": 4,
+            "length": 3,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "STATHHNO", 
-            "labels": [ { "text": "Household number" } ], 
-            "contentType": "numeric", 
-            "start": 7, 
-            "length": 3, 
+            "name": "STATHHNO",
+            "labels": [ { "text": "Household number" } ],
+            "contentType": "numeric",
+            "start": 7,
+            "length": 3,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "STATUS_REC", 
-          "labels": [ { "text": "Status record" } ], 
+          "name": "STATUS_REC",
+          "labels": [ { "text": "Status record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "STATFIR", 
-              "labels": [ { "text": "Household final result" } ], 
-              "contentType": "numeric", 
-              "length": 2, 
-              "zeroFill": true, 
+              "name": "STATFIR",
+              "labels": [ { "text": "Household final result" } ],
+              "contentType": "numeric",
+              "length": 2,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "STATFIR_VS1", 
-                  "labels": [ { "text": "Household final result" } ], 
+                  "name": "STATFIR_VS1",
+                  "labels": [ { "text": "Household final result" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Not started" } ], 
+                      "labels": [ { "text": "Not started" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Completed" } ], 
+                      "labels": [ { "text": "Completed" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Partly Completed" } ], 
+                      "labels": [ { "text": "Partly Completed" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Refused" } ], 
+                      "labels": [ { "text": "Refused" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Non-Contact" } ], 
+                      "labels": [ { "text": "Non-Contact" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Temporarily Absent" } ], 
+                      "labels": [ { "text": "Temporarily Absent" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Inadequate Informant" } ], 
+                      "labels": [ { "text": "Inadequate Informant" } ],
                       "pairs": [ { "value": "6" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Seasonal, Temporary Resident" } ], 
+                      "labels": [ { "text": "Seasonal, Temporary Resident" } ],
                       "pairs": [ { "value": "7" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Under Construction, Vacant, Demolished" } ], 
+                      "labels": [ { "text": "Under Construction, Vacant, Demolished" } ],
                       "pairs": [ { "value": "8" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Not a Housing Unit" } ], 
+                      "labels": [ { "text": "Not a Housing Unit" } ],
                       "pairs": [ { "value": "9" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other (specify)" } ], 
+                      "labels": [ { "text": "Other (specify)" } ],
                       "pairs": [ { "value": "10" } ]
                     }
                   ]

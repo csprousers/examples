@@ -1,54 +1,54 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "INDUSTRY_DICT", 
-  "labels": [ { "text": "Industry" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "INDUSTRY_DICT",
+  "labels": [ { "text": "Industry" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "59923825320a0eaf170101346d10dddcdd2793c5cb8580363c8e0cb851fb6a7e"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "INDUSTRY_QUEST", 
-      "labels": [ { "text": "Industry questionnaire" } ], 
+      "name": "INDUSTRY_QUEST",
+      "labels": [ { "text": "Industry questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "INDID", 
-            "labels": [ { "text": "Industry identification" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 3, 
+            "name": "INDID",
+            "labels": [ { "text": "Industry identification" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 3,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "INDUSTRY_REC", 
-          "labels": [ { "text": "Industry record" } ], 
+          "name": "INDUSTRY_REC",
+          "labels": [ { "text": "Industry record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "INDTXT", 
-              "labels": [ { "text": "List of industries" } ], 
-              "contentType": "alpha", 
+              "name": "INDTXT",
+              "labels": [ { "text": "List of industries" } ],
+              "contentType": "alpha",
               "length": 75
             }
           ]

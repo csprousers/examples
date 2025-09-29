@@ -1,76 +1,78 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "entry", 
-  "name": "HOUSEHOLDQUESTIONNAIRE", 
-  "label": "HOUSEHOLDQUESTIONNAIRE", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "entry",
+  "name": "HOUSEHOLDQUESTIONNAIRE",
+  "label": "HOUSEHOLDQUESTIONNAIRE",
   "dictionaries": [
     {
-      "type": "input", 
-      "path": "../Dict/HouseholdQuestionnaire.dcf", 
-      "parent": "HouseholdQuestionnaire.fmf"
+      "type": "input",
+      "path": "../Dict/HouseholdQuestionnaire.dcf",
+      "parent": "HouseholdQuestionnaire.fmf",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "forms": [
     "HouseholdQuestionnaire.fmf"
-  ], 
+  ],
   "questionText": [
     "HouseholdQuestionnaire.ent.qsf"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "HouseholdQuestionnaire.ent.apc"
     }
-  ], 
+  ],
   "messages": [
     "HouseholdQuestionnaire.ent.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "askOperatorId": false, 
-    "autoAdvanceOnSelection": false, 
-    "caseTree": "mobileOnly", 
-    "centerForms": false, 
-    "createListing": true, 
-    "createLog": true, 
-    "decimalMark": "dot", 
-    "displayCodesAlongsideLabels": false, 
+    "askOperatorId": false,
+    "autoAdvanceOnSelection": false,
+    "caseTree": "mobileOnly",
+    "centerForms": false,
+    "createListing": true,
+    "createLog": true,
+    "decimalMark": "dot",
+    "displayCodesAlongsideLabels": false,
     "notes": {
-      "delete": "all", 
+      "delete": "all",
       "edit": "all"
-    }, 
+    },
     "partialSave": {
       "operatorEnabled": false
-    }, 
-    "showEndCaseMessage": true, 
-    "showOnlyDiscreteValuesInComboBoxes": false, 
-    "showFieldLabels": true, 
-    "showErrorMessageNumbers": true, 
-    "showQuestionText": true, 
-    "showRefusals": true, 
+    },
+    "showEndCaseMessage": true,
+    "showOnlyDiscreteValuesInComboBoxes": false,
+    "showFieldLabels": true,
+    "showErrorMessageNumbers": true,
+    "showQuestionText": true,
+    "showRefusals": true,
     "verify": {
-      "frequency": 1, 
+      "frequency": 1,
       "start": 1
-    }, 
-    "htmlDialogs": true, 
+    },
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "none", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
       "recordValues": false
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

@@ -1,6 +1,6 @@
 ﻿---
 fileType: Question Text
-version: CSPro 8.0
+version: CSPro 8.1
 languages:
   - name: EN
     label: English
@@ -29,6 +29,8 @@ questions:
   - name: GEOMETRY_DICT.MENU
     conditions:
       - questionText:
-          EN: |
-            <p>Use the map and polygon objects to trace, view, and calculate the area and perimeter of a polygon.</p><ul><li><b>Trace polygon:&nbsp;</b>Trace and save the polygon as a GeoJSON file</li><li><b>View&nbsp;</b><b>polygon</b><b>:</b> Select and view a polygon</li><li><b>Calculate:</b> Select and calculate the area and perimeter of a polygon</li></ul>
+          EN:
+            format: HTML
+            text: |
+              <p>Use the map and polygon objects to trace, view, and calculate the area and perimeter of a polygon.</p><ul><li><b>Trace polygon:&nbsp;</b>Trace and save the polygon as a GeoJSON file</li><li><b>View&nbsp;</b><b>polygon</b><b>:</b> Select and view a polygon</li><li><b>Calculate:</b> Select and calculate the area and perimeter of a polygon</li></ul>
 ...

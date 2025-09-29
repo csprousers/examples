@@ -1,516 +1,516 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "SIMPLECAPI_DICT", 
-  "labels": [ { "text": "Simple CAPI Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "SIMPLECAPI_DICT",
+  "labels": [ { "text": "Simple CAPI Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "1a00824829263ff09ea2030c618cebd69ed8d98d06815dc548a177ec610ccadc"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "SIMPLECAPI_LEVEL", 
-      "labels": [ { "text": "Simple CAPI Level" } ], 
+      "name": "SIMPLECAPI_LEVEL",
+      "labels": [ { "text": "Simple CAPI Level" } ],
       "ids": {
         "items": [
           {
-            "name": "HOUSEHOLD_ID", 
-            "labels": [ { "text": "Household ID" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 4, 
+            "name": "HOUSEHOLD_ID",
+            "labels": [ { "text": "Household ID" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 4,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "PERSON_REC", 
-          "labels": [ { "text": "Person Record" } ], 
-          "recordType": "P", 
+          "name": "PERSON_REC",
+          "labels": [ { "text": "Person Record" } ],
+          "recordType": "P",
           "occurrences": {
-            "required": false, 
+            "required": false,
             "maximum": 20
-          }, 
+          },
           "items": [
             {
-              "name": "FIRST_NAME", 
-              "labels": [ { "text": "First Name" } ], 
-              "contentType": "alpha", 
+              "name": "FIRST_NAME",
+              "labels": [ { "text": "First Name" } ],
+              "contentType": "alpha",
               "length": 25
-            }, 
+            },
             {
-              "name": "LAST_NAME", 
-              "labels": [ { "text": "Last Name" } ], 
-              "contentType": "alpha", 
+              "name": "LAST_NAME",
+              "labels": [ { "text": "Last Name" } ],
+              "contentType": "alpha",
               "length": 25
-            }, 
+            },
             {
-              "name": "RELATIONSHIP", 
-              "labels": [ { "text": "Relationship" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "RELATIONSHIP",
+              "labels": [ { "text": "Relationship" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "RELATIONSHIP_VS1", 
-                  "labels": [ { "text": "Relationship" } ], 
+                  "name": "RELATIONSHIP_VS1",
+                  "labels": [ { "text": "Relationship" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Head of Household" } ], 
+                      "labels": [ { "text": "Head of Household" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Spouse / Partner" } ], 
+                      "labels": [ { "text": "Spouse / Partner" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Son / Daughter" } ], 
+                      "labels": [ { "text": "Son / Daughter" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Brother / Sister" } ], 
+                      "labels": [ { "text": "Brother / Sister" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Father / Mother" } ], 
+                      "labels": [ { "text": "Father / Mother" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Grandfather / Grandmother" } ], 
+                      "labels": [ { "text": "Grandfather / Grandmother" } ],
                       "pairs": [ { "value": "6" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Grandson / Granddaughter" } ], 
+                      "labels": [ { "text": "Grandson / Granddaughter" } ],
                       "pairs": [ { "value": "7" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other Relative" } ], 
+                      "labels": [ { "text": "Other Relative" } ],
                       "pairs": [ { "value": "8" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Non-Relative" } ], 
+                      "labels": [ { "text": "Non-Relative" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
-                }, 
+                },
                 {
-                  "name": "RELATIONSHIP_MALE_VS", 
-                  "labels": [ { "text": "Relationship" } ], 
+                  "name": "RELATIONSHIP_MALE_VS",
+                  "labels": [ { "text": "Relationship" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Head of Household" } ], 
+                      "labels": [ { "text": "Head of Household" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Spouse / Partner" } ], 
+                      "labels": [ { "text": "Spouse / Partner" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Son" } ], 
+                      "labels": [ { "text": "Son" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Brother" } ], 
+                      "labels": [ { "text": "Brother" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Father" } ], 
+                      "labels": [ { "text": "Father" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Grandfather" } ], 
+                      "labels": [ { "text": "Grandfather" } ],
                       "pairs": [ { "value": "6" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Grandson" } ], 
+                      "labels": [ { "text": "Grandson" } ],
                       "pairs": [ { "value": "7" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other Relative" } ], 
+                      "labels": [ { "text": "Other Relative" } ],
                       "pairs": [ { "value": "8" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Non-Relative" } ], 
+                      "labels": [ { "text": "Non-Relative" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
-                }, 
+                },
                 {
-                  "name": "RELATIONSHIP_FEMALE_VS", 
-                  "labels": [ { "text": "Relationship" } ], 
+                  "name": "RELATIONSHIP_FEMALE_VS",
+                  "labels": [ { "text": "Relationship" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Head of Household" } ], 
+                      "labels": [ { "text": "Head of Household" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Spouse / Partner" } ], 
+                      "labels": [ { "text": "Spouse / Partner" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Daughter" } ], 
+                      "labels": [ { "text": "Daughter" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sister" } ], 
+                      "labels": [ { "text": "Sister" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Mother" } ], 
+                      "labels": [ { "text": "Mother" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Grandmother" } ], 
+                      "labels": [ { "text": "Grandmother" } ],
                       "pairs": [ { "value": "6" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Granddaughter" } ], 
+                      "labels": [ { "text": "Granddaughter" } ],
                       "pairs": [ { "value": "7" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other Relative" } ], 
+                      "labels": [ { "text": "Other Relative" } ],
                       "pairs": [ { "value": "8" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Non-Relative" } ], 
+                      "labels": [ { "text": "Non-Relative" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "SEX", 
-              "labels": [ { "text": "Sex" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "SEX",
+              "labels": [ { "text": "Sex" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "SEX_VS1", 
-                  "labels": [ { "text": "Sex" } ], 
+                  "name": "SEX_VS1",
+                  "labels": [ { "text": "Sex" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Male" } ], 
+                      "labels": [ { "text": "Male" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Female" } ], 
+                      "labels": [ { "text": "Female" } ],
                       "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "AGE", 
-              "labels": [ { "text": "Age" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
-              "zeroFill": true, 
+              "name": "AGE",
+              "labels": [ { "text": "Age" } ],
+              "contentType": "numeric",
+              "length": 3,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "AGE_VS1", 
-                  "labels": [ { "text": "Age" } ], 
+                  "name": "AGE_VS1",
+                  "labels": [ { "text": "Age" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "0 - 115" } ], 
+                      "labels": [ { "text": "0 - 115" } ],
                       "pairs": [ { "range": [ "0", "115" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Don't Know" } ], 
-                      "special": "MISSING", 
+                      "labels": [ { "text": "Don't Know" } ],
+                      "special": "MISSING",
                       "pairs": [ { "value": "-99" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "LITERATE", 
-              "labels": [ { "text": "Literate" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "LITERATE",
+              "labels": [ { "text": "Literate" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "LITERATE_VS1", 
-                  "labels": [ { "text": "Literate" } ], 
+                  "name": "LITERATE_VS1",
+                  "labels": [ { "text": "Literate" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Yes" } ], 
+                      "labels": [ { "text": "Yes" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "No" } ], 
+                      "labels": [ { "text": "No" } ],
                       "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "LANGUAGES_SPOKEN", 
-              "labels": [ { "text": "Languages Spoken" } ], 
-              "contentType": "alpha", 
-              "length": 28, 
+              "name": "LANGUAGES_SPOKEN",
+              "labels": [ { "text": "Languages Spoken" } ],
+              "contentType": "alpha",
+              "length": 28,
               "valueSets": [
                 {
-                  "name": "LANGUAGES_SPOKEN_VS1", 
-                  "labels": [ { "text": "Languages Spoken" } ], 
+                  "name": "LANGUAGES_SPOKEN_VS1",
+                  "labels": [ { "text": "Languages Spoken" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Arabic (العربية)" } ], 
+                      "labels": [ { "text": "Arabic (العربية)" } ],
                       "pairs": [ { "value": "01" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Bengali (বাংলা)" } ], 
+                      "labels": [ { "text": "Bengali (বাংলা)" } ],
                       "pairs": [ { "value": "02" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Cantonese (粵語)" } ], 
+                      "labels": [ { "text": "Cantonese (粵語)" } ],
                       "pairs": [ { "value": "03" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "English" } ], 
+                      "labels": [ { "text": "English" } ],
                       "pairs": [ { "value": "04" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "French (Français)" } ], 
+                      "labels": [ { "text": "French (Français)" } ],
                       "pairs": [ { "value": "05" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "German (Deutsch)" } ], 
+                      "labels": [ { "text": "German (Deutsch)" } ],
                       "pairs": [ { "value": "06" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Gujarati (ગુજરાતી)" } ], 
+                      "labels": [ { "text": "Gujarati (ગુજરાતી)" } ],
                       "pairs": [ { "value": "07" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Hindi (हिन्दी)" } ], 
+                      "labels": [ { "text": "Hindi (हिन्दी)" } ],
                       "pairs": [ { "value": "08" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Italian (Italiano)" } ], 
+                      "labels": [ { "text": "Italian (Italiano)" } ],
                       "pairs": [ { "value": "09" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Japanese (日本語)" } ], 
+                      "labels": [ { "text": "Japanese (日本語)" } ],
                       "pairs": [ { "value": "10" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Javanese (ꦧꦱꦗꦮ)" } ], 
+                      "labels": [ { "text": "Javanese (ꦧꦱꦗꦮ)" } ],
                       "pairs": [ { "value": "11" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Korean (한국어)" } ], 
+                      "labels": [ { "text": "Korean (한국어)" } ],
                       "pairs": [ { "value": "12" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Malay (Bahasa Melayu)" } ], 
+                      "labels": [ { "text": "Malay (Bahasa Melayu)" } ],
                       "pairs": [ { "value": "13" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Mandarin (官話)" } ], 
+                      "labels": [ { "text": "Mandarin (官話)" } ],
                       "pairs": [ { "value": "14" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Marathi (मराठी)" } ], 
+                      "labels": [ { "text": "Marathi (मराठी)" } ],
                       "pairs": [ { "value": "15" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Persian (فارسی)" } ], 
+                      "labels": [ { "text": "Persian (فارسی)" } ],
                       "pairs": [ { "value": "16" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Portuguese (Português)" } ], 
+                      "labels": [ { "text": "Portuguese (Português)" } ],
                       "pairs": [ { "value": "17" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Punjabi (ਪੰਜਾਬੀ)" } ], 
+                      "labels": [ { "text": "Punjabi (ਪੰਜਾਬੀ)" } ],
                       "pairs": [ { "value": "18" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Russian (Русский)" } ], 
+                      "labels": [ { "text": "Russian (Русский)" } ],
                       "pairs": [ { "value": "19" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Spanish (Español)" } ], 
+                      "labels": [ { "text": "Spanish (Español)" } ],
                       "pairs": [ { "value": "20" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Tamil (தமிழ்)" } ], 
+                      "labels": [ { "text": "Tamil (தமிழ்)" } ],
                       "pairs": [ { "value": "21" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Telugu (తెలుగు)" } ], 
+                      "labels": [ { "text": "Telugu (తెలుగు)" } ],
                       "pairs": [ { "value": "22" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Thai (ภาษาไทย)" } ], 
+                      "labels": [ { "text": "Thai (ภาษาไทย)" } ],
                       "pairs": [ { "value": "23" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Turkish (Türkçe)" } ], 
+                      "labels": [ { "text": "Turkish (Türkçe)" } ],
                       "pairs": [ { "value": "24" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Urdu (اُردُو)" } ], 
+                      "labels": [ { "text": "Urdu (اُردُو)" } ],
                       "pairs": [ { "value": "25" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Vietnamese (Tiếng Việt)" } ], 
+                      "labels": [ { "text": "Vietnamese (Tiếng Việt)" } ],
                       "pairs": [ { "value": "26" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Wu (吳語)" } ], 
+                      "labels": [ { "text": "Wu (吳語)" } ],
                       "pairs": [ { "value": "27" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "LANGUAGES_SPOKEN_OTHER", 
-              "labels": [ { "text": "Languages Spoken (Other)" } ], 
-              "contentType": "alpha", 
+              "name": "LANGUAGES_SPOKEN_OTHER",
+              "labels": [ { "text": "Languages Spoken (Other)" } ],
+              "contentType": "alpha",
               "length": 20
-            }, 
+            },
             {
-              "name": "MAIN_LANGUAGE", 
-              "labels": [ { "text": "Main Language" } ], 
-              "contentType": "alpha", 
-              "length": 2, 
+              "name": "MAIN_LANGUAGE",
+              "labels": [ { "text": "Main Language" } ],
+              "contentType": "alpha",
+              "length": 2,
               "valueSets": [
                 {
-                  "name": "MAIN_LANGUAGE_VS1", 
-                  "labels": [ { "text": "Main Language" } ], 
+                  "name": "MAIN_LANGUAGE_VS1",
+                  "labels": [ { "text": "Main Language" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Arabic (العربية)" } ], 
+                      "labels": [ { "text": "Arabic (العربية)" } ],
                       "pairs": [ { "value": "01" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Bengali (বাংলা)" } ], 
+                      "labels": [ { "text": "Bengali (বাংলা)" } ],
                       "pairs": [ { "value": "02" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Cantonese (粵語)" } ], 
+                      "labels": [ { "text": "Cantonese (粵語)" } ],
                       "pairs": [ { "value": "03" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "English" } ], 
+                      "labels": [ { "text": "English" } ],
                       "pairs": [ { "value": "04" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "French (Français)" } ], 
+                      "labels": [ { "text": "French (Français)" } ],
                       "pairs": [ { "value": "05" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "German (Deutsch)" } ], 
+                      "labels": [ { "text": "German (Deutsch)" } ],
                       "pairs": [ { "value": "06" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Gujarati (ગુજરાતી)" } ], 
+                      "labels": [ { "text": "Gujarati (ગુજરાતી)" } ],
                       "pairs": [ { "value": "07" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Hindi (हिन्दी)" } ], 
+                      "labels": [ { "text": "Hindi (हिन्दी)" } ],
                       "pairs": [ { "value": "08" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Italian (Italiano)" } ], 
+                      "labels": [ { "text": "Italian (Italiano)" } ],
                       "pairs": [ { "value": "09" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Japanese (日本語)" } ], 
+                      "labels": [ { "text": "Japanese (日本語)" } ],
                       "pairs": [ { "value": "10" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Javanese (ꦧꦱꦗꦮ)" } ], 
+                      "labels": [ { "text": "Javanese (ꦧꦱꦗꦮ)" } ],
                       "pairs": [ { "value": "11" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Korean (한국어)" } ], 
+                      "labels": [ { "text": "Korean (한국어)" } ],
                       "pairs": [ { "value": "12" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Malay (Bahasa Melayu)" } ], 
+                      "labels": [ { "text": "Malay (Bahasa Melayu)" } ],
                       "pairs": [ { "value": "13" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Mandarin (官話)" } ], 
+                      "labels": [ { "text": "Mandarin (官話)" } ],
                       "pairs": [ { "value": "14" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Marathi (मराठी)" } ], 
+                      "labels": [ { "text": "Marathi (मराठी)" } ],
                       "pairs": [ { "value": "15" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Persian (فارسی)" } ], 
+                      "labels": [ { "text": "Persian (فارسی)" } ],
                       "pairs": [ { "value": "16" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Portuguese (Português)" } ], 
+                      "labels": [ { "text": "Portuguese (Português)" } ],
                       "pairs": [ { "value": "17" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Punjabi (ਪੰਜਾਬੀ)" } ], 
+                      "labels": [ { "text": "Punjabi (ਪੰਜਾਬੀ)" } ],
                       "pairs": [ { "value": "18" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Russian (Русский)" } ], 
+                      "labels": [ { "text": "Russian (Русский)" } ],
                       "pairs": [ { "value": "19" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Spanish (Español)" } ], 
+                      "labels": [ { "text": "Spanish (Español)" } ],
                       "pairs": [ { "value": "20" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Tamil (தமிழ்)" } ], 
+                      "labels": [ { "text": "Tamil (தமிழ்)" } ],
                       "pairs": [ { "value": "21" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Telugu (తెలుగు)" } ], 
+                      "labels": [ { "text": "Telugu (తెలుగు)" } ],
                       "pairs": [ { "value": "22" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Thai (ภาษาไทย)" } ], 
+                      "labels": [ { "text": "Thai (ภาษาไทย)" } ],
                       "pairs": [ { "value": "23" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Turkish (Türkçe)" } ], 
+                      "labels": [ { "text": "Turkish (Türkçe)" } ],
                       "pairs": [ { "value": "24" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Urdu (اُردُو)" } ], 
+                      "labels": [ { "text": "Urdu (اُردُو)" } ],
                       "pairs": [ { "value": "25" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Vietnamese (Tiếng Việt)" } ], 
+                      "labels": [ { "text": "Vietnamese (Tiếng Việt)" } ],
                       "pairs": [ { "value": "26" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Wu (吳語)" } ], 
+                      "labels": [ { "text": "Wu (吳語)" } ],
                       "pairs": [ { "value": "27" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other" } ], 
+                      "labels": [ { "text": "Other" } ],
                       "pairs": [ { "value": "99" } ]
                     }
                   ]

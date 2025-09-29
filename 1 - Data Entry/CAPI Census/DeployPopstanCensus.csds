@@ -1,82 +1,82 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "deployment", 
-  "name": "Popstan Census", 
-  "description": "Popstan Cenus Menu & Household Application", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "deployment",
+  "name": "Popstan Census",
+  "description": "Popstan Cenus Menu & Household Application",
   "files": [
     {
-      "onlyOnFirstInstall": true, 
+      "onlyOnFirstInstall": true,
       "path": "Data\\Assignments.csdb"
-    }, 
+    },
     {
-      "onlyOnFirstInstall": true, 
+      "onlyOnFirstInstall": true,
       "path": "Data\\Geocodes.csdb"
-    }, 
+    },
     {
-      "onlyOnFirstInstall": true, 
+      "onlyOnFirstInstall": true,
       "path": "Data\\Household.csdb"
-    }, 
+    },
     {
-      "onlyOnFirstInstall": true, 
+      "onlyOnFirstInstall": true,
       "path": "Data\\Staff.csdb"
-    }, 
+    },
     {
       "path": "Dictionaries\\Household.dcf"
-    }, 
+    },
     {
       "path": "Household\\Household.ent"
-    }, 
+    },
     {
       "path": "Household\\Household.fmf"
-    }, 
+    },
     {
       "path": "Household\\Household.pff"
-    }, 
+    },
     {
       "path": "Household-Review\\Household-Review.html"
-    }, 
+    },
     {
       "path": "Household-Review\\Notes.png"
-    }, 
+    },
     {
       "path": "Login\\Login.ent"
-    }, 
+    },
     {
       "path": "Login\\Login.pff"
-    }, 
+    },
     {
       "path": "Menu\\Menu.ent"
-    }, 
+    },
     {
       "path": "Menu\\Menu.pff"
     }
-  ], 
+  ],
   "dictionaries": [
     {
       "path": "Dictionaries\\Assignments.dcf"
-    }, 
+    },
     {
       "path": "Dictionaries\\Geocodes.dcf"
-    }, 
+    },
     {
       "path": "Dictionaries\\Household.dcf"
-    }, 
+    },
     {
       "path": "Dictionaries\\Household-Review.dcf"
-    }, 
+    },
     {
       "path": "Dictionaries\\Login.dcf"
-    }, 
+    },
     {
       "path": "Dictionaries\\Menu.dcf"
-    }, 
+    },
     {
       "path": "Dictionaries\\Staff.dcf"
     }
-  ], 
+  ],
   "deployment": {
-    "type": "LocalFolder", 
+    "type": "LocalFolder",
     "localFolderPath": "DeployPSC"
   }
 }

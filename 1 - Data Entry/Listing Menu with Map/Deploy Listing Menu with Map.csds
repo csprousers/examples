@@ -1,36 +1,36 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "deployment", 
-  "name": "Listing Menu with Map", 
-  "description": "Example of listing structures using integrated maps", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "deployment",
+  "name": "Listing Menu with Map",
+  "description": "Example of listing structures using integrated maps",
   "files": [
     {
       "path": "Listing\\Listing.ent"
-    }, 
+    },
     {
       "path": "Listing\\Listing.pff"
-    }, 
+    },
     {
       "path": "Menu\\ListingMenu.ent"
-    }, 
+    },
     {
       "path": "Menu\\ListingMenu.pff"
     }
-  ], 
+  ],
   "dictionaries": [
     {
       "path": "Dictionaries\\ListingMenu.dcf"
-    }, 
+    },
     {
-      "path": "Dictionaries\\Structures.dcf", 
+      "path": "Dictionaries\\Structures.dcf",
       "uploadForSync": true
     }
-  ], 
+  ],
   "deployment": {
-    "type": "LocalFolder", 
-    "cswebUrl": "http://", 
-    "ftpUrl": "ftp://", 
+    "type": "LocalFolder",
+    "cswebUrl": "http://",
+    "ftpUrl": "ftp://",
     "localFolderPath": "DeployListingMenuWithMap\\"
   }
 }

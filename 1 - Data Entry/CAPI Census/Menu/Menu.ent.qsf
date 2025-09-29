@@ -1,6 +1,6 @@
 ﻿---
 fileType: Question Text
-version: CSPro 8.0
+version: CSPro 8.1
 languages:
   - name: EN
     label: English
@@ -29,105 +29,151 @@ questions:
   - name: PSC_MENU_DICT.M_SUPERVISOR_MENU
     conditions:
       - questionText:
-          EN: |
-            <p>You are logged in as Supervisor <b>~~capi_staff_name~~</b>. You are working in <b>~~capi_province_name~~</b> province / <b>~~capi_district_name~~</b> district.</p>
-            <p><b>EA Status: ~~capi_ea_assigned_count~~</b> assigned EAs.</p>
-            <p>Select applicable option.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>You are logged in as Supervisor <b>~~capi_staff_name~~</b>. You are working in <b>~~capi_province_name~~</b> province / <b>~~capi_district_name~~</b> district.</p>
+              <p><b>EA Status: ~~capi_ea_assigned_count~~</b> assigned EAs.</p>
+              <p>Select applicable option.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_INTERVIEWER_MENU
     conditions:
       - questionText:
-          EN: |
-            <p>You are logged in as Interviewer <b>~~capi_staff_name~~</b>. You are working in <b>~~capi_province_name~~</b> province / <b>~~capi_district_name~~</b> district / <b>~~capi_ea_name~~</b>.</p>
-            <p><b>Household Status: ~~capi_household_complete_count~~</b> completed households. <b>~~capi_household_partial_count~~</b> partially completed households.</p>
-            <p>Select applicable option.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>You are logged in as Interviewer <b>~~capi_staff_name~~</b>. You are working in <b>~~capi_province_name~~</b> province / <b>~~capi_district_name~~</b> district / <b>~~capi_ea_name~~</b>.</p>
+              <p><b>Household Status: ~~capi_household_complete_count~~</b> completed households. <b>~~capi_household_partial_count~~</b> partially completed households.</p>
+              <p>Select applicable option.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_VIEW_ALL_HOUSEHOLDS
     conditions:
       - questionText:
-          EN: |
-            <p>Select the household you want to work on.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Select the household you want to work on.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_VIEW_REJECTED_HOUSEHOLDS
     conditions:
       - questionText:
-          EN: |
-            Select the rejected household to correct.<p></p>
+          EN:
+            format: HTML
+            text: |
+              Select the rejected household to correct.<p></p>
   - name: PSC_MENU_DICT.M_MANAGE_STAFF
     conditions:
       - questionText:
-          EN: |
-            <p>Select staff to manage or add new interviewer.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Select staff to manage or add new interviewer.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_MANAGE_STAFF_MEMBER
     conditions:
       - questionText:
-          EN: |
-            <p>You are managing information about <b>~~capi_manage_staff_name~~</b>.</p>
-            <p>Select applicable option.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>You are managing information about <b>~~capi_manage_staff_name~~</b>.</p>
+              <p>Select applicable option.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_MANAGE_STAFF_NAME
     conditions:
       - logic: M_MANAGE_STAFF_NAME <> ""
         questionText:
-          EN: |
-            <p>Edit the name of <b>~~capi_manage_staff_name~~</b>.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Edit the name of <b>~~capi_manage_staff_name~~</b>.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
       - logic: M_MANAGE_STAFF_NAME = ""
         questionText:
-          EN: |
-            <p>Enter name of a new interviewer.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter name of a new interviewer.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_INTERVIEWER_CODE
     conditions:
       - questionText:
-          EN: |
-            <p>Select the interviewer to assign an EA to.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Select the interviewer to assign an EA to.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_INTERVIEWER_EA
     conditions:
       - questionText:
-          EN: |
-            <p>Select EA to assign to <b>~~capi_manage_staff_name~~</b>.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Select EA to assign to <b>~~capi_manage_staff_name~~</b>.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_MENU_DICT.M_REVIEW_EA
     conditions:
       - questionText:
-          EN: |
-            <p>Select the EA.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Select the EA.</p>
   - name: PSC_MENU_DICT.M_REVIEW_SEGMENT
     conditions:
       - questionText:
-          EN: |
-            <p>You are reviewing in <b>~~capi_review_ea_name~~</b>.</p>
-            <p>Select the interviewer.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>You are reviewing in <b>~~capi_review_ea_name~~</b>.</p>
+              <p>Select the interviewer.</p>
   - name: PSC_MENU_DICT.M_REVIEW_FILTER
     conditions:
       - questionText:
-          EN: |
-            <p>You are reviewing in&nbsp;<b>~~capi_review_ea_name~~</b>.
-            </p><p>Select a filter.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>You are reviewing in&nbsp;<b>~~capi_review_ea_name~~</b>.
+              </p><p>Select a filter.</p>
   - name: PSC_MENU_DICT.M_REVIEW_HOUSEHOLD
     conditions:
       - questionText:
-          EN: |
-            <p>You are filtering for <b>~~capi_review_status~~</b> households by <b>~~capi_review_staff_name~~</b> in <b>~~capi_review_ea_name~~</b>.</p><p>Select the household to review.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>You are filtering for <b>~~capi_review_status~~</b> households by <b>~~capi_review_staff_name~~</b> in <b>~~capi_review_ea_name~~</b>.</p><p>Select the household to review.</p>
 ...

@@ -1,73 +1,73 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "STAFF_DICT", 
-  "labels": [ { "text": "Staff" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "STAFF_DICT",
+  "labels": [ { "text": "Staff" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "f7440d503c385288508b68b099a9a22f9d60cbba7545e14475cb0a258a7ee639"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "STAFF_QUEST", 
-      "labels": [ { "text": "Staff questionnaire" } ], 
+      "name": "STAFF_QUEST",
+      "labels": [ { "text": "Staff questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "STAFF_CODE", 
-            "labels": [ { "text": "Staff code" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 3, 
+            "name": "STAFF_CODE",
+            "labels": [ { "text": "Staff code" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 3,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "STAFF_REC", 
-          "labels": [ { "text": "Staff record" } ], 
+          "name": "STAFF_REC",
+          "labels": [ { "text": "Staff record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "STAFF_NAME", 
-              "labels": [ { "text": "Staff name" } ], 
-              "contentType": "alpha", 
+              "name": "STAFF_NAME",
+              "labels": [ { "text": "Staff name" } ],
+              "contentType": "alpha",
               "length": 30
-            }, 
+            },
             {
-              "name": "STAFF_ROLE", 
-              "labels": [ { "text": "Staff role" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "STAFF_ROLE",
+              "labels": [ { "text": "Staff role" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "STAFF_ROLE_VS1", 
-                  "labels": [ { "text": "Staff role" } ], 
+                  "name": "STAFF_ROLE_VS1",
+                  "labels": [ { "text": "Staff role" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Interviewer" } ], 
+                      "labels": [ { "text": "Interviewer" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Supervisor" } ], 
+                      "labels": [ { "text": "Supervisor" } ],
                       "pairs": [ { "value": "2" } ]
                     }
                   ]

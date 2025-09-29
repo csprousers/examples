@@ -1,6 +1,6 @@
 ﻿---
 fileType: Question Text
-version: CSPro 8.0
+version: CSPro 8.1
 languages:
   - name: EN
     label: English
@@ -29,6 +29,8 @@ questions:
   - name: HTML_DIALOG_DICT.MENU
     conditions:
       - questionText:
-          EN: |
-            <p>Use the function CS.UI.showDialog to create custom HTML dialogs.</p><p></p><ul><li><b>Basic input: </b>&nbsp;Display user-entered text from prompt</li><li><b>Basic output: </b>Enter text directly into custom dialog and display text with an error message</li></ul><p></p>
+          EN:
+            format: HTML
+            text: |
+              <p>Use the function CS.UI.showDialog to create custom HTML dialogs.</p><p></p><ul><li><b>Basic input: </b>&nbsp;Display user-entered text from prompt</li><li><b>Basic output: </b>Enter text directly into custom dialog and display text with an error message</li></ul><p></p>
 ...

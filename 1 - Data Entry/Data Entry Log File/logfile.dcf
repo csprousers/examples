@@ -1,145 +1,145 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "LOGFILE_DICT", 
-  "labels": [ { "text": "LogFile" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "LOGFILE_DICT",
+  "labels": [ { "text": "LogFile" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "934fd83835abc2f717fad4431b09cc05c18e7d73f5609b7dd3723d5a20f32831"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": false, 
+  },
+  "relativePositions": false,
   "levels": [
     {
-      "name": "LOGLEVEL", 
-      "labels": [ { "text": "Log" } ], 
+      "name": "LOGLEVEL",
+      "labels": [ { "text": "Log" } ],
       "ids": {
         "items": [
           {
-            "name": "ENTRY_MONTH", 
-            "labels": [ { "text": "Entry Month" } ], 
-            "contentType": "numeric", 
-            "start": 38, 
-            "length": 2, 
-            "zeroFill": false, 
+            "name": "ENTRY_MONTH",
+            "labels": [ { "text": "Entry Month" } ],
+            "contentType": "numeric",
+            "start": 38,
+            "length": 2,
+            "zeroFill": false,
             "valueSets": [
               {
-                "name": "ENTRY_MONTH_VS1", 
-                "labels": [ { "text": "Entry Month" } ], 
+                "name": "ENTRY_MONTH_VS1",
+                "labels": [ { "text": "Entry Month" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "1", "12" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "ENTRY_DAY", 
-            "labels": [ { "text": "Entry Day" } ], 
-            "contentType": "numeric", 
-            "start": 41, 
-            "length": 2, 
-            "zeroFill": false, 
+            "name": "ENTRY_DAY",
+            "labels": [ { "text": "Entry Day" } ],
+            "contentType": "numeric",
+            "start": 41,
+            "length": 2,
+            "zeroFill": false,
             "valueSets": [
               {
-                "name": "ENTRY_DAY_VS1", 
-                "labels": [ { "text": "Entry Day" } ], 
+                "name": "ENTRY_DAY_VS1",
+                "labels": [ { "text": "Entry Day" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "1", "31" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "ENTRY_YEAR", 
-            "labels": [ { "text": "Entry Year" } ], 
-            "contentType": "numeric", 
-            "start": 44, 
-            "length": 4, 
-            "zeroFill": false, 
+            "name": "ENTRY_YEAR",
+            "labels": [ { "text": "Entry Year" } ],
+            "contentType": "numeric",
+            "start": 44,
+            "length": 4,
+            "zeroFill": false,
             "valueSets": [
               {
-                "name": "ENTRY_YEAR_VS1", 
-                "labels": [ { "text": "Entry Year" } ], 
+                "name": "ENTRY_YEAR_VS1",
+                "labels": [ { "text": "Entry Year" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "2000", "2010" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "ENTRY_START_HOUR", 
-            "labels": [ { "text": "Entry Start Hour" } ], 
-            "contentType": "numeric", 
-            "start": 49, 
-            "length": 2, 
-            "zeroFill": false, 
+            "name": "ENTRY_START_HOUR",
+            "labels": [ { "text": "Entry Start Hour" } ],
+            "contentType": "numeric",
+            "start": 49,
+            "length": 2,
+            "zeroFill": false,
             "valueSets": [
               {
-                "name": "ENTRY_START_HOUR_VS1", 
-                "labels": [ { "text": "Entry Start Hour" } ], 
+                "name": "ENTRY_START_HOUR_VS1",
+                "labels": [ { "text": "Entry Start Hour" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "0", "23" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "ENTRY_START_MINUTES", 
-            "labels": [ { "text": "Entry Start Minutes" } ], 
-            "contentType": "numeric", 
-            "start": 52, 
-            "length": 2, 
-            "zeroFill": false, 
+            "name": "ENTRY_START_MINUTES",
+            "labels": [ { "text": "Entry Start Minutes" } ],
+            "contentType": "numeric",
+            "start": 52,
+            "length": 2,
+            "zeroFill": false,
             "valueSets": [
               {
-                "name": "ENTRY_START_MINUTES_VS1", 
-                "labels": [ { "text": "Entry Start Minutes" } ], 
+                "name": "ENTRY_START_MINUTES_VS1",
+                "labels": [ { "text": "Entry Start Minutes" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "0", "59" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "ENTRY_START_SECONDS", 
-            "labels": [ { "text": "Entry Start Seconds" } ], 
-            "contentType": "numeric", 
-            "start": 55, 
-            "length": 2, 
-            "zeroFill": false, 
+            "name": "ENTRY_START_SECONDS",
+            "labels": [ { "text": "Entry Start Seconds" } ],
+            "contentType": "numeric",
+            "start": 55,
+            "length": 2,
+            "zeroFill": false,
             "valueSets": [
               {
-                "name": "ENTRY_START_SECONDS_VS1", 
-                "labels": [ { "text": "Entry Start Seconds" } ], 
+                "name": "ENTRY_START_SECONDS_VS1",
+                "labels": [ { "text": "Entry Start Seconds" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "0", "59" ] } ]
                   }
                 ]
@@ -147,248 +147,248 @@
             ]
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "LOGREC", 
-          "labels": [ { "text": "Log Record" } ], 
+          "name": "LOGREC",
+          "labels": [ { "text": "Log Record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "ENTRY_MODE", 
-              "labels": [ { "text": "Entry Mode" } ], 
-              "contentType": "alpha", 
-              "start": 1, 
-              "length": 3, 
+              "name": "ENTRY_MODE",
+              "labels": [ { "text": "Entry Mode" } ],
+              "contentType": "alpha",
+              "start": 1,
+              "length": 3,
               "valueSets": [
                 {
-                  "name": "ENTRY_MODE_VS1", 
-                  "labels": [ { "text": "Entry Mode" } ], 
+                  "name": "ENTRY_MODE_VS1",
+                  "labels": [ { "text": "Entry Mode" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Add" } ], 
+                      "labels": [ { "text": "Add" } ],
                       "pairs": [ { "value": "ADD" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Modify" } ], 
+                      "labels": [ { "text": "Modify" } ],
                       "pairs": [ { "value": "MOD" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Verify" } ], 
+                      "labels": [ { "text": "Verify" } ],
                       "pairs": [ { "value": "VER" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Stats" } ], 
+                      "labels": [ { "text": "Stats" } ],
                       "pairs": [ { "value": "STA" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "" } ], 
+                      "labels": [ { "text": "" } ],
                       "pairs": [ { "value": "" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "ENTRY_OPERATOR", 
-              "labels": [ { "text": "Entry Operator" } ], 
-              "contentType": "alpha", 
-              "start": 5, 
+              "name": "ENTRY_OPERATOR",
+              "labels": [ { "text": "Entry Operator" } ],
+              "contentType": "alpha",
+              "start": 5,
               "length": 32
-            }, 
+            },
             {
-              "name": "ENTRY_END_HOUR", 
-              "labels": [ { "text": "Entry End Hour" } ], 
-              "contentType": "numeric", 
-              "start": 58, 
-              "length": 2, 
-              "zeroFill": false, 
+              "name": "ENTRY_END_HOUR",
+              "labels": [ { "text": "Entry End Hour" } ],
+              "contentType": "numeric",
+              "start": 58,
+              "length": 2,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "ENTRY_END_HOUR_VS1", 
-                  "labels": [ { "text": "Entry End Hour" } ], 
+                  "name": "ENTRY_END_HOUR_VS1",
+                  "labels": [ { "text": "Entry End Hour" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "" } ], 
+                      "labels": [ { "text": "" } ],
                       "pairs": [ { "range": [ "0", "23" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "ENTRY_END_MINUTES", 
-              "labels": [ { "text": "Entry End Minutes" } ], 
-              "contentType": "numeric", 
-              "start": 61, 
-              "length": 2, 
-              "zeroFill": false, 
+              "name": "ENTRY_END_MINUTES",
+              "labels": [ { "text": "Entry End Minutes" } ],
+              "contentType": "numeric",
+              "start": 61,
+              "length": 2,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "ENTRY_END_MINUTES_VS1", 
-                  "labels": [ { "text": "Entry End Minutes" } ], 
+                  "name": "ENTRY_END_MINUTES_VS1",
+                  "labels": [ { "text": "Entry End Minutes" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "" } ], 
+                      "labels": [ { "text": "" } ],
                       "pairs": [ { "range": [ "0", "59" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "ENTRY_END_SECONDS", 
-              "labels": [ { "text": "Entry End Seconds" } ], 
-              "contentType": "numeric", 
-              "start": 64, 
-              "length": 2, 
-              "zeroFill": false, 
+              "name": "ENTRY_END_SECONDS",
+              "labels": [ { "text": "Entry End Seconds" } ],
+              "contentType": "numeric",
+              "start": 64,
+              "length": 2,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "ENTRY_END_SECONDS_VS1", 
-                  "labels": [ { "text": "Entry End Seconds" } ], 
+                  "name": "ENTRY_END_SECONDS_VS1",
+                  "labels": [ { "text": "Entry End Seconds" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "" } ], 
+                      "labels": [ { "text": "" } ],
                       "pairs": [ { "range": [ "0", "59" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "ENTRY_TIME", 
-              "labels": [ { "text": "Entry Time (seconds)" } ], 
-              "contentType": "numeric", 
-              "start": 67, 
-              "length": 8, 
-              "zeroFill": false, 
+              "name": "ENTRY_TIME",
+              "labels": [ { "text": "Entry Time (seconds)" } ],
+              "contentType": "numeric",
+              "start": 67,
+              "length": 8,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "ENTRY_TIME_VS1", 
-                  "labels": [ { "text": "Entry Time (seconds)" } ], 
+                  "name": "ENTRY_TIME_VS1",
+                  "labels": [ { "text": "Entry Time (seconds)" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "< 1 minute" } ], 
+                      "labels": [ { "text": "< 1 minute" } ],
                       "pairs": [ { "range": [ "0", "59" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "1 - 5 mins" } ], 
+                      "labels": [ { "text": "1 - 5 mins" } ],
                       "pairs": [ { "range": [ "60", "359" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "5 mins - 1 hr" } ], 
+                      "labels": [ { "text": "5 mins - 1 hr" } ],
                       "pairs": [ { "range": [ "360", "3599" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "1 - 3 hrs" } ], 
+                      "labels": [ { "text": "1 - 3 hrs" } ],
                       "pairs": [ { "range": [ "3600", "10799" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "> 3 hrs" } ], 
+                      "labels": [ { "text": "> 3 hrs" } ],
                       "pairs": [ { "range": [ "18000", "99999999" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "ENTRY_PAUSE_TIME", 
-              "labels": [ { "text": "Entry Pause Time (seconds)" } ], 
-              "contentType": "numeric", 
-              "start": 76, 
-              "length": 8, 
-              "zeroFill": false, 
+              "name": "ENTRY_PAUSE_TIME",
+              "labels": [ { "text": "Entry Pause Time (seconds)" } ],
+              "contentType": "numeric",
+              "start": 76,
+              "length": 8,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "ENTRY_PAUSE_TIME_VSA", 
-                  "labels": [ { "text": "Entry Pause Time (seconds)" } ], 
+                  "name": "ENTRY_PAUSE_TIME_VSA",
+                  "labels": [ { "text": "Entry Pause Time (seconds)" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "None" } ], 
+                      "labels": [ { "text": "None" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "< 1 minute" } ], 
+                      "labels": [ { "text": "< 1 minute" } ],
                       "pairs": [ { "range": [ "1", "59" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "1 - 5 mins" } ], 
+                      "labels": [ { "text": "1 - 5 mins" } ],
                       "pairs": [ { "range": [ "60", "359" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "5 mins - 1 hr" } ], 
+                      "labels": [ { "text": "5 mins - 1 hr" } ],
                       "pairs": [ { "range": [ "360", "3599" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "1 - 3 hrs" } ], 
+                      "labels": [ { "text": "1 - 3 hrs" } ],
                       "pairs": [ { "range": [ "3600", "10799" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "> 3 hrs" } ], 
+                      "labels": [ { "text": "> 3 hrs" } ],
                       "pairs": [ { "range": [ "18000", "99999999" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "ENTRY_CASES", 
-              "labels": [ { "text": "Entry Cases" } ], 
-              "contentType": "numeric", 
-              "start": 85, 
-              "length": 8, 
+              "name": "ENTRY_CASES",
+              "labels": [ { "text": "Entry Cases" } ],
+              "contentType": "numeric",
+              "start": 85,
+              "length": 8,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "ENTRY_RECORDS", 
-              "labels": [ { "text": "Entry Records" } ], 
-              "contentType": "numeric", 
-              "start": 94, 
-              "length": 8, 
+              "name": "ENTRY_RECORDS",
+              "labels": [ { "text": "Entry Records" } ],
+              "contentType": "numeric",
+              "start": 94,
+              "length": 8,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "ENTRY_KEYSTROKES", 
-              "labels": [ { "text": "Entry Keystrokes" } ], 
-              "contentType": "numeric", 
-              "start": 103, 
-              "length": 8, 
+              "name": "ENTRY_KEYSTROKES",
+              "labels": [ { "text": "Entry Keystrokes" } ],
+              "contentType": "numeric",
+              "start": 103,
+              "length": 8,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "ENTRY_ERRORS", 
-              "labels": [ { "text": "Entry Errors" } ], 
-              "contentType": "numeric", 
-              "start": 112, 
-              "length": 8, 
+              "name": "ENTRY_ERRORS",
+              "labels": [ { "text": "Entry Errors" } ],
+              "contentType": "numeric",
+              "start": 112,
+              "length": 8,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "VERIFY_ERRORS_KEYER", 
-              "labels": [ { "text": "Verify Errors (keyer)" } ], 
-              "contentType": "numeric", 
-              "start": 121, 
-              "length": 8, 
+              "name": "VERIFY_ERRORS_KEYER",
+              "labels": [ { "text": "Verify Errors (keyer)" } ],
+              "contentType": "numeric",
+              "start": 121,
+              "length": 8,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "VERIFY_ERRORS_VERIFIER", 
-              "labels": [ { "text": "Verify Errors (verifier)" } ], 
-              "contentType": "numeric", 
-              "start": 130, 
-              "length": 8, 
+              "name": "VERIFY_ERRORS_VERIFIER",
+              "labels": [ { "text": "Verify Errors (verifier)" } ],
+              "contentType": "numeric",
+              "start": 130,
+              "length": 8,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "VERIFY_FIELDS", 
-              "labels": [ { "text": "Verify Fields" } ], 
-              "contentType": "numeric", 
-              "start": 139, 
-              "length": 8, 
+              "name": "VERIFY_FIELDS",
+              "labels": [ { "text": "Verify Fields" } ],
+              "contentType": "numeric",
+              "start": 139,
+              "length": 8,
               "zeroFill": false
             }
           ]

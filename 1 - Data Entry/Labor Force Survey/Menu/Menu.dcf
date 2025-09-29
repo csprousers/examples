@@ -1,229 +1,229 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "MENU_DICT", 
-  "labels": [ { "text": "Menu" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "MENU_DICT",
+  "labels": [ { "text": "Menu" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "999d42d7897bed5f009565546d99f7d44df25e48bca7db388b81f5d2d8353af3"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "MENU_QUEST", 
-      "labels": [ { "text": "Menu questionnaire" } ], 
+      "name": "MENU_QUEST",
+      "labels": [ { "text": "Menu questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "MENU_ID", 
-            "labels": [ { "text": "Menu identification" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "MENU_ID",
+            "labels": [ { "text": "Menu identification" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "MENU_REC", 
-          "labels": [ { "text": "Menu record" } ], 
-          "recordType": "1", 
+          "name": "MENU_REC",
+          "labels": [ { "text": "Menu record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "LOGIN", 
-              "labels": [ { "text": "Login" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
+              "name": "LOGIN",
+              "labels": [ { "text": "Login" } ],
+              "contentType": "numeric",
+              "length": 3,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "INTERVIEWER_MENU", 
-              "labels": [ { "text": "Interviewer Menu" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "INTERVIEWER_MENU",
+              "labels": [ { "text": "Interviewer Menu" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "INTERVIEWER_MENU_VS1", 
-                  "labels": [ { "text": "Interviewer Menu" } ], 
+                  "name": "INTERVIEWER_MENU_VS1",
+                  "labels": [ { "text": "Interviewer Menu" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Interview Households" } ], 
+                      "labels": [ { "text": "Interview Households" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sync with Supervisor" } ], 
+                      "labels": [ { "text": "Sync with Supervisor" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Logout" } ], 
+                      "labels": [ { "text": "Logout" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "SUPERVISOR_MENU", 
-              "labels": [ { "text": "Supervisor Menu" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "SUPERVISOR_MENU",
+              "labels": [ { "text": "Supervisor Menu" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "SUPERVISOR_MENU_VS1", 
-                  "labels": [ { "text": "Supervisor Menu" } ], 
+                  "name": "SUPERVISOR_MENU_VS1",
+                  "labels": [ { "text": "Supervisor Menu" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Reports" } ], 
+                      "labels": [ { "text": "Reports" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sync HQ" } ], 
+                      "labels": [ { "text": "Sync HQ" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sync interviewer" } ], 
+                      "labels": [ { "text": "Sync interviewer" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Review completed interviews" } ], 
+                      "labels": [ { "text": "Review completed interviews" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Logout" } ], 
+                      "labels": [ { "text": "Logout" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "CHOOSE_HOUSEHOLD", 
-              "labels": [ { "text": "Choose Household" } ], 
-              "contentType": "alpha", 
+              "name": "CHOOSE_HOUSEHOLD",
+              "labels": [ { "text": "Choose Household" } ],
+              "contentType": "alpha",
               "length": 9
-            }, 
+            },
             {
-              "name": "HOUSEHOLD_ACTION", 
-              "labels": [ { "text": "Household Action" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "HOUSEHOLD_ACTION",
+              "labels": [ { "text": "Household Action" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "HOUSEHOLD_ACTION_VS1", 
-                  "labels": [ { "text": "Household Action" } ], 
+                  "name": "HOUSEHOLD_ACTION_VS1",
+                  "labels": [ { "text": "Household Action" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Open Questionnaire" } ], 
+                      "labels": [ { "text": "Open Questionnaire" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Set result" } ], 
+                      "labels": [ { "text": "Set result" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "View on map" } ], 
+                      "labels": [ { "text": "View on map" } ],
                       "pairs": [ { "value": "3" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "HOUSEHOLD_FINAL_RESULT", 
-              "labels": [ { "text": "Household Final Result" } ], 
-              "contentType": "numeric", 
-              "length": 2, 
-              "zeroFill": true, 
+              "name": "HOUSEHOLD_FINAL_RESULT",
+              "labels": [ { "text": "Household Final Result" } ],
+              "contentType": "numeric",
+              "length": 2,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "HOUSEHOLD_FINAL_RESULT_VS1", 
-                  "labels": [ { "text": "Household Final Result" } ], 
+                  "name": "HOUSEHOLD_FINAL_RESULT_VS1",
+                  "labels": [ { "text": "Household Final Result" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Not started" } ], 
+                      "labels": [ { "text": "Not started" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Completed" } ], 
+                      "labels": [ { "text": "Completed" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Partly Completed" } ], 
+                      "labels": [ { "text": "Partly Completed" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Refused" } ], 
+                      "labels": [ { "text": "Refused" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Non-Contact" } ], 
+                      "labels": [ { "text": "Non-Contact" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Temporarily Absent" } ], 
+                      "labels": [ { "text": "Temporarily Absent" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Inadequate Informant" } ], 
+                      "labels": [ { "text": "Inadequate Informant" } ],
                       "pairs": [ { "value": "6" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Seasonal, Temporary Resident" } ], 
+                      "labels": [ { "text": "Seasonal, Temporary Resident" } ],
                       "pairs": [ { "value": "7" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Under Construction, Vacant, Demolished" } ], 
+                      "labels": [ { "text": "Under Construction, Vacant, Demolished" } ],
                       "pairs": [ { "value": "8" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Not a Housing Unit" } ], 
+                      "labels": [ { "text": "Not a Housing Unit" } ],
                       "pairs": [ { "value": "9" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other (specify)" } ], 
+                      "labels": [ { "text": "Other (specify)" } ],
                       "pairs": [ { "value": "10" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "SUPERVISOR_REPORTS", 
-              "labels": [ { "text": "Reports" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "SUPERVISOR_REPORTS",
+              "labels": [ { "text": "Reports" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "SUPERVISOR_REPORTS_VS1", 
-                  "labels": [ { "text": "Reports" } ], 
+                  "name": "SUPERVISOR_REPORTS_VS1",
+                  "labels": [ { "text": "Reports" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Completion" } ], 
+                      "labels": [ { "text": "Completion" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Population" } ], 
+                      "labels": [ { "text": "Population" } ],
                       "pairs": [ { "value": "2" } ]
                     }
                   ]

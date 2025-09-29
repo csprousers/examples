@@ -1,77 +1,79 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "entry", 
-  "name": "HOUSEHOLD", 
-  "label": "HOUSEHOLD", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "entry",
+  "name": "HOUSEHOLD",
+  "label": "HOUSEHOLD",
   "dictionaries": [
     {
-      "type": "input", 
-      "path": "../Dictionaries/Household.dcf", 
-      "parent": "Household.fmf"
+      "type": "input",
+      "path": "../Dictionaries/Household.dcf",
+      "parent": "Household.fmf",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "forms": [
     "Household.fmf"
-  ], 
+  ],
   "questionText": [
     "Household.ent.qsf"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "Household.ent.apc"
     }
-  ], 
+  ],
   "messages": [
     "Household.ent.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 8.0, 
+    "version": 8.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "askOperatorId": false, 
-    "autoAdvanceOnSelection": false, 
-    "caseTree": "mobileOnly", 
-    "centerForms": false, 
-    "createListing": false, 
-    "createLog": false, 
-    "decimalMark": "dot", 
-    "displayCodesAlongsideLabels": false, 
+    "askOperatorId": false,
+    "autoAdvanceOnSelection": false,
+    "caseTree": "mobileOnly",
+    "centerForms": false,
+    "createListing": false,
+    "createLog": false,
+    "decimalMark": "dot",
+    "displayCodesAlongsideLabels": false,
     "notes": {
-      "delete": "all", 
+      "delete": "all",
       "edit": "all"
-    }, 
+    },
     "partialSave": {
       "operatorEnabled": true
-    }, 
-    "showEndCaseMessage": false, 
-    "showOnlyDiscreteValuesInComboBoxes": false, 
-    "showFieldLabels": true, 
-    "showErrorMessageNumbers": true, 
-    "showQuestionText": true, 
-    "showRefusals": true, 
+    },
+    "showEndCaseMessage": false,
+    "showOnlyDiscreteValuesInComboBoxes": false,
+    "showFieldLabels": true,
+    "showErrorMessageNumbers": true,
+    "showQuestionText": true,
+    "showRefusals": true,
     "verify": {
-      "frequency": 1, 
+      "frequency": 1,
       "start": 1
-    }, 
-    "htmlDialogs": true, 
+    },
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "all", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
-      "recordValues": false, 
+      "collection": "all",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
+      "recordValues": false,
       "deviceStateIntervalMinutes": 10
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

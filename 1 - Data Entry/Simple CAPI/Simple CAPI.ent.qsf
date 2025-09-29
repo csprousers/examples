@@ -1,6 +1,6 @@
 ﻿---
 fileType: Question Text
-version: CSPro 8.0
+version: CSPro 8.1
 languages:
   - name: EN
     label: English
@@ -33,94 +33,134 @@ questions:
   - name: SIMPLECAPI_DICT.HOUSEHOLD_ID
     conditions:
       - questionText:
-          EN: |
-            <p><span class="instruction">Enter the household number.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="instruction">Enter the household number.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: NAME_BLOCK
     conditions:
       - questionText:
-          EN: |
-            <p><i>Enter the name of the next person in the household. Include everyone living or staying in this household.</i></p>
-            <p></p>
-            <p><i>You are entering person ~~curocc()~~. If all persons have been recorded, <a href="#" onclick="endRoster(); return false;">end the roster (with a household size of ~~curocc() - 1~~)</a>.</i></p>
-            <script src="/action-invoker.js"></script>
-            <script>
-              function endRoster() {
-                let CS = new CSProActionInvoker("SimpleCapiAccessToken");
-                CS.Logic.evalAsync({ logic: "EndPersonRoster();" });
-              }
-            </script>
+          EN:
+            format: HTML
+            text: |
+              <p><i>Enter the name of the next person in the household. Include everyone living or staying in this household.</i></p>
+              <p></p>
+              <p><i>You are entering person ~~curocc()~~. If all persons have been recorded, <a href="#" onclick="endRoster(); return false;">end the roster (with a household size of ~~curocc() - 1~~)</a>.</i></p>
+              <script src="/action-invoker.js"></script>
+              <script>
+                function endRoster() {
+                  let CS = new CSProActionInvoker("SimpleCapiAccessToken");
+                  CS.Logic.evalAsync({ logic: "EndPersonRoster();" });
+                }
+              </script>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: SIMPLECAPI_DICT.SEX
     conditions:
       - questionText:
-          EN: |
-            <p><span class="name">~~PersonName()~~:</span> What is your sex?</p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="name">~~PersonName()~~:</span> What is your sex?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: SIMPLECAPI_DICT.AGE
     conditions:
       - questionText:
-          EN: |
-            <p><span class="name">~~PersonName()~~:</span> How old are you?</p>
-            <p></p>
-            <p><span class="instruction">If ~~PersonName()~~ does not know an exact age, record Don't Know.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="name">~~PersonName()~~:</span> How old are you?</p>
+              <p></p>
+              <p><span class="instruction">If ~~PersonName()~~ does not know an exact age, record Don't Know.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: SIMPLECAPI_DICT.RELATIONSHIP
     conditions:
       - logic: headOcc in 0, curocc()
         questionText:
-          EN: |
-            <p><span class="name">~~PersonName()~~:</span> Are you the head of household? If not, what is your relationship to the head?</p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="name">~~PersonName()~~:</span> Are you the head of household? If not, what is your relationship to the head?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
       - logic: not ( headOcc in 0, curocc() )
         questionText:
-          EN: |
-            <p><span class="name">~~PersonName()~~:</span> What is your relationship to ~~PersonName(headOcc)~~?</p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="name">~~PersonName()~~:</span> What is your relationship to ~~PersonName(headOcc)~~?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: SIMPLECAPI_DICT.LITERATE
     conditions:
       - questionText:
-          EN: |
-            <p><span class="name">~~PersonName()~~:</span> Are you literate, meaning that you can read and write with understanding in at least one language?</p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="name">~~PersonName()~~:</span> Are you literate, meaning that you can read and write with understanding in at least one language?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: LANGUAGES_BLOCK
     conditions:
       - questionText:
-          EN: |
-            <p><span class="name">~~PersonName()~~:</span> What languages do you speak?</p>
-            <p></p>
-            <p><span class="instruction">If ~~PersonName()~~ lists only one language, probe and ask if ~~PersonName()~~ speaks more than one language.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="name">~~PersonName()~~:</span> What languages do you speak?</p>
+              <p></p>
+              <p><span class="instruction">If ~~PersonName()~~ lists only one language, probe and ask if ~~PersonName()~~ speaks more than one language.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: SIMPLECAPI_DICT.LANGUAGES_SPOKEN_OTHER
     conditions:
       - questionText:
-          EN: |
-            <p><span class="instruction">Specify any other language that ~~PersonName()~~ listed that was not in the above list. Enter only one language.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="instruction">Specify any other language that ~~PersonName()~~ listed that was not in the above list. Enter only one language.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: SIMPLECAPI_DICT.MAIN_LANGUAGE
     conditions:
       - questionText:
-          EN: |
-            <p><span class="name">~~PersonName()~~:</span> What is the language that you speak most frequently?</p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="name">~~PersonName()~~:</span> What is the language that you speak most frequently?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
 ...

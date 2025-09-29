@@ -1,52 +1,56 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "batch", 
-  "name": "ADD_WEIGHT", 
-  "label": "ADD_WEIGHT", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "batch",
+  "name": "ADD_WEIGHT",
+  "label": "ADD_WEIGHT",
   "dictionaries": [
     {
-      "type": "input", 
-      "path": "popstan2.dcf", 
-      "parent": "ADD-weight.ord"
-    }, 
+      "type": "input",
+      "path": "popstan2.dcf",
+      "parent": "ADD-weight.ord",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
+    },
     {
-      "type": "external", 
-      "path": "Weight file.dcf"
+      "type": "external",
+      "path": "Weight file.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "order": [
     "ADD-weight.ord"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "ADD-weight.bch.apc"
     }
-  ], 
+  ],
   "messages": [
     "ADD-weight.bch.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "htmlDialogs": true, 
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "none", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
       "recordValues": false
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

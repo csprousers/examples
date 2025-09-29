@@ -1,101 +1,101 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "AREA_DICT", 
-  "labels": [ { "text": "Area" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "AREA_DICT",
+  "labels": [ { "text": "Area" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "024335e5344844fb70b6a81437a5b5028e9f6f8d840c38767f5d2f250572f53a"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": false, 
+  },
+  "relativePositions": false,
   "levels": [
     {
-      "name": "AREA_QUEST", 
-      "labels": [ { "text": "Area questionnaire" } ], 
+      "name": "AREA_QUEST",
+      "labels": [ { "text": "Area questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "PROVINCE_CODE", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 2, 
-            "zeroFill": false, 
+            "name": "PROVINCE_CODE",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 2,
+            "zeroFill": false,
             "valueSets": [
               {
-                "name": "PROVINCE_CODE_VS1", 
-                "labels": [ { "text": "Province" } ], 
+                "name": "PROVINCE_CODE_VS1",
+                "labels": [ { "text": "Province" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "Artesia" } ], 
+                    "labels": [ { "text": "Artesia" } ],
                     "pairs": [ { "value": "1" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Copal" } ], 
+                    "labels": [ { "text": "Copal" } ],
                     "pairs": [ { "value": "2" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Dari" } ], 
+                    "labels": [ { "text": "Dari" } ],
                     "pairs": [ { "value": "3" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Eris" } ], 
+                    "labels": [ { "text": "Eris" } ],
                     "pairs": [ { "value": "4" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Girda" } ], 
+                    "labels": [ { "text": "Girda" } ],
                     "pairs": [ { "value": "5" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Hali" } ], 
+                    "labels": [ { "text": "Hali" } ],
                     "pairs": [ { "value": "6" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Kerac" } ], 
+                    "labels": [ { "text": "Kerac" } ],
                     "pairs": [ { "value": "7" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Lacuna" } ], 
+                    "labels": [ { "text": "Lacuna" } ],
                     "pairs": [ { "value": "8" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Laya" } ], 
+                    "labels": [ { "text": "Laya" } ],
                     "pairs": [ { "value": "9" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Lira" } ], 
+                    "labels": [ { "text": "Lira" } ],
                     "pairs": [ { "value": "10" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Matanga" } ], 
+                    "labels": [ { "text": "Matanga" } ],
                     "pairs": [ { "value": "11" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Patan" } ], 
+                    "labels": [ { "text": "Patan" } ],
                     "pairs": [ { "value": "12" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Rift" } ], 
+                    "labels": [ { "text": "Rift" } ],
                     "pairs": [ { "value": "13" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Terra" } ], 
+                    "labels": [ { "text": "Terra" } ],
                     "pairs": [ { "value": "14" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Tumar" } ], 
+                    "labels": [ { "text": "Tumar" } ],
                     "pairs": [ { "value": "15" } ]
                   }
                 ]
@@ -103,41 +103,41 @@
             ]
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "AREA_REC", 
-          "labels": [ { "text": "Area record" } ], 
+          "name": "AREA_REC",
+          "labels": [ { "text": "Area record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 99
-          }, 
+          },
           "items": [
             {
-              "name": "DISTRICT_CODE", 
-              "labels": [ { "text": "District" } ], 
-              "contentType": "numeric", 
-              "start": 4, 
-              "length": 2, 
-              "zeroFill": true, 
+              "name": "DISTRICT_CODE",
+              "labels": [ { "text": "District" } ],
+              "contentType": "numeric",
+              "start": 4,
+              "length": 2,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "DISTRICT_CODE_VS1", 
-                  "labels": [ { "text": "District" } ], 
+                  "name": "DISTRICT_CODE_VS1",
+                  "labels": [ { "text": "District" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "" } ], 
+                      "labels": [ { "text": "" } ],
                       "pairs": [ { "range": [ "1", "18" ] } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "DISTRICT_NAME", 
-              "labels": [ { "text": "Name" } ], 
-              "contentType": "alpha", 
-              "start": 6, 
+              "name": "DISTRICT_NAME",
+              "labels": [ { "text": "Name" } ],
+              "contentType": "alpha",
+              "start": 6,
               "length": 32
             }
           ]

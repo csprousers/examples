@@ -1,261 +1,261 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "PSC_MENU_DICT", 
-  "labels": [ { "text": "Popstan Census Menu Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "PSC_MENU_DICT",
+  "labels": [ { "text": "Popstan Census Menu Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "3612c11af3d8f375ae4f943a823c79e7f85c568fee4ac0745da8947d0a0bf2ec"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "MENU_LEVEL", 
-      "labels": [ { "text": "Menu Level" } ], 
+      "name": "MENU_LEVEL",
+      "labels": [ { "text": "Menu Level" } ],
       "ids": {
         "items": [
           {
-            "name": "MENU_ID", 
-            "labels": [ { "text": "Menu identification" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "MENU_ID",
+            "labels": [ { "text": "Menu identification" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "MENU_REC", 
-          "labels": [ { "text": "Menu Record" } ], 
-          "recordType": "1", 
+          "name": "MENU_REC",
+          "labels": [ { "text": "Menu Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "M_VERIFY_CREDENTIALS", 
-              "labels": [ { "text": "Verify Credentials" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "M_VERIFY_CREDENTIALS",
+              "labels": [ { "text": "Verify Credentials" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "M_VERIFY_CREDENTIALS_VS1", 
-                  "labels": [ { "text": "Verify Credentials" } ], 
+                  "name": "M_VERIFY_CREDENTIALS_VS1",
+                  "labels": [ { "text": "Verify Credentials" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Continue" } ], 
+                      "labels": [ { "text": "Continue" } ],
                       "pairs": [ { "value": "1" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "M_SUPERVISOR_MENU", 
-              "labels": [ { "text": "Supervisor Menu" } ], 
-              "contentType": "numeric", 
-              "length": 2, 
-              "zeroFill": true, 
+              "name": "M_SUPERVISOR_MENU",
+              "labels": [ { "text": "Supervisor Menu" } ],
+              "contentType": "numeric",
+              "length": 2,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "M_SUPERVISOR_MENU_VS1", 
-                  "labels": [ { "text": "Supervisor Menu" } ], 
+                  "name": "M_SUPERVISOR_MENU_VS1",
+                  "labels": [ { "text": "Supervisor Menu" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Manage staff" } ], 
+                      "labels": [ { "text": "Manage staff" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Assign EA to interviewer" } ], 
+                      "labels": [ { "text": "Assign EA to interviewer" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "View interviewer status report" } ], 
+                      "labels": [ { "text": "View interviewer status report" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Review households" } ], 
+                      "labels": [ { "text": "Review households" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Transfer data with interviewer" } ], 
+                      "labels": [ { "text": "Transfer data with interviewer" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Transfer data with headquarters" } ], 
+                      "labels": [ { "text": "Transfer data with headquarters" } ],
                       "pairs": [ { "value": "6" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Logout" } ], 
+                      "labels": [ { "text": "Logout" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "M_INTERVIEWER_MENU", 
-              "labels": [ { "text": "Interviewer Menu" } ], 
-              "contentType": "alpha", 
+              "name": "M_INTERVIEWER_MENU",
+              "labels": [ { "text": "Interviewer Menu" } ],
+              "contentType": "alpha",
               "length": 12
-            }, 
+            },
             {
-              "name": "M_VIEW_ALL_HOUSEHOLDS", 
-              "labels": [ { "text": "View All Households" } ], 
-              "contentType": "alpha", 
+              "name": "M_VIEW_ALL_HOUSEHOLDS",
+              "labels": [ { "text": "View All Households" } ],
+              "contentType": "alpha",
               "length": 12
-            }, 
+            },
             {
-              "name": "M_VIEW_REJECTED_HOUSEHOLDS", 
-              "labels": [ { "text": "View Rejected Households" } ], 
-              "contentType": "alpha", 
+              "name": "M_VIEW_REJECTED_HOUSEHOLDS",
+              "labels": [ { "text": "View Rejected Households" } ],
+              "contentType": "alpha",
               "length": 12
-            }, 
+            },
             {
-              "name": "M_MANAGE_STAFF", 
-              "labels": [ { "text": "Manage Staff" } ], 
-              "contentType": "alpha", 
+              "name": "M_MANAGE_STAFF",
+              "labels": [ { "text": "Manage Staff" } ],
+              "contentType": "alpha",
               "length": 36
-            }, 
+            },
             {
-              "name": "M_MANAGE_STAFF_MEMBER", 
-              "labels": [ { "text": "Manage Staff Member" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "M_MANAGE_STAFF_MEMBER",
+              "labels": [ { "text": "Manage Staff Member" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "M_MANAGE_STAFF_MEMBER_VS1", 
-                  "labels": [ { "text": "Manage Staff Member" } ], 
+                  "name": "M_MANAGE_STAFF_MEMBER_VS1",
+                  "labels": [ { "text": "Manage Staff Member" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Rename staff" } ], 
+                      "labels": [ { "text": "Rename staff" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "See staff PIN code" } ], 
+                      "labels": [ { "text": "See staff PIN code" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Reset staff PIN code" } ], 
+                      "labels": [ { "text": "Reset staff PIN code" } ],
                       "pairs": [ { "value": "3" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "M_MANAGE_STAFF_NAME", 
-              "labels": [ { "text": "Manage Staff Name" } ], 
-              "contentType": "alpha", 
+              "name": "M_MANAGE_STAFF_NAME",
+              "labels": [ { "text": "Manage Staff Name" } ],
+              "contentType": "alpha",
               "length": 50
-            }, 
+            },
             {
-              "name": "M_INTERVIEWER_EA", 
-              "labels": [ { "text": "Interviewer EA" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
+              "name": "M_INTERVIEWER_EA",
+              "labels": [ { "text": "Interviewer EA" } ],
+              "contentType": "numeric",
+              "length": 3,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "M_INTERVIEWER_CODE", 
-              "labels": [ { "text": "Interviewer Code" } ], 
-              "contentType": "alpha", 
+              "name": "M_INTERVIEWER_CODE",
+              "labels": [ { "text": "Interviewer Code" } ],
+              "contentType": "alpha",
               "length": 36
-            }, 
+            },
             {
-              "name": "M_REVIEW_EA", 
-              "labels": [ { "text": "Select EA for Review" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
+              "name": "M_REVIEW_EA",
+              "labels": [ { "text": "Select EA for Review" } ],
+              "contentType": "numeric",
+              "length": 3,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "M_REVIEW_SEGMENT", 
-              "labels": [ { "text": "Select Interviewer for Review" } ], 
-              "contentType": "alpha", 
+              "name": "M_REVIEW_SEGMENT",
+              "labels": [ { "text": "Select Interviewer for Review" } ],
+              "contentType": "alpha",
               "length": 1
-            }, 
+            },
             {
-              "name": "M_REVIEW_FILTER", 
-              "labels": [ { "text": "Select Filter for Review" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "M_REVIEW_FILTER",
+              "labels": [ { "text": "Select Filter for Review" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "M_REVIEW_FILTER_VS1", 
-                  "labels": [ { "text": "Select Filter for Review" } ], 
+                  "name": "M_REVIEW_FILTER_VS1",
+                  "labels": [ { "text": "Select Filter for Review" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Unreviewed" } ], 
+                      "labels": [ { "text": "Unreviewed" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Approved" } ], 
+                      "labels": [ { "text": "Approved" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Rejected" } ], 
+                      "labels": [ { "text": "Rejected" } ],
                       "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "M_REVIEW_HOUSEHOLD", 
-              "labels": [ { "text": "Select Household for Review" } ], 
-              "contentType": "numeric", 
-              "length": 4, 
+              "name": "M_REVIEW_HOUSEHOLD",
+              "labels": [ { "text": "Select Household for Review" } ],
+              "contentType": "numeric",
+              "length": 4,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "M_CURRENT_PROVINCE", 
-              "labels": [ { "text": "Current Province" } ], 
-              "contentType": "numeric", 
-              "length": 2, 
+              "name": "M_CURRENT_PROVINCE",
+              "labels": [ { "text": "Current Province" } ],
+              "contentType": "numeric",
+              "length": 2,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "M_CURRENT_DISTRICT", 
-              "labels": [ { "text": "Current District" } ], 
-              "contentType": "numeric", 
-              "length": 2, 
+              "name": "M_CURRENT_DISTRICT",
+              "labels": [ { "text": "Current District" } ],
+              "contentType": "numeric",
+              "length": 2,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "M_CURRENT_EA", 
-              "labels": [ { "text": "Current EA" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
+              "name": "M_CURRENT_EA",
+              "labels": [ { "text": "Current EA" } ],
+              "contentType": "numeric",
+              "length": 3,
               "zeroFill": true
-            }, 
+            },
             {
-              "name": "M_CURRENT_SEGMENT", 
-              "labels": [ { "text": "Current Segment" } ], 
-              "contentType": "alpha", 
+              "name": "M_CURRENT_SEGMENT",
+              "labels": [ { "text": "Current Segment" } ],
+              "contentType": "alpha",
               "length": 1
-            }, 
+            },
             {
-              "name": "M_CURRENT_STAFF_CODE", 
-              "labels": [ { "text": "Current Staff Code" } ], 
-              "contentType": "alpha", 
+              "name": "M_CURRENT_STAFF_CODE",
+              "labels": [ { "text": "Current Staff Code" } ],
+              "contentType": "alpha",
               "length": 36
             }
           ]

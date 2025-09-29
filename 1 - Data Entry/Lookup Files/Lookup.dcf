@@ -1,62 +1,62 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "LF_DICT", 
-  "labels": [ { "text": "Lookup" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "LF_DICT",
+  "labels": [ { "text": "Lookup" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "508e1d5b5994ac27cec96c02e2aabcc163d24fa21187fdaea3b4e048a5c6f98e"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": false, 
+    "decimalMark": false,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "LF_QUEST", 
-      "labels": [ { "text": "Questionnaire" } ], 
+      "name": "LF_QUEST",
+      "labels": [ { "text": "Questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "LF_PROVINCE", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 2, 
+            "name": "LF_PROVINCE",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "LF_DISTRICT", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 3, 
-            "length": 2, 
+            "name": "LF_DISTRICT",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 3,
+            "length": 2,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "REC", 
-          "labels": [ { "text": "Location" } ], 
+          "name": "REC",
+          "labels": [ { "text": "Location" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "LF_NAME", 
-              "labels": [ { "text": "Name" } ], 
-              "contentType": "alpha", 
+              "name": "LF_NAME",
+              "labels": [ { "text": "Name" } ],
+              "contentType": "alpha",
               "length": 10
             }
           ]

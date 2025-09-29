@@ -1,47 +1,49 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "tabulation", 
-  "name": "WEIGHTED_TABLES", 
-  "label": "WEIGHTED_TABLES", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "tabulation",
+  "name": "WEIGHTED_TABLES",
+  "label": "WEIGHTED_TABLES",
   "dictionaries": [
     {
-      "type": "working", 
-      "path": "Weighted Tables.xtb.wrk.dcf"
+      "type": "working",
+      "path": "Weighted Tables.xtb.wrk.dcf",
+      "simpleSynchronization": false,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "tableSpecs": [
     "Weighted Tables.xts"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "Weighted Tables.xtb.apc"
     }
-  ], 
+  ],
   "messages": [
     "Weighted Tables.xtb.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "htmlDialogs": true, 
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "none", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
       "recordValues": false
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

@@ -1,77 +1,79 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "entry", 
-  "name": "GEOMETRY_123", 
-  "label": "GEOMETRY_123", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "entry",
+  "name": "GEOMETRY_123",
+  "label": "GEOMETRY_123",
   "dictionaries": [
     {
-      "type": "input", 
-      "path": "Geometry.dcf", 
-      "parent": "Geometry.fmf"
+      "type": "input",
+      "path": "Geometry.dcf",
+      "parent": "Geometry.fmf",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "forms": [
     "Geometry.fmf"
-  ], 
+  ],
   "questionText": [
     "Geometry.ent.qsf"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "Geometry.ent.apc"
     }
-  ], 
+  ],
   "messages": [
     "Geometry.ent.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "askOperatorId": false, 
-    "autoAdvanceOnSelection": false, 
-    "caseTree": "mobileOnly", 
-    "centerForms": false, 
-    "createListing": false, 
-    "createLog": false, 
-    "decimalMark": "dot", 
-    "displayCodesAlongsideLabels": false, 
+    "askOperatorId": false,
+    "autoAdvanceOnSelection": false,
+    "caseTree": "mobileOnly",
+    "centerForms": false,
+    "createListing": false,
+    "createLog": false,
+    "decimalMark": "dot",
+    "displayCodesAlongsideLabels": false,
     "notes": {
-      "delete": "all", 
+      "delete": "all",
       "edit": "all"
-    }, 
+    },
     "partialSave": {
       "operatorEnabled": false
-    }, 
-    "showEndCaseMessage": true, 
-    "showOnlyDiscreteValuesInComboBoxes": true, 
-    "showFieldLabels": true, 
-    "showErrorMessageNumbers": false, 
-    "showQuestionText": true, 
-    "showRefusals": true, 
+    },
+    "showEndCaseMessage": true,
+    "showOnlyDiscreteValuesInComboBoxes": true,
+    "showFieldLabels": true,
+    "showErrorMessageNumbers": false,
+    "showQuestionText": true,
+    "showRefusals": true,
     "verify": {
-      "frequency": 1, 
+      "frequency": 1,
       "start": 1
-    }, 
-    "htmlDialogs": true, 
+    },
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "all", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
-      "recordValues": false, 
+      "collection": "all",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
+      "recordValues": false,
       "deviceStateIntervalMinutes": 5
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

@@ -1,6 +1,6 @@
 ﻿---
 fileType: Question Text
-version: CSPro 8.0
+version: CSPro 8.1
 languages:
   - name: EN
     label: English
@@ -29,52 +29,76 @@ questions:
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.HOUSEHOLD_NUMBER
     conditions:
       - questionText:
-          EN: |
-            <p>Enter the serial number for this household.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter the serial number for this household.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.NAMES
     conditions:
       - questionText:
-          EN: |
-            <p>Enter the full name of the next member of the household.</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter the full name of the next member of the household.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.RELATIONSHIP
     conditions:
       - questionText:
-          EN: |
-            <p>What is ~~NAMES~~'s relationship to the head of household?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is ~~NAMES~~'s relationship to the head of household?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.SEX
     conditions:
       - questionText:
-          EN: |
-            <p>Is ~~NAMES~~ male or female?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Is ~~NAMES~~ male or female?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.AGE
     conditions:
       - questionText:
-          EN: |
-            <p>How old is ~~NAMES~~ in completed years?</p>
-            <p><br></p>
-            <p><span class="instruction">Enter 0 for children less than 1 year old.</span></p><span class="instruction">
-            </span><p><span class="instruction">Enter 99 for anyone 99 years old and above.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>How old is ~~NAMES~~ in completed years?</p>
+              <p><br></p>
+              <p><span class="instruction">Enter 0 for children less than 1 year old.</span></p><span class="instruction">
+              </span><p><span class="instruction">Enter 99 for anyone 99 years old and above.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.MORE_PEOPLE
     conditions:
       - questionText:
-          EN: |
-            <p>Are there are other household members that have not yet been recorded?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Are there are other household members that have not yet been recorded?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
 ...

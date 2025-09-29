@@ -1,56 +1,56 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "CENSUS_PROV_DIST_TA_DICT", 
-  "labels": [ { "text": "Census Prov-Dist Tabs" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "CENSUS_PROV_DIST_TA_DICT",
+  "labels": [ { "text": "Census Prov-Dist Tabs" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "89bb38ecb037048b13a62ba7bf69020d7f3ec3a5c11e1afd54ac4384892868ab520cdbbff83633430843f20bd28d2a70"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "CENSUS_PROV_DIST_TABS_QUEST", 
-      "labels": [ { "text": "Census Prov-Dist Tabs questionnaire" } ], 
+      "name": "CENSUS_PROV_DIST_TABS_QUEST",
+      "labels": [ { "text": "Census Prov-Dist Tabs questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "CENSUS_PROV_DIST_TABS_ID", 
-            "labels": [ { "text": "Census Prov-Dist Tabs identification" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "CENSUS_PROV_DIST_TABS_ID",
+            "labels": [ { "text": "Census Prov-Dist Tabs identification" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": false
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "SYSTEM_REC", 
-          "labels": [ { "text": "System Record" } ], 
-          "recordType": "1", 
+          "name": "SYSTEM_REC",
+          "labels": [ { "text": "System Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "SYSTEM_TOTAL", 
-              "labels": [ { "text": "System Total" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SYSTEM_TOTAL",
+              "labels": [ { "text": "System Total" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": false
             }
           ]

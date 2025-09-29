@@ -1,6 +1,6 @@
 ﻿---
 fileType: Question Text
-version: CSPro 8.0
+version: CSPro 8.1
 languages:
   - name: EN
     label: English
@@ -29,33 +29,49 @@ questions:
   - name: STRUCTURES_DICT.ST_TYPE
     conditions:
       - questionText:
-          EN: |
-            <p>Enter the structure type</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter the structure type</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: STRUCTURES_DICT.ST_NAME
     conditions:
       - logic: ST_TYPE<>1
         questionText:
-          EN: |
-            <p>Enter the name of the ~~getvaluelabel(ST_TYPE)~~</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter the name of the ~~getvaluelabel(ST_TYPE)~~</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
       - logic: ST_TYPE=1
         questionText:
-          EN: |
-            <p>Enter the name of the head of the household</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter the name of the head of the household</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: STRUCTURES_DICT.ST_NUM_MEMBERS
     conditions:
       - questionText:
-          EN: |
-            <p>Enter the number of people that reside in this household</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter the number of people that reside in this household</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
 ...

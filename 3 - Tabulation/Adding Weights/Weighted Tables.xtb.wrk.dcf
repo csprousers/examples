@@ -1,56 +1,56 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "WEIGHTED_TABLES_WRK_DICT", 
-  "labels": [ { "text": "Weighted Tables_wrk" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "WEIGHTED_TABLES_WRK_DICT",
+  "labels": [ { "text": "Weighted Tables_wrk" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "1b9801ca33c30e6021f1e9dd3769d36c1391e68d823fea3f7be004c03dcbc10460001072e8b077c6c9a41e5ff442a6fd"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "WEIGHTED_TABLES_WRK_QUEST", 
-      "labels": [ { "text": "Weighted Tables_wrk questionnaire" } ], 
+      "name": "WEIGHTED_TABLES_WRK_QUEST",
+      "labels": [ { "text": "Weighted Tables_wrk questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "WEIGHTED_TABLES_WRK_ID", 
-            "labels": [ { "text": "Weighted Tables_wrk identification" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "WEIGHTED_TABLES_WRK_ID",
+            "labels": [ { "text": "Weighted Tables_wrk identification" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": false
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "SYSTEM_REC", 
-          "labels": [ { "text": "System Record" } ], 
-          "recordType": "1", 
+          "name": "SYSTEM_REC",
+          "labels": [ { "text": "System Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "SYSTEM_TOTAL", 
-              "labels": [ { "text": "System Total" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SYSTEM_TOTAL",
+              "labels": [ { "text": "System Total" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": false
             }
           ]

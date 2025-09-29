@@ -1,80 +1,80 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "savedArrays", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "savedArrays",
   "arrays": [
     {
-      "name": "AgeDeck", 
-      "contentType": "numeric", 
-      "saveArray": true, 
+      "name": "AgeDeck",
+      "contentType": "numeric",
+      "saveArray": true,
       "dimensions": [
-        2, 
+        2,
         6
-      ], 
-      "runs": 0, 
-      "cases": 0, 
+      ],
+      "runs": 0,
+      "cases": 0,
       "value": {
         "0": {
           "0": {
-            "value": 22.0, 
-            "gets": 0, 
+            "value": 22.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 30.0, 
-            "gets": 0, 
+            "value": 30.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 8.0, 
-            "gets": 0, 
+            "value": 8.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 81.0, 
-            "gets": 0, 
+            "value": 81.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 15.0, 
-            "gets": 0, 
+            "value": 15.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "5": {
-            "value": 30.0, 
-            "gets": 0, 
+            "value": 30.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "1": {
           "0": {
-            "value": 49.0, 
-            "gets": 0, 
+            "value": 49.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 25.0, 
-            "gets": 0, 
+            "value": 25.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 71.0, 
-            "gets": 0, 
+            "value": 71.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 20.0, 
-            "gets": 0, 
+            "value": 20.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "5": {
-            "value": 16.0, 
-            "gets": 0, 
+            "value": 16.0,
+            "gets": 0,
             "puts": 0
           }
         }

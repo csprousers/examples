@@ -1,48 +1,50 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "application", 
-  "type": "batch", 
-  "name": "REL_EX", 
-  "label": "REL_EX", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "application",
+  "type": "batch",
+  "name": "REL_EX",
+  "label": "REL_EX",
   "dictionaries": [
     {
-      "type": "input", 
-      "path": "Rel_Ex.dcf", 
-      "parent": "Rel_Ex.ord"
+      "type": "input",
+      "path": "Rel_Ex.dcf",
+      "parent": "Rel_Ex.ord",
+      "simpleSynchronization": true,
+      "includeValueSetImagesInCompiledApplication": false
     }
-  ], 
+  ],
   "order": [
     "Rel_Ex.ord"
-  ], 
+  ],
   "code": [
     {
-      "type": "main", 
+      "type": "main",
       "path": "Rel_Ex.bch.apc"
     }
-  ], 
+  ],
   "messages": [
     "Rel_Ex.bch.mgf"
-  ], 
+  ],
   "logicSettings": {
-    "version": 2.0, 
+    "version": 2.0,
     "caseSensitive": {
       "symbols": false
-    }, 
+    },
     "actionInvoker": {
-      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "accessFromExternalCaller": "promptIfNoValidAccessToken",
       "convertResultsForLogic": true
     }
-  }, 
+  },
   "properties": {
-    "htmlDialogs": true, 
+    "htmlDialogs": true,
     "paradata": {
-      "collection": "none", 
-      "recordCoordinates": false, 
-      "recordInitialPropertyValues": false, 
-      "recordIteratorLoadCases": false, 
+      "collection": "none",
+      "recordCoordinates": false,
+      "recordInitialPropertyValues": false,
+      "recordIteratorLoadCases": false,
       "recordValues": false
-    }, 
+    },
     "useHtmlComponentsInsteadOfNativeVersions": false
   }
 }

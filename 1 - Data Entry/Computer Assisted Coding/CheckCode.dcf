@@ -1,181 +1,181 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "CEN2000", 
-  "labels": [ { "text": "Check Code Example" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "CEN2000",
+  "labels": [ { "text": "Check Code Example" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "6c39b9d7fe18d85550901e311aae96393625477b901a3278476a4041a6bd408b"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": false, 
+    "decimalMark": false,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "QUEST", 
-      "labels": [ { "text": "Questionnaire" } ], 
+      "name": "QUEST",
+      "labels": [ { "text": "Questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "PROVINCE", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 2, 
-            "zeroFill": true, 
+            "name": "PROVINCE",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 2,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "PROV_VS1", 
-                "labels": [ { "text": "Province" } ], 
+                "name": "PROV_VS1",
+                "labels": [ { "text": "Province" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "Artesia" } ], 
+                    "labels": [ { "text": "Artesia" } ],
                     "pairs": [ { "value": "1" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Copal" } ], 
+                    "labels": [ { "text": "Copal" } ],
                     "pairs": [ { "value": "2" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Dari" } ], 
+                    "labels": [ { "text": "Dari" } ],
                     "pairs": [ { "value": "3" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Eris" } ], 
+                    "labels": [ { "text": "Eris" } ],
                     "pairs": [ { "value": "4" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Girda" } ], 
+                    "labels": [ { "text": "Girda" } ],
                     "pairs": [ { "value": "5" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Hali" } ], 
+                    "labels": [ { "text": "Hali" } ],
                     "pairs": [ { "value": "6" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Kerac" } ], 
+                    "labels": [ { "text": "Kerac" } ],
                     "pairs": [ { "value": "7" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Lacuna" } ], 
+                    "labels": [ { "text": "Lacuna" } ],
                     "pairs": [ { "value": "8" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Laya" } ], 
+                    "labels": [ { "text": "Laya" } ],
                     "pairs": [ { "value": "9" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Lira" } ], 
+                    "labels": [ { "text": "Lira" } ],
                     "pairs": [ { "value": "10" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Matanga" } ], 
+                    "labels": [ { "text": "Matanga" } ],
                     "pairs": [ { "value": "11" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Patan" } ], 
+                    "labels": [ { "text": "Patan" } ],
                     "pairs": [ { "value": "12" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Rift" } ], 
+                    "labels": [ { "text": "Rift" } ],
                     "pairs": [ { "value": "13" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Terra" } ], 
+                    "labels": [ { "text": "Terra" } ],
                     "pairs": [ { "value": "14" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Tumar" } ], 
+                    "labels": [ { "text": "Tumar" } ],
                     "pairs": [ { "value": "15" } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "DISTRICT", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 4, 
-            "length": 2, 
-            "zeroFill": true, 
+            "name": "DISTRICT",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 4,
+            "length": 2,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "DIST_VS1", 
-                "labels": [ { "text": "District" } ], 
+                "name": "DIST_VS1",
+                "labels": [ { "text": "District" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "1", "18" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "VILLAGE", 
-            "labels": [ { "text": "Village" } ], 
-            "contentType": "numeric", 
-            "start": 6, 
-            "length": 3, 
-            "zeroFill": true, 
+            "name": "VILLAGE",
+            "labels": [ { "text": "Village" } ],
+            "contentType": "numeric",
+            "start": 6,
+            "length": 3,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "VILLAGE_VS1", 
-                "labels": [ { "text": "Village" } ], 
+                "name": "VILLAGE_VS1",
+                "labels": [ { "text": "Village" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "1", "999" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "EA", 
-            "labels": [ { "text": "Enumeration area" } ], 
-            "contentType": "numeric", 
-            "start": 9, 
-            "length": 3, 
-            "zeroFill": true, 
+            "name": "EA",
+            "labels": [ { "text": "Enumeration area" } ],
+            "contentType": "numeric",
+            "start": 9,
+            "length": 3,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "EA_VS1", 
-                "labels": [ { "text": "Enumeration area" } ], 
+                "name": "EA_VS1",
+                "labels": [ { "text": "Enumeration area" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "1", "999" ] } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "HU", 
-            "labels": [ { "text": "Housing unit" } ], 
-            "contentType": "numeric", 
-            "start": 12, 
-            "length": 3, 
-            "zeroFill": true, 
+            "name": "HU",
+            "labels": [ { "text": "Housing unit" } ],
+            "contentType": "numeric",
+            "start": 12,
+            "length": 3,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "HU_VS1", 
-                "labels": [ { "text": "Housing unit" } ], 
+                "name": "HU_VS1",
+                "labels": [ { "text": "Housing unit" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "1", "999" ] } ]
                   }
                 ]
@@ -183,377 +183,377 @@
             ]
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "PERSON", 
-          "labels": [ { "text": "Person Record" } ], 
-          "recordType": "1", 
+          "name": "PERSON",
+          "labels": [ { "text": "Person Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": false, 
+            "required": false,
             "maximum": 10
-          }, 
+          },
           "items": [
             {
-              "name": "LINE", 
-              "labels": [ { "text": "Line number" } ], 
-              "contentType": "numeric", 
-              "length": 2, 
-              "zeroFill": true, 
+              "name": "LINE",
+              "labels": [ { "text": "Line number" } ],
+              "contentType": "numeric",
+              "length": 2,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "LINE_VS1", 
-                  "labels": [ { "text": "Line number" } ], 
+                  "name": "LINE_VS1",
+                  "labels": [ { "text": "Line number" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "" } ], 
+                      "labels": [ { "text": "" } ],
                       "pairs": [ { "range": [ "1", "30" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Missing" } ], 
-                      "special": "NOTAPPL", 
+                      "labels": [ { "text": "Missing" } ],
+                      "special": "NOTAPPL",
                       "pairs": [ { "value": "" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "P02_REL", 
-              "labels": [ { "text": "Relationship" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "P02_REL",
+              "labels": [ { "text": "Relationship" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "P02_REL_VS1", 
-                  "labels": [ { "text": "Relationship" } ], 
+                  "name": "P02_REL_VS1",
+                  "labels": [ { "text": "Relationship" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Head" } ], 
+                      "labels": [ { "text": "Head" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Spouse" } ], 
+                      "labels": [ { "text": "Spouse" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Child" } ], 
+                      "labels": [ { "text": "Child" } ],
                       "pairs": [ { "value": "3" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Parent" } ], 
+                      "labels": [ { "text": "Parent" } ],
                       "pairs": [ { "value": "4" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other relative" } ], 
+                      "labels": [ { "text": "Other relative" } ],
                       "pairs": [ { "value": "5" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Nonrelative" } ], 
+                      "labels": [ { "text": "Nonrelative" } ],
                       "pairs": [ { "value": "6" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Not Reported" } ], 
+                      "labels": [ { "text": "Not Reported" } ],
                       "pairs": [ { "value": "9" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "P03_SEX", 
-              "labels": [ { "text": "Sex" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "P03_SEX",
+              "labels": [ { "text": "Sex" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "P03_SEX_VS1", 
-                  "labels": [ { "text": "Sex" } ], 
+                  "name": "P03_SEX_VS1",
+                  "labels": [ { "text": "Sex" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Male" } ], 
+                      "labels": [ { "text": "Male" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Female" } ], 
+                      "labels": [ { "text": "Female" } ],
                       "pairs": [ { "value": "2" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "P14_WORKING", 
-              "labels": [ { "text": "Working" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "P14_WORKING",
+              "labels": [ { "text": "Working" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "P14_WORKING_VS1", 
-                  "labels": [ { "text": "Working" } ], 
+                  "name": "P14_WORKING_VS1",
+                  "labels": [ { "text": "Working" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Yes" } ], 
+                      "labels": [ { "text": "Yes" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "No" } ], 
+                      "labels": [ { "text": "No" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Not Applicable" } ], 
-                      "special": "NOTAPPL", 
+                      "labels": [ { "text": "Not Applicable" } ],
+                      "special": "NOTAPPL",
                       "pairs": [ { "value": "" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "P15_OCC", 
-              "labels": [ { "text": "Occupation" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
-              "zeroFill": true, 
+              "name": "P15_OCC",
+              "labels": [ { "text": "Occupation" } ],
+              "contentType": "numeric",
+              "length": 3,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "P15_OCC_VS1", 
-                  "labels": [ { "text": "Occupation" } ], 
+                  "name": "P15_OCC_VS1",
+                  "labels": [ { "text": "Occupation" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "None" } ], 
+                      "labels": [ { "text": "None" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Medical" } ], 
+                      "labels": [ { "text": "Medical" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Accountants" } ], 
+                      "labels": [ { "text": "Accountants" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Artist Technical" } ], 
+                      "labels": [ { "text": "Artist Technical" } ],
                       "pairs": [ { "range": [ "10", "13" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Admin Managerial" } ], 
+                      "labels": [ { "text": "Admin Managerial" } ],
                       "pairs": [ { "range": [ "20", "21" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Clerical Office" } ], 
+                      "labels": [ { "text": "Clerical Office" } ],
                       "pairs": [ { "range": [ "30", "34" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sales Workers" } ], 
+                      "labels": [ { "text": "Sales Workers" } ],
                       "pairs": [ { "range": [ "40", "43" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Service Workers" } ], 
+                      "labels": [ { "text": "Service Workers" } ],
                       "pairs": [ { "range": [ "50", "54" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Farmers, Fishers" } ], 
+                      "labels": [ { "text": "Farmers, Fishers" } ],
                       "pairs": [ { "range": [ "60", "65" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Production Work" } ], 
+                      "labels": [ { "text": "Production Work" } ],
                       "pairs": [ { "range": [ "70", "79" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Transport Worker" } ], 
+                      "labels": [ { "text": "Transport Worker" } ],
                       "pairs": [ { "range": [ "80", "83" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Construction Trades" } ], 
+                      "labels": [ { "text": "Construction Trades" } ],
                       "pairs": [ { "range": [ "90", "92" ] } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other" } ], 
+                      "labels": [ { "text": "Other" } ],
                       "pairs": [ { "value": "95" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Not Reported" } ], 
+                      "labels": [ { "text": "Not Reported" } ],
                       "pairs": [ { "value": "999" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Missing" } ], 
-                      "special": "NOTAPPL", 
+                      "labels": [ { "text": "Missing" } ],
+                      "special": "NOTAPPL",
                       "pairs": [ { "value": "" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "P16_IND", 
-              "labels": [ { "text": "Industry" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
-              "zeroFill": true, 
+              "name": "P16_IND",
+              "labels": [ { "text": "Industry" } ],
+              "contentType": "numeric",
+              "length": 3,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "P16_IND_VS1", 
-                  "labels": [ { "text": "Industry" } ], 
+                  "name": "P16_IND_VS1",
+                  "labels": [ { "text": "Industry" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "None" } ], 
+                      "labels": [ { "text": "None" } ],
                       "pairs": [ { "value": "0" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Hunting" } ], 
+                      "labels": [ { "text": "Hunting" } ],
                       "pairs": [ { "value": "10" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Agriculture" } ], 
+                      "labels": [ { "text": "Agriculture" } ],
                       "pairs": [ { "value": "11" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Forestry" } ], 
+                      "labels": [ { "text": "Forestry" } ],
                       "pairs": [ { "value": "12" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Fishing" } ], 
+                      "labels": [ { "text": "Fishing" } ],
                       "pairs": [ { "value": "13" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Mining Quarrying" } ], 
+                      "labels": [ { "text": "Mining Quarrying" } ],
                       "pairs": [ { "value": "20" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Food manufacture" } ], 
+                      "labels": [ { "text": "Food manufacture" } ],
                       "pairs": [ { "value": "30" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Beverage Tobacco" } ], 
+                      "labels": [ { "text": "Beverage Tobacco" } ],
                       "pairs": [ { "value": "31" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Machinery Mfg" } ], 
+                      "labels": [ { "text": "Machinery Mfg" } ],
                       "pairs": [ { "value": "32" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Wood products" } ], 
+                      "labels": [ { "text": "Wood products" } ],
                       "pairs": [ { "value": "33" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Paper products" } ], 
+                      "labels": [ { "text": "Paper products" } ],
                       "pairs": [ { "value": "34" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Chemical Petrol" } ], 
+                      "labels": [ { "text": "Chemical Petrol" } ],
                       "pairs": [ { "value": "35" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Non-metal Manufa" } ], 
+                      "labels": [ { "text": "Non-metal Manufa" } ],
                       "pairs": [ { "value": "36" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Metal Industries" } ], 
+                      "labels": [ { "text": "Metal Industries" } ],
                       "pairs": [ { "value": "37" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Jewelry Mfg" } ], 
+                      "labels": [ { "text": "Jewelry Mfg" } ],
                       "pairs": [ { "value": "39" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Energy supplies" } ], 
+                      "labels": [ { "text": "Energy supplies" } ],
                       "pairs": [ { "value": "40" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Waterworks" } ], 
+                      "labels": [ { "text": "Waterworks" } ],
                       "pairs": [ { "value": "41" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Natural Gas Supply" } ], 
+                      "labels": [ { "text": "Natural Gas Supply" } ],
                       "pairs": [ { "value": "42" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Sanitation Services" } ], 
+                      "labels": [ { "text": "Sanitation Services" } ],
                       "pairs": [ { "value": "43" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Construction" } ], 
+                      "labels": [ { "text": "Construction" } ],
                       "pairs": [ { "value": "50" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Wholesale Trade" } ], 
+                      "labels": [ { "text": "Wholesale Trade" } ],
                       "pairs": [ { "value": "60" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Retail Trade" } ], 
+                      "labels": [ { "text": "Retail Trade" } ],
                       "pairs": [ { "value": "61" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Hotels, Restaurants" } ], 
+                      "labels": [ { "text": "Hotels, Restaurants" } ],
                       "pairs": [ { "value": "62" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Transport" } ], 
+                      "labels": [ { "text": "Transport" } ],
                       "pairs": [ { "value": "70" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Storage" } ], 
+                      "labels": [ { "text": "Storage" } ],
                       "pairs": [ { "value": "71" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Communication" } ], 
+                      "labels": [ { "text": "Communication" } ],
                       "pairs": [ { "value": "72" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Financial Banks" } ], 
+                      "labels": [ { "text": "Financial Banks" } ],
                       "pairs": [ { "value": "80" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Insurance" } ], 
+                      "labels": [ { "text": "Insurance" } ],
                       "pairs": [ { "value": "81" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Real Estate" } ], 
+                      "labels": [ { "text": "Real Estate" } ],
                       "pairs": [ { "value": "82" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Business Service" } ], 
+                      "labels": [ { "text": "Business Service" } ],
                       "pairs": [ { "value": "83" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Public Admin" } ], 
+                      "labels": [ { "text": "Public Admin" } ],
                       "pairs": [ { "value": "90" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Education" } ], 
+                      "labels": [ { "text": "Education" } ],
                       "pairs": [ { "value": "91" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Medical Dental" } ], 
+                      "labels": [ { "text": "Medical Dental" } ],
                       "pairs": [ { "value": "92" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Social Community" } ], 
+                      "labels": [ { "text": "Social Community" } ],
                       "pairs": [ { "value": "93" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Recrtn Cultural" } ], 
+                      "labels": [ { "text": "Recrtn Cultural" } ],
                       "pairs": [ { "value": "94" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Personal HHold" } ], 
+                      "labels": [ { "text": "Personal HHold" } ],
                       "pairs": [ { "value": "95" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Other" } ], 
+                      "labels": [ { "text": "Other" } ],
                       "pairs": [ { "value": "98" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Not Reported" } ], 
+                      "labels": [ { "text": "Not Reported" } ],
                       "pairs": [ { "value": "999" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Missing" } ], 
-                      "special": "NOTAPPL", 
+                      "labels": [ { "text": "Missing" } ],
+                      "special": "NOTAPPL",
                       "pairs": [ { "value": "" } ]
                     }
                   ]

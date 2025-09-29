@@ -1,6 +1,6 @@
 ﻿---
 fileType: Question Text
-version: CSPro 8.0
+version: CSPro 8.1
 languages:
   - name: EN
     label: English
@@ -29,301 +29,439 @@ questions:
   - name: PSC_HOUSEHOLD_DICT.HH_INTRODUCTION
     conditions:
       - questionText:
-          EN: |
-            <table style="font-weight:bold;"><tbody><tr><td>~~capi_province_name~~</td><td>~~capi_district_name~~<br></td><td>~~capi_ea_name~~</td><td>~~capi_household_name~~</td></tr></tbody></table><p>Hello, my name is ~~capi_staff_name~~. I am working with Popstan Statistics and we are conducting the Popstan Census.</p>
-            <p>All the answers you give will be confidential and will not be shared with anyone other than members of the technical team for the Popstan Census. Taking part in the census is the responsibility of every citizen and we will be glad if you agree to answer the questions.</p>
+          EN:
+            format: HTML
+            text: |
+              <table style="font-weight:bold;"><tbody><tr><td>~~capi_province_name~~</td><td>~~capi_district_name~~<br></td><td>~~capi_ea_name~~</td><td>~~capi_household_name~~</td></tr></tbody></table><p>Hello, my name is ~~capi_staff_name~~. I am working with Popstan Statistics and we are conducting the Popstan Census.</p>
+              <p>All the answers you give will be confidential and will not be shared with anyone other than members of the technical team for the Popstan Census. Taking part in the census is the responsibility of every citizen and we will be glad if you agree to answer the questions.</p>
   - name: PSC_HOUSEHOLD_DICT.HH_GPS_READING
     conditions:
       - questionText:
-          EN: |
-            <p>~~capi_gps_reading~~</p><table><tbody><tr><td>GPS data:<br></td><td><b>~~capi_gps_data_status~~</b></td></tr><tr><td>~~capi_gps_accuracy_status_label~~</td><td><b>~~capi_gps_accuracy_status~~</b><br></td></tr></tbody></table>
+          EN:
+            format: HTML
+            text: |
+              <p>~~capi_gps_reading~~</p><table><tbody><tr><td>GPS data:<br></td><td><b>~~capi_gps_data_status~~</b></td></tr><tr><td>~~capi_gps_accuracy_status_label~~</td><td><b>~~capi_gps_accuracy_status~~</b><br></td></tr></tbody></table>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_POPULATION_SECTION
     conditions:
       - questionText:
-          EN: |
-            <p><b>POPULATION SECTION</b></p>
-            <p>The population section will be about the people that usually spend their time in this household as well as visitors.</p>
+          EN:
+            format: HTML
+            text: |
+              <p><b>POPULATION SECTION</b></p>
+              <p>The population section will be about the people that usually spend their time in this household as well as visitors.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_KEEP_ROW
     conditions:
       - questionText:
-          EN: |
-            <p><span class="instruction">Do you want to keep or delete this row of population information?</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="instruction">Do you want to keep or delete this row of population information?</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_NAME
     conditions:
       - logic: curocc() = 1
         questionText:
-          EN: |
-            <p>Can you please give the names of the persons who usually live in this household and visitors of the household who stayed here last night, starting with the head of the household.</p>
-            
-            <p>Who is the head of household?</p>
-            
-            <p><span class="instruction">Enter first name then last name.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>Can you please give the names of the persons who usually live in this household and visitors of the household who stayed here last night, starting with the head of the household.</p>
+              
+              <p>Who is the head of household?</p>
+              
+              <p><span class="instruction">Enter first name then last name.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
       - logic: curocc() > 1
         questionText:
-          EN: |
-            <p>Enter the name of the person.</p><p><br></p>
-            <p><span class="instruction">Enter first name then last name.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>Enter the name of the person.</p><p><br></p>
+              <p><span class="instruction">Enter first name then last name.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_RELATIONSHIP
     conditions:
       - questionText:
-          EN: |
-            <p>What is ~~HH_NAME~~'s relationship to the head of the household, ~~CapiHeadName()~~?</p>
-            
-            <p><span class="instruction">Refer the relationship of any member of the household to the HEAD of that household.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is ~~HH_NAME~~'s relationship to the head of the household, ~~CapiHeadName()~~?</p>
+              
+              <p><span class="instruction">Refer the relationship of any member of the household to the HEAD of that household.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_SEX
     conditions:
       - questionText:
-          EN: |
-            <p>Is ~~HH_NAME~~ male or female?</p>
-            
-            <p><span class="instruction">Be careful to get the sex of young children right - ask, do not guess. Always confirm or verify the sex of a person against their name.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>Is ~~HH_NAME~~ male or female?</p>
+              
+              <p><span class="instruction">Be careful to get the sex of young children right - ask, do not guess. Always confirm or verify the sex of a person against their name.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_MORE_ROWS
     conditions:
       - questionText:
-          EN: |
-            <p></p><p>You have listed ~~capi_number_of_persons~~ person(s):</p>
-            
-            <p>~~~capi_household_name_sex~~~</p><p>
-            </p><p>Is there anyone else in this household?</p>
-            <p>Any (other) children? Relatives? Anyone not related to you? Or any visitors who spent the night?</p>
+          EN:
+            format: HTML
+            text: |
+              <p></p><p>You have listed ~~capi_number_of_persons~~ person(s):</p>
+              
+              <p>~~~capi_household_name_sex~~~</p><p>
+              </p><p>Is there anyone else in this household?</p>
+              <p>Any (other) children? Relatives? Anyone not related to you? Or any visitors who spent the night?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_MONTH_BORN
     conditions:
       - questionText:
-          EN: |
-            <p>In what month was ~~HH_NAME~~ born?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>In what month was ~~HH_NAME~~ born?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_YEAR_BORN
     conditions:
       - questionText:
-          EN: |
-            <p>In what year was ~~HH_NAME~~ born?</p>
-            
-            <p><span class="instruction">If year is not known enter 9999.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>In what year was ~~HH_NAME~~ born?</p>
+              
+              <p><span class="instruction">If year is not known enter 9999.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_AGE
     conditions:
       - questionText:
-          EN: |
-            <p>How old was ~~HH_NAME~~ at ~~CapiPopulationHisHer()~~ last birthday?</p>
-            
-            <p><span class="instruction">Ask and record the age of each household member in completed years (0 for children less than one year old).</span></p><span class="instruction">
-            
-            </span><p><span class="instruction">If age is not known enter 999.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>How old was ~~HH_NAME~~ at ~~CapiPopulationHisHer()~~ last birthday?</p>
+              
+              <p><span class="instruction">Ask and record the age of each household member in completed years (0 for children less than one year old).</span></p><span class="instruction">
+              
+              </span><p><span class="instruction">If age is not known enter 999.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_CITIZENSHIP
     conditions:
       - questionText:
-          EN: |
-            <p>Is ~~HH_NAME~~ a citizen of Popstan?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Is ~~HH_NAME~~ a citizen of Popstan?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_RESIDENCE_SITUATION
     conditions:
       - questionText:
-          EN: |
-            <p>Is ~~HH_NAME~~ a present resident, absent resident, or visitor?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Is ~~HH_NAME~~ a present resident, absent resident, or visitor?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_LITERACY
     conditions:
       - questionText:
-          EN: |
-            <p>Can ~~HH_NAME~~ read and write a simple sentence in any language?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Can ~~HH_NAME~~ read and write a simple sentence in any language?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_EDUCATION
     conditions:
       - questionText:
-          EN: |
-            <p>What is the highest level of education ~~HH_NAME~~ has completed?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is the highest level of education ~~HH_NAME~~ has completed?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_WORK_STATUS
     conditions:
       - questionText:
-          EN: |
-            <p>Aside from ~~CapiPopulationHisHer()~~ own housework, did ~~HH_NAME~~ work for at least an hour for pay or gain during the last 7 days?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Aside from ~~CapiPopulationHisHer()~~ own housework, did ~~HH_NAME~~ work for at least an hour for pay or gain during the last 7 days?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_MARITAL_STATUS
     conditions:
       - questionText:
-          EN: |
-            <p>What is ~~HH_NAME~~'s marital status?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is ~~HH_NAME~~'s marital status?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_MARITAL_AGE
     conditions:
       - questionText:
-          EN: |
-            <p>How old was ~~HH_NAME~~ when ~~CapiPopulationHeShe()~~ first got married?</p>
-            <p><span class="instruction">If age at first marriage is not known enter 999.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p>How old was ~~HH_NAME~~ when ~~CapiPopulationHeShe()~~ first got married?</p>
+              <p><span class="instruction">If age at first marriage is not known enter 999.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_CHILDREN_EVER_BORN
     conditions:
       - questionText:
-          EN: |
-            <p>How many children were born alive to ~~HH_NAME~~?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>How many children were born alive to ~~HH_NAME~~?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_BOYS_EVER_BORN
     conditions:
       - questionText:
-          EN: |
-            <p>How many boys were born alive to ~~HH_NAME~~?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>How many boys were born alive to ~~HH_NAME~~?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_BOYS_STILL_ALIVE
     conditions:
       - questionText:
-          EN: |
-            <p>Among these, how many boys are still alive?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Among these, how many boys are still alive?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_GIRLS_EVER_BORN
     conditions:
       - questionText:
-          EN: |
-            <p>How many girls were born alive to ~~HH_NAME~~?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>How many girls were born alive to ~~HH_NAME~~?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_GIRLS_STILL_ALIVE
     conditions:
       - questionText:
-          EN: |
-            <p>Among these, how many girls are still alive?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Among these, how many girls are still alive?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_DWELLING_SECTION
     conditions:
       - questionText:
-          EN: |
-            <p><b>DWELLING CHARACTERISTICS SECTION</b></p>
-            <p>The dwelling characteristics section will be about the characteristcs of this dwelling unit.</p>
+          EN:
+            format: HTML
+            text: |
+              <p><b>DWELLING CHARACTERISTICS SECTION</b></p>
+              <p>The dwelling characteristics section will be about the characteristcs of this dwelling unit.</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_TENURE
     conditions:
       - questionText:
-          EN: |
-            <p>Is this dwelling unit owned, rented, or is there another arrangement?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Is this dwelling unit owned, rented, or is there another arrangement?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_ROOF
     conditions:
       - questionText:
-          EN: |
-            <p>What is the primary material used for the roof?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is the primary material used for the roof?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_WALL
     conditions:
       - questionText:
-          EN: |
-            <p>What is the primary material used for the wall?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is the primary material used for the wall?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_FLOOR
     conditions:
       - questionText:
-          EN: |
-            <p>What is the primary material used for the floor?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is the primary material used for the floor?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_WATER_SOURCE
     conditions:
       - questionText:
-          EN: |
-            <p>What is the main source of drinking water for members of the household?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is the main source of drinking water for members of the household?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_TOILET
     conditions:
       - questionText:
-          EN: |
-            <p>What kind of toilet facility do members of your household usually use?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What kind of toilet facility do members of your household usually use?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_LIGHTING_SOURCE
     conditions:
       - questionText:
-          EN: |
-            <p>What is the source of energy the household mainly uses for lighting?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is the source of energy the household mainly uses for lighting?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_COOKING_SOURCE
     conditions:
       - questionText:
-          EN: |
-            <p>What is the source of energy the household mainly uses for cooking?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>What is the source of energy the household mainly uses for cooking?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_INTERNET
     conditions:
       - questionText:
-          EN: |
-            <p>Does this household have regular access to the Internet?</p>
+          EN:
+            format: HTML
+            text: |
+              <p>Does this household have regular access to the Internet?</p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
   - name: PSC_HOUSEHOLD_DICT.HH_CONCLUSION
     conditions:
       - questionText:
-          EN: |
-            <p><span class="instruction">You have reached the end of the interview. You can conclude the interview or review previous sections.</span></p>
+          EN:
+            format: HTML
+            text: |
+              <p><span class="instruction">You have reached the end of the interview. You can conclude the interview or review previous sections.</span></p>
         helpText:
-          EN: |
-            
+          EN:
+            format: HTML
+            text: |
+              
 ...

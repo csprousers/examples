@@ -1,121 +1,121 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "WEIGHT_FILE_DICT", 
-  "labels": [ { "text": "Weight file" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "WEIGHT_FILE_DICT",
+  "labels": [ { "text": "Weight file" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "883db7e54f934375b0c8fdb9fc0ac5d825672d0adedf577aa465dee5850b976c"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "WEIGHT_FILE_QUEST", 
-      "labels": [ { "text": "Weight file questionnaire" } ], 
+      "name": "WEIGHT_FILE_QUEST",
+      "labels": [ { "text": "Weight file questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "PROV", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 2, 
-            "zeroFill": true, 
+            "name": "PROV",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 2,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "PROV_VS1", 
-                "labels": [ { "text": "Province" } ], 
+                "name": "PROV_VS1",
+                "labels": [ { "text": "Province" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "Artesia" } ], 
+                    "labels": [ { "text": "Artesia" } ],
                     "pairs": [ { "value": "1" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Copal" } ], 
+                    "labels": [ { "text": "Copal" } ],
                     "pairs": [ { "value": "2" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Dari" } ], 
+                    "labels": [ { "text": "Dari" } ],
                     "pairs": [ { "value": "3" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Eris" } ], 
+                    "labels": [ { "text": "Eris" } ],
                     "pairs": [ { "value": "4" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Girda" } ], 
+                    "labels": [ { "text": "Girda" } ],
                     "pairs": [ { "value": "5" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Hali" } ], 
+                    "labels": [ { "text": "Hali" } ],
                     "pairs": [ { "value": "6" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Kerac" } ], 
+                    "labels": [ { "text": "Kerac" } ],
                     "pairs": [ { "value": "7" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Lacuna" } ], 
+                    "labels": [ { "text": "Lacuna" } ],
                     "pairs": [ { "value": "8" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Laya" } ], 
+                    "labels": [ { "text": "Laya" } ],
                     "pairs": [ { "value": "9" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Lira" } ], 
+                    "labels": [ { "text": "Lira" } ],
                     "pairs": [ { "value": "10" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Matanga" } ], 
+                    "labels": [ { "text": "Matanga" } ],
                     "pairs": [ { "value": "11" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Patan" } ], 
+                    "labels": [ { "text": "Patan" } ],
                     "pairs": [ { "value": "12" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Rift" } ], 
+                    "labels": [ { "text": "Rift" } ],
                     "pairs": [ { "value": "13" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Terra" } ], 
+                    "labels": [ { "text": "Terra" } ],
                     "pairs": [ { "value": "14" } ]
-                  }, 
+                  },
                   {
-                    "labels": [ { "text": "Tumar" } ], 
+                    "labels": [ { "text": "Tumar" } ],
                     "pairs": [ { "value": "15" } ]
                   }
                 ]
               }
             ]
-          }, 
+          },
           {
-            "name": "DISTRICT", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 3, 
-            "length": 2, 
-            "zeroFill": true, 
+            "name": "DISTRICT",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 3,
+            "length": 2,
+            "zeroFill": true,
             "valueSets": [
               {
-                "name": "DISTRICT_VS1", 
-                "labels": [ { "text": "District" } ], 
+                "name": "DISTRICT_VS1",
+                "labels": [ { "text": "District" } ],
                 "values": [
                   {
-                    "labels": [ { "text": "" } ], 
+                    "labels": [ { "text": "" } ],
                     "pairs": [ { "range": [ "1", "18" ] } ]
                   }
                 ]
@@ -123,23 +123,23 @@
             ]
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "WEIGHT_FILE_REC", 
-          "labels": [ { "text": "Weight file record" } ], 
+          "name": "WEIGHT_FILE_REC",
+          "labels": [ { "text": "Weight file record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "WGT", 
-              "labels": [ { "text": "Area weight" } ], 
-              "contentType": "numeric", 
-              "length": 6, 
-              "decimals": 4, 
-              "decimalMark": false, 
+              "name": "WGT",
+              "labels": [ { "text": "Area weight" } ],
+              "contentType": "numeric",
+              "length": 6,
+              "decimals": 4,
+              "decimalMark": false,
               "zeroFill": false
             }
           ]

@@ -1,76 +1,76 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "WS_DICT", 
-  "labels": [ { "text": "Menu - Working Storage Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "WS_DICT",
+  "labels": [ { "text": "Menu - Working Storage Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "3ecc60f56c442de7547b22e511bd2ce9bc5c955e888b4943713b141063a4c8cd"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "WS_LEVEL", 
-      "labels": [ { "text": "Working Storage Level" } ], 
+      "name": "WS_LEVEL",
+      "labels": [ { "text": "Working Storage Level" } ],
       "ids": {
         "items": [
           {
-            "name": "DUMMY_ID", 
-            "labels": [ { "text": "Dummy Id" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "DUMMY_ID",
+            "labels": [ { "text": "Dummy Id" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": false
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "INTERVIEWER_STATUS_RECORD", 
-          "labels": [ { "text": "Interviewer Status Record" } ], 
-          "recordType": "1", 
+          "name": "INTERVIEWER_STATUS_RECORD",
+          "labels": [ { "text": "Interviewer Status Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 99
-          }, 
+          },
           "items": [
             {
-              "name": "ISR_INTERVIEWER_NAME", 
-              "labels": [ { "text": "Interviewer Name" } ], 
-              "contentType": "alpha", 
+              "name": "ISR_INTERVIEWER_NAME",
+              "labels": [ { "text": "Interviewer Name" } ],
+              "contentType": "alpha",
               "length": 50
-            }, 
+            },
             {
-              "name": "ISR_COMPLETE_HOUSEHOLDS", 
-              "labels": [ { "text": "Complete Households" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
+              "name": "ISR_COMPLETE_HOUSEHOLDS",
+              "labels": [ { "text": "Complete Households" } ],
+              "contentType": "numeric",
+              "length": 3,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "ISR_PARTIAL_HOUSEHOLDS", 
-              "labels": [ { "text": "Partial Households" } ], 
-              "contentType": "numeric", 
-              "length": 3, 
+              "name": "ISR_PARTIAL_HOUSEHOLDS",
+              "labels": [ { "text": "Partial Households" } ],
+              "contentType": "numeric",
+              "length": 3,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "ISR_LAST_INTERVIEW", 
-              "labels": [ { "text": "Last Interview" } ], 
-              "contentType": "numeric", 
-              "length": 10, 
+              "name": "ISR_LAST_INTERVIEW",
+              "labels": [ { "text": "Last Interview" } ],
+              "contentType": "numeric",
+              "length": 10,
               "zeroFill": false
             }
           ]

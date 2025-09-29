@@ -1,487 +1,487 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "savedArrays", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "savedArrays",
   "arrays": [
     {
-      "name": "SexHD_Relationship_HeadSex", 
-      "contentType": "numeric", 
-      "saveArray": true, 
+      "name": "SexHD_Relationship_HeadSex",
+      "contentType": "numeric",
+      "saveArray": true,
       "dimensions": [
-        5, 
+        5,
         2
-      ], 
-      "runs": 0, 
-      "cases": 0, 
+      ],
+      "runs": 0,
+      "cases": 0,
       "value": {
         "1": {
           "0": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "2": {
           "0": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "3": {
           "0": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "4": {
           "0": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
           }
         }
       }
-    }, 
+    },
     {
-      "name": "SexHD_HeadSex_Relationship", 
-      "contentType": "numeric", 
-      "saveArray": true, 
+      "name": "SexHD_HeadSex_Relationship",
+      "contentType": "numeric",
+      "saveArray": true,
       "dimensions": [
-        2, 
+        2,
         5
-      ], 
-      "runs": 0, 
-      "cases": 0, 
+      ],
+      "runs": 0,
+      "cases": 0,
       "value": {
         "0": {
           "1": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "1": {
           "1": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 1.0, 
-            "gets": 0, 
+            "value": 1.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
           }
         }
       }
-    }, 
+    },
     {
-      "name": "AgeHD_Relationship_Education", 
-      "contentType": "numeric", 
-      "saveArray": true, 
+      "name": "AgeHD_Relationship_Education",
+      "contentType": "numeric",
+      "saveArray": true,
       "dimensions": [
-        5, 
+        5,
         8
-      ], 
-      "runs": 0, 
-      "cases": 0, 
+      ],
+      "runs": 0,
+      "cases": 0,
       "value": {
         "0": {
           "0": {
-            "value": 82.0, 
-            "gets": 0, 
+            "value": 82.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 93.0, 
-            "gets": 0, 
+            "value": 93.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 26.0, 
-            "gets": 0, 
+            "value": 26.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 80.0, 
-            "gets": 0, 
+            "value": 80.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 32.0, 
-            "gets": 0, 
+            "value": 32.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "5": {
-            "value": 90.0, 
-            "gets": 0, 
+            "value": 90.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "6": {
-            "value": 58.0, 
-            "gets": 0, 
+            "value": 58.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "7": {
-            "value": 83.0, 
-            "gets": 0, 
+            "value": 83.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "1": {
           "0": {
-            "value": 77.0, 
-            "gets": 0, 
+            "value": 77.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 75.0, 
-            "gets": 0, 
+            "value": 75.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 22.0, 
-            "gets": 0, 
+            "value": 22.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 42.0, 
-            "gets": 0, 
+            "value": 42.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 99.0, 
-            "gets": 0, 
+            "value": 99.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "5": {
-            "value": 33.0, 
-            "gets": 0, 
+            "value": 33.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "6": {
-            "value": 22.0, 
-            "gets": 0, 
+            "value": 22.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "7": {
-            "value": 37.0, 
-            "gets": 0, 
+            "value": 37.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "2": {
           "0": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 59.0, 
-            "gets": 0, 
+            "value": 59.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 51.0, 
-            "gets": 0, 
+            "value": 51.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 17.0, 
-            "gets": 0, 
+            "value": 17.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 34.0, 
-            "gets": 0, 
+            "value": 34.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "5": {
-            "value": 3.0, 
-            "gets": 0, 
+            "value": 3.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "6": {
-            "value": 6.0, 
-            "gets": 0, 
+            "value": 6.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "7": {
-            "value": 16.0, 
-            "gets": 0, 
+            "value": 16.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "3": {
           "0": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 76.0, 
-            "gets": 0, 
+            "value": 76.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 66.0, 
-            "gets": 0, 
+            "value": 66.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 51.0, 
-            "gets": 0, 
+            "value": 51.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 79.0, 
-            "gets": 0, 
+            "value": 79.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "5": {
-            "value": 16.0, 
-            "gets": 0, 
+            "value": 16.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "6": {
-            "value": 77.0, 
-            "gets": 0, 
+            "value": 77.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "7": {
-            "value": 51.0, 
-            "gets": 0, 
+            "value": 51.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "4": {
           "0": {
-            "value": 12.0, 
-            "gets": 0, 
+            "value": 12.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 91.0, 
-            "gets": 0, 
+            "value": 91.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 31.0, 
-            "gets": 0, 
+            "value": 31.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "3": {
-            "value": 87.0, 
-            "gets": 0, 
+            "value": 87.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "4": {
-            "value": 51.0, 
-            "gets": 0, 
+            "value": 51.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "5": {
-            "value": 52.0, 
-            "gets": 0, 
+            "value": 52.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "6": {
-            "value": 58.0, 
-            "gets": 0, 
+            "value": 58.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "7": {
-            "value": 67.0, 
-            "gets": 0, 
+            "value": 67.0,
+            "gets": 0,
             "puts": 0
           }
         }
       }
-    }, 
+    },
     {
-      "name": "EducationHD_Age", 
-      "contentType": "numeric", 
-      "saveArray": true, 
+      "name": "EducationHD_Age",
+      "contentType": "numeric",
+      "saveArray": true,
       "dimensions": [
         26
-      ], 
-      "runs": 0, 
-      "cases": 0, 
+      ],
+      "runs": 0,
+      "cases": 0,
       "value": {
         "0": {
-          "value": 0.0, 
-          "gets": 0, 
+          "value": 0.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "1": {
-          "value": 0.0, 
-          "gets": 0, 
+          "value": 0.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "2": {
-          "value": 1.0, 
-          "gets": 0, 
+          "value": 1.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "3": {
-          "value": 1.0, 
-          "gets": 0, 
+          "value": 1.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "4": {
-          "value": 0.0, 
-          "gets": 0, 
+          "value": 0.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "5": {
-          "value": 1.0, 
-          "gets": 0, 
+          "value": 1.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "6": {
-          "value": 1.0, 
-          "gets": 0, 
+          "value": 1.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "7": {
-          "value": 1.0, 
-          "gets": 0, 
+          "value": 1.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "8": {
-          "value": 0.0, 
-          "gets": 0, 
+          "value": 0.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "9": {
-          "value": 2.0, 
-          "gets": 0, 
+          "value": 2.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "10": {
-          "value": 2.0, 
-          "gets": 0, 
+          "value": 2.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "11": {
-          "value": 1.0, 
-          "gets": 0, 
+          "value": 1.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "12": {
-          "value": 0.0, 
-          "gets": 0, 
+          "value": 0.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "13": {
-          "value": 0.0, 
-          "gets": 0, 
+          "value": 0.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "14": {
-          "value": 3.0, 
-          "gets": 0, 
+          "value": 3.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "15": {
-          "value": 3.0, 
-          "gets": 0, 
+          "value": 3.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "16": {
-          "value": 3.0, 
-          "gets": 0, 
+          "value": 3.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "17": {
-          "value": 3.0, 
-          "gets": 0, 
+          "value": 3.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "18": {
-          "value": 5.0, 
-          "gets": 0, 
+          "value": 5.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "19": {
-          "value": 3.0, 
-          "gets": 0, 
+          "value": 3.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "20": {
-          "value": 2.0, 
-          "gets": 0, 
+          "value": 2.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "21": {
-          "value": 4.0, 
-          "gets": 0, 
+          "value": 4.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "22": {
-          "value": 6.0, 
-          "gets": 0, 
+          "value": 6.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "23": {
-          "value": 0.0, 
-          "gets": 0, 
+          "value": 0.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "24": {
-          "value": 5.0, 
-          "gets": 0, 
+          "value": 5.0,
+          "gets": 0,
           "puts": 0
-        }, 
+        },
         "25": {
-          "value": 5.0, 
-          "gets": 0, 
+          "value": 5.0,
+          "gets": 0,
           "puts": 0
         }
       }

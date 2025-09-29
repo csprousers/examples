@@ -1,109 +1,109 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "WS_DICT", 
-  "labels": [ { "text": "PostcalcExample - Working Storage Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "WS_DICT",
+  "labels": [ { "text": "PostcalcExample - Working Storage Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "3ecc60f56c442de7547b22e511bd2ce9bc5c955e888b4943713b141063a4c8cd"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "WS_LEVEL", 
-      "labels": [ { "text": "Working Storage Level" } ], 
+      "name": "WS_LEVEL",
+      "labels": [ { "text": "Working Storage Level" } ],
       "ids": {
         "items": [
           {
-            "name": "DUMMY_ID", 
-            "labels": [ { "text": "Dummy Id" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "DUMMY_ID",
+            "labels": [ { "text": "Dummy Id" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": false
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "WS_REC", 
-          "labels": [ { "text": "Working Storage Record" } ], 
-          "recordType": "1", 
+          "name": "WS_REC",
+          "labels": [ { "text": "Working Storage Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "SYSTEM_TOTAL", 
-              "labels": [ { "text": "System Total" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SYSTEM_TOTAL",
+              "labels": [ { "text": "System Total" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "UNMARRIED_MEN_PER_100_WOMEN", 
-              "labels": [ { "text": "Unmarried Men per 100 Women" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "UNMARRIED_MEN_PER_100_WOMEN",
+              "labels": [ { "text": "Unmarried Men per 100 Women" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "UNMARRIED_MEN_PER_100_WOMEN_VS1", 
-                  "labels": [ { "text": "Unmarried Men per 100 Women" } ], 
+                  "name": "UNMARRIED_MEN_PER_100_WOMEN_VS1",
+                  "labels": [ { "text": "Unmarried Men per 100 Women" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Unmarried Men per 100 Women" } ], 
+                      "labels": [ { "text": "Unmarried Men per 100 Women" } ],
                       "pairs": [ { "value": "1" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "DEPENDENCY_RATIO", 
-              "labels": [ { "text": "Dependency Ratio" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "DEPENDENCY_RATIO",
+              "labels": [ { "text": "Dependency Ratio" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "DEPENDENCY_RATIO_VS1", 
-                  "labels": [ { "text": "Dependency Ratio" } ], 
+                  "name": "DEPENDENCY_RATIO_VS1",
+                  "labels": [ { "text": "Dependency Ratio" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Dependency Ratio" } ], 
+                      "labels": [ { "text": "Dependency Ratio" } ],
                       "pairs": [ { "value": "1" } ]
                     }
                   ]
                 }
               ]
-            }, 
+            },
             {
-              "name": "TOTAL_FERTILITY_RATE", 
-              "labels": [ { "text": "Total Fertility Rate" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": false, 
+              "name": "TOTAL_FERTILITY_RATE",
+              "labels": [ { "text": "Total Fertility Rate" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": false,
               "valueSets": [
                 {
-                  "name": "TOTAL_FERTILITY_RATE_VS1", 
-                  "labels": [ { "text": "Total Fertility Rate" } ], 
+                  "name": "TOTAL_FERTILITY_RATE_VS1",
+                  "labels": [ { "text": "Total Fertility Rate" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Total Fertility Rate" } ], 
+                      "labels": [ { "text": "Total Fertility Rate" } ],
                       "pairs": [ { "value": "1" } ]
                     }
                   ]

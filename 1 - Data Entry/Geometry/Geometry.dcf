@@ -1,72 +1,72 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "GEOMETRY_DICT", 
-  "labels": [ { "text": "Geometry" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "GEOMETRY_DICT",
+  "labels": [ { "text": "Geometry" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "5611969ed6046d65544320d7ae1a6d1c9521a80c1f82a96a601fa795234e2464"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "GEOMETRY_LEVEL", 
-      "labels": [ { "text": "Geometry Level" } ], 
+      "name": "GEOMETRY_LEVEL",
+      "labels": [ { "text": "Geometry Level" } ],
       "ids": {
         "items": [
           {
-            "name": "GEOMETRY_ID", 
-            "labels": [ { "text": "Geometry Identification" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "GEOMETRY_ID",
+            "labels": [ { "text": "Geometry Identification" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "GEOMETRY_REC", 
-          "labels": [ { "text": "Geometry Record" } ], 
-          "recordType": "1", 
+          "name": "GEOMETRY_REC",
+          "labels": [ { "text": "Geometry Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "MENU", 
-              "labels": [ { "text": "Menu" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
-              "zeroFill": true, 
+              "name": "MENU",
+              "labels": [ { "text": "Menu" } ],
+              "contentType": "numeric",
+              "length": 1,
+              "zeroFill": true,
               "valueSets": [
                 {
-                  "name": "MENU_VS1", 
-                  "labels": [ { "text": "Menu" } ], 
+                  "name": "MENU_VS1",
+                  "labels": [ { "text": "Menu" } ],
                   "values": [
                     {
-                      "labels": [ { "text": "Trace polygon" } ], 
+                      "labels": [ { "text": "Trace polygon" } ],
                       "pairs": [ { "value": "1" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "View polygon" } ], 
+                      "labels": [ { "text": "View polygon" } ],
                       "pairs": [ { "value": "2" } ]
-                    }, 
+                    },
                     {
-                      "labels": [ { "text": "Calculate" } ], 
+                      "labels": [ { "text": "Calculate" } ],
                       "pairs": [ { "value": "3" } ]
                     }
                   ]

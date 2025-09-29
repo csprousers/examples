@@ -1,54 +1,54 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "OCCUPATION_DICT", 
-  "labels": [ { "text": "Occupation" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "OCCUPATION_DICT",
+  "labels": [ { "text": "Occupation" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "d5f22acf9ead4c05eeeee7b012dcbc7d30577c16801b5bd7b3deb52e6236777c"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": false
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "OCCUPATION_QUEST", 
-      "labels": [ { "text": "Occupation questionnaire" } ], 
+      "name": "OCCUPATION_QUEST",
+      "labels": [ { "text": "Occupation questionnaire" } ],
       "ids": {
         "items": [
           {
-            "name": "OCCID", 
-            "labels": [ { "text": "Occupation identification" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 3, 
+            "name": "OCCID",
+            "labels": [ { "text": "Occupation identification" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 3,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "OCCUPATION_REC", 
-          "labels": [ { "text": "Occupation record" } ], 
+          "name": "OCCUPATION_REC",
+          "labels": [ { "text": "Occupation record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "OCCTXT", 
-              "labels": [ { "text": "Occupations" } ], 
-              "contentType": "alpha", 
+              "name": "OCCTXT",
+              "labels": [ { "text": "Occupations" } ],
+              "contentType": "alpha",
               "length": 75
             }
           ]

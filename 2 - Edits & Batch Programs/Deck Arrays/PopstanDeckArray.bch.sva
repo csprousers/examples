@@ -1,322 +1,322 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "savedArrays", 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "savedArrays",
   "arrays": [
     {
-      "name": "HD10_Grade_Age_Sex", 
-      "contentType": "numeric", 
-      "saveArray": true, 
+      "name": "HD10_Grade_Age_Sex",
+      "contentType": "numeric",
+      "saveArray": true,
       "dimensions": [
-        18, 
+        18,
         3
-      ], 
-      "runs": 0, 
-      "cases": 0, 
+      ],
+      "runs": 0,
+      "cases": 0,
       "value": {
         "0": {
           "0": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "1": {
           "0": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 2.0, 
-            "gets": 0, 
+            "value": 2.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "2": {
           "0": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "3": {
           "0": {
-            "value": 5.0, 
-            "gets": 0, 
+            "value": 5.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 5.0, 
-            "gets": 0, 
+            "value": 5.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "4": {
           "0": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 3.0, 
-            "gets": 0, 
+            "value": 3.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "5": {
           "0": {
-            "value": 3.0, 
-            "gets": 0, 
+            "value": 3.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "6": {
           "0": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "7": {
           "0": {
-            "value": 5.0, 
-            "gets": 0, 
+            "value": 5.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 3.0, 
-            "gets": 0, 
+            "value": 3.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 5.0, 
-            "gets": 0, 
+            "value": 5.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "8": {
           "0": {
-            "value": 9.0, 
-            "gets": 0, 
+            "value": 9.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 5.0, 
-            "gets": 0, 
+            "value": 5.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 5.0, 
-            "gets": 0, 
+            "value": 5.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "9": {
           "0": {
-            "value": 11.0, 
-            "gets": 0, 
+            "value": 11.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 4.0, 
-            "gets": 0, 
+            "value": 4.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 11.0, 
-            "gets": 0, 
+            "value": 11.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "10": {
           "0": {
-            "value": 6.0, 
-            "gets": 0, 
+            "value": 6.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 3.0, 
-            "gets": 0, 
+            "value": 3.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 6.0, 
-            "gets": 0, 
+            "value": 6.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "11": {
           "0": {
-            "value": 11.0, 
-            "gets": 0, 
+            "value": 11.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 8.0, 
-            "gets": 0, 
+            "value": 8.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 11.0, 
-            "gets": 0, 
+            "value": 11.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "12": {
           "0": {
-            "value": 11.0, 
-            "gets": 0, 
+            "value": 11.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 9.0, 
-            "gets": 0, 
+            "value": 9.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 11.0, 
-            "gets": 0, 
+            "value": 11.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "13": {
           "0": {
-            "value": 13.0, 
-            "gets": 0, 
+            "value": 13.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 13.0, 
-            "gets": 0, 
+            "value": 13.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 13.0, 
-            "gets": 0, 
+            "value": 13.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "14": {
           "0": {
-            "value": 10.0, 
-            "gets": 0, 
+            "value": 10.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 13.0, 
-            "gets": 0, 
+            "value": 13.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 13.0, 
-            "gets": 0, 
+            "value": 13.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "15": {
           "0": {
-            "value": 10.0, 
-            "gets": 0, 
+            "value": 10.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 12.0, 
-            "gets": 0, 
+            "value": 12.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 12.0, 
-            "gets": 0, 
+            "value": 12.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "16": {
           "0": {
-            "value": 13.0, 
-            "gets": 0, 
+            "value": 13.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 12.0, 
-            "gets": 0, 
+            "value": 12.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 12.0, 
-            "gets": 0, 
+            "value": 12.0,
+            "gets": 0,
             "puts": 0
           }
-        }, 
+        },
         "17": {
           "0": {
-            "value": 5.0, 
-            "gets": 0, 
+            "value": 5.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "1": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
-          }, 
+          },
           "2": {
-            "value": 0.0, 
-            "gets": 0, 
+            "value": 0.0,
+            "gets": 0,
             "puts": 0
           }
         }

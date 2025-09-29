@@ -1,77 +1,77 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "PSC_GEOCODES_DICT", 
-  "labels": [ { "text": "Popstan Census Geocodes Dictionary" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "PSC_GEOCODES_DICT",
+  "labels": [ { "text": "Popstan Census Geocodes Dictionary" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "3861c55595cadadd3427b2220a56a34e4f81fe1cc4518b7ee95bc7915c4ffbf1"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 0, 
+    "start": 0,
     "length": 0
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "GEOCODES_LEVEL", 
-      "labels": [ { "text": "Geocodes Level" } ], 
+      "name": "GEOCODES_LEVEL",
+      "labels": [ { "text": "Geocodes Level" } ],
       "ids": {
         "items": [
           {
-            "name": "G_PROVINCE", 
-            "labels": [ { "text": "Province" } ], 
-            "contentType": "numeric", 
-            "start": 1, 
-            "length": 2, 
+            "name": "G_PROVINCE",
+            "labels": [ { "text": "Province" } ],
+            "contentType": "numeric",
+            "start": 1,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "G_DISTRICT", 
-            "labels": [ { "text": "District" } ], 
-            "contentType": "numeric", 
-            "start": 3, 
-            "length": 2, 
+            "name": "G_DISTRICT",
+            "labels": [ { "text": "District" } ],
+            "contentType": "numeric",
+            "start": 3,
+            "length": 2,
             "zeroFill": true
-          }, 
+          },
           {
-            "name": "G_EA", 
-            "labels": [ { "text": "Enumeration Area" } ], 
-            "contentType": "numeric", 
-            "start": 5, 
-            "length": 3, 
+            "name": "G_EA",
+            "labels": [ { "text": "Enumeration Area" } ],
+            "contentType": "numeric",
+            "start": 5,
+            "length": 3,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "GEOCODES_RECORD", 
-          "labels": [ { "text": "Geocodes Record" } ], 
+          "name": "GEOCODES_RECORD",
+          "labels": [ { "text": "Geocodes Record" } ],
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "G_AREA_LEVEL", 
-              "labels": [ { "text": "Area Level" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "G_AREA_LEVEL",
+              "labels": [ { "text": "Area Level" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": false
-            }, 
+            },
             {
-              "name": "G_AREA_NAME", 
-              "labels": [ { "text": "Area Name" } ], 
-              "contentType": "alpha", 
+              "name": "G_AREA_NAME",
+              "labels": [ { "text": "Area Name" } ],
+              "contentType": "alpha",
               "length": 50
             }
           ]

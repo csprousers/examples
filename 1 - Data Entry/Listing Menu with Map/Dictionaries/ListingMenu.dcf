@@ -1,56 +1,56 @@
 {
-  "software": "CSPro", 
-  "version": 8.0, 
-  "fileType": "dictionary", 
-  "name": "LISTINGMENU_DICT", 
-  "labels": [ { "text": "ListingMenu" } ], 
+  "software": "CSPro",
+  "version": 8.1,
+  "fileType": "dictionary",
+  "name": "LISTINGMENU_DICT",
+  "labels": [ { "text": "ListingMenu" } ],
   "security": {
-    "allowDataViewerModifications": true, 
-    "allowExport": true, 
-    "cachedPasswordMinutes": 0, 
+    "allowDataManagerModifications": true,
+    "allowExport": true,
+    "cachedPasswordMinutes": 0,
     "settings": "fb38ae7822b3eecb82a73afd9c3c3285c0a13bcacba320baa23cbf9640b4fa56"
-  }, 
-  "readOptimization": true, 
+  },
+  "readOptimization": true,
   "recordType": {
-    "start": 1, 
+    "start": 1,
     "length": 1
-  }, 
+  },
   "defaults": {
-    "decimalMark": true, 
+    "decimalMark": true,
     "zeroFill": true
-  }, 
-  "relativePositions": true, 
+  },
+  "relativePositions": true,
   "levels": [
     {
-      "name": "LISTINGMENU_LEVEL", 
-      "labels": [ { "text": "ListingMenu Level" } ], 
+      "name": "LISTINGMENU_LEVEL",
+      "labels": [ { "text": "ListingMenu Level" } ],
       "ids": {
         "items": [
           {
-            "name": "LISTINGMENU_ID", 
-            "labels": [ { "text": "ListingMenu Identification" } ], 
-            "contentType": "numeric", 
-            "start": 2, 
-            "length": 1, 
+            "name": "LISTINGMENU_ID",
+            "labels": [ { "text": "ListingMenu Identification" } ],
+            "contentType": "numeric",
+            "start": 2,
+            "length": 1,
             "zeroFill": true
           }
         ]
-      }, 
+      },
       "records": [
         {
-          "name": "LISTINGMENU_REC", 
-          "labels": [ { "text": "ListingMenu Record" } ], 
-          "recordType": "1", 
+          "name": "LISTINGMENU_REC",
+          "labels": [ { "text": "ListingMenu Record" } ],
+          "recordType": "1",
           "occurrences": {
-            "required": true, 
+            "required": true,
             "maximum": 1
-          }, 
+          },
           "items": [
             {
-              "name": "SHOW_MAP", 
-              "labels": [ { "text": "Show Map" } ], 
-              "contentType": "numeric", 
-              "length": 1, 
+              "name": "SHOW_MAP",
+              "labels": [ { "text": "Show Map" } ],
+              "contentType": "numeric",
+              "length": 1,
               "zeroFill": true
             }
           ]
