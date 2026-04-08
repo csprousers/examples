@@ -41,7 +41,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: NAME_BLOCK
     conditions:
       - questionText:
@@ -62,7 +62,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: SIMPLECAPI_DICT.SEX
     conditions:
       - questionText:
@@ -74,7 +74,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: SIMPLECAPI_DICT.AGE
     conditions:
       - questionText:
@@ -88,7 +88,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: SIMPLECAPI_DICT.RELATIONSHIP
     conditions:
       - logic: headOcc in 0, curocc()
@@ -101,7 +101,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: not ( headOcc in 0, curocc() )
         questionText:
           EN:
@@ -112,7 +112,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: SIMPLECAPI_DICT.LITERATE
     conditions:
       - questionText:
@@ -124,7 +124,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: LANGUAGES_BLOCK
     conditions:
       - questionText:
@@ -138,7 +138,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: SIMPLECAPI_DICT.LANGUAGES_SPOKEN_OTHER
     conditions:
       - questionText:
@@ -150,7 +150,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: SIMPLECAPI_DICT.MAIN_LANGUAGE
     conditions:
       - questionText:
@@ -162,5 +162,4 @@ questions:
           EN:
             format: HTML
             text: |
-              
 ...

@@ -37,7 +37,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.NAMES
     conditions:
       - questionText:
@@ -49,7 +49,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.RELATIONSHIP
     conditions:
       - questionText:
@@ -61,7 +61,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.SEX
     conditions:
       - questionText:
@@ -73,7 +73,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.AGE
     conditions:
       - questionText:
@@ -88,7 +88,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: HOUSEHOLDQUESTIONNAIRE_DICT.MORE_PEOPLE
     conditions:
       - questionText:
@@ -100,5 +100,4 @@ questions:
           EN:
             format: HTML
             text: |
-              
 ...

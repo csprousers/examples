@@ -37,7 +37,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: STRUCTURES_DICT.ST_LOCATION_PLACEHOLDER
     conditions:
       - questionText:
@@ -51,7 +51,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: STRUCTURES_DICT.ST_NAME
     conditions:
       - logic: ST_TYPE<>1
@@ -64,7 +64,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: ST_TYPE=1
         questionText:
           EN:
@@ -75,7 +75,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: STRUCTURES_DICT.ST_NUM_MEMBERS
     conditions:
       - questionText:
@@ -87,5 +87,4 @@ questions:
           EN:
             format: HTML
             text: |
-              
 ...

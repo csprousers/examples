@@ -38,7 +38,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: curocc() > 1
         questionText:
           EN:
@@ -61,7 +61,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DEMREL
     conditions:
       - logic: curocc() = 1
@@ -74,7 +74,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: curocc() > 1
         questionText:
           EN:
@@ -85,7 +85,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: DEMBTH_BLOCK
     conditions:
       - questionText:
@@ -104,7 +104,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DEMBTH_MONTH
     conditions:
       - questionText:
@@ -116,7 +116,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DEMBTH_YEAR
     conditions:
       - questionText:
@@ -128,7 +128,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DEMAG1
     conditions:
       - questionText:
@@ -142,7 +142,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DEMEDL
     conditions:
       - questionText:
@@ -154,7 +154,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DEMEDC
     conditions:
       - questionText:
@@ -166,7 +166,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DEMMORE
     conditions:
       - questionText:
@@ -178,7 +178,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.LBPPNO
     conditions:
       - questionText:
@@ -190,7 +190,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.PXYRSP
     conditions:
       - questionText:
@@ -202,7 +202,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.PXYCHK
     conditions:
       - logic: DEMSEX(LBPPNO)=1
@@ -215,7 +215,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: DEMSEX(LBPPNO)=2
         questionText:
           EN:
@@ -226,7 +226,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.PXYPPN
     conditions:
       - questionText:
@@ -238,7 +238,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.PXYREL
     conditions:
       - questionText:
@@ -250,7 +250,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.EMPPAY
     conditions:
       - logic: PXYCHK = 1
@@ -263,7 +263,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -274,7 +274,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.EMPPFT
     conditions:
       - logic: PXYCHK = 1
@@ -290,7 +290,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -303,7 +303,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.EMPFAM
     conditions:
       - logic: PXYCHK = 1
@@ -316,7 +316,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -327,7 +327,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ABSJOB
     conditions:
       - logic: PXYCHK = 1
@@ -340,7 +340,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -351,7 +351,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ABSWHY
     conditions:
       - logic: PXYCHK = 1
@@ -364,7 +364,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -375,7 +375,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ABSWHY_OTHER
     conditions:
       - questionText:
@@ -387,7 +387,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ABSSEA
     conditions:
       - logic: PXYCHK = 1
@@ -400,7 +400,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -411,7 +411,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ABSDUR
     conditions:
       - logic: PXYCHK = 1
@@ -424,7 +424,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -435,7 +435,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ABSPAY
     conditions:
       - logic: PXYCHK = 1
@@ -448,7 +448,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -459,7 +459,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFCHK
     conditions:
       - questionText:
@@ -473,7 +473,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFANY
     conditions:
       - logic: PXYCHK = 1
@@ -486,7 +486,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -497,7 +497,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFMKT
     conditions:
       - logic: PXYCHK = 1
@@ -512,7 +512,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -525,7 +525,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFMAI
     conditions:
       - questionText:
@@ -539,7 +539,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFHIS
     conditions:
       - questionText:
@@ -551,7 +551,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFHIR
     conditions:
       - logic: PXYCHK = 1
@@ -564,7 +564,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -575,7 +575,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFGDS
     conditions:
       - logic: PXYCHK = 1
@@ -591,7 +591,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -605,7 +605,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFOCC
     conditions:
       - logic: PXYCHK = 1
@@ -620,7 +620,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -633,7 +633,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFDYS
     conditions:
       - logic: PXYCHK = 1
@@ -646,7 +646,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -657,7 +657,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AGFHRS
     conditions:
       - logic: PXYCHK = 1
@@ -671,7 +671,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -684,7 +684,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MULTJB
     conditions:
       - logic: PXYCHK = 1
@@ -697,7 +697,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -708,7 +708,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBEST
     conditions:
       - logic: MULTJB = 1 and PXYCHK = 1
@@ -717,13 +717,13 @@ questions:
             format: HTML
             text: |
               <p>I am now going to ask you some questions about your main job. The main job is the one where you usually work the highest number of hours even if you were temporarily absent in the last (week/7days).</p><p><br></p>
-              
+
               <p>In your main job, do you work…? </p>
         helpText:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MULTJB = 1 and PXYCHK = 2
         questionText:
           EN:
@@ -735,7 +735,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MULTJB = 2 and PXYCHK = 1
         questionText:
           EN:
@@ -746,7 +746,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MULTJB = 2 and PXYCHK = 2
         questionText:
           EN:
@@ -757,7 +757,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBSIZ
     conditions:
       - logic: PXYCHK = 1
@@ -770,7 +770,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -781,7 +781,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBPLC
     conditions:
       - logic: PXYCHK = 1
@@ -794,7 +794,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -805,7 +805,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBSAL
     conditions:
       - logic: PXYCHK = 1
@@ -818,7 +818,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -829,7 +829,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBREM
     conditions:
       - logic: MJBSAL = 1 and PXYCHK = 1
@@ -842,7 +842,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBSAL = 1 and PXYCHK = 2
         questionText:
           EN:
@@ -853,7 +853,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBSAL = 2 and PXYCHK = 1
         questionText:
           EN:
@@ -864,7 +864,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBSAL = 2 and PXYCHK = 2
         questionText:
           EN:
@@ -875,7 +875,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBTRI
     conditions:
       - logic: PXYCHK = 1
@@ -888,7 +888,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -899,7 +899,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBDEE
     conditions:
       - logic: PXYCHK = 1
@@ -912,7 +912,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -923,7 +923,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.MJBINS
     conditions:
       - logic: PXYCHK = 1
@@ -936,7 +936,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -947,7 +947,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DMWHHB
     conditions:
       - logic: PXYCHK = 1
@@ -960,7 +960,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -971,7 +971,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DMWHBE
     conditions:
       - logic: PXYCHK = 1
@@ -984,7 +984,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -995,7 +995,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DMWCHK
     conditions:
       - logic: PXYCHK = 1
@@ -1008,7 +1008,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1019,7 +1019,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DMWOCC
     conditions:
       - logic: PXYCHK = 1
@@ -1032,7 +1032,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1043,7 +1043,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.IMJREF
     conditions:
       - logic: MJBEST = 1 and PXYCHK = 1
@@ -1056,7 +1056,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST = 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1067,7 +1067,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 1
         questionText:
           EN:
@@ -1078,7 +1078,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1089,7 +1089,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.IMJNAM
     conditions:
       - logic: MJBEST = 1 and PXYCHK = 1
@@ -1102,7 +1102,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST = 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1113,7 +1113,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 1
         questionText:
           EN:
@@ -1124,7 +1124,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1135,7 +1135,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.IMJMAC
     conditions:
       - logic: MJBEST = 1 and PXYCHK = 1
@@ -1152,7 +1152,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST = 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1167,7 +1167,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 1
         questionText:
           EN:
@@ -1182,7 +1182,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1197,7 +1197,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DMJSYR
     conditions:
       - logic: MJBEST = 1 and PXYCHK = 1
@@ -1210,7 +1210,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST = 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1221,7 +1221,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 1
         questionText:
           EN:
@@ -1232,7 +1232,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: MJBEST <> 1 and PXYCHK = 2
         questionText:
           EN:
@@ -1243,7 +1243,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.DMJSMO
     conditions:
       - questionText:
@@ -1255,7 +1255,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.OMJMTD
     conditions:
       - logic: PXYCHK = 1
@@ -1268,7 +1268,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1279,7 +1279,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.OMJTLE
     conditions:
       - logic: PXYCHK = 1
@@ -1292,7 +1292,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1303,7 +1303,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACDYSM
     conditions:
       - logic: PXYCHK = 1
@@ -1316,7 +1316,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1327,7 +1327,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRSM
     conditions:
       - logic: PXYCHK = 1
@@ -1340,7 +1340,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1351,7 +1351,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRM1
     conditions:
       - logic: PXYCHK = 1
@@ -1364,7 +1364,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1375,7 +1375,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRCM
     conditions:
       - logic: PXYCHK = 1
@@ -1388,7 +1388,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1399,7 +1399,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRUM
     conditions:
       - logic: PXYCHK = 1
@@ -1412,7 +1412,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1423,7 +1423,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACEQUM
     conditions:
       - logic: PXYCHK = 1
@@ -1436,7 +1436,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1447,7 +1447,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.USHRSM
     conditions:
       - logic: PXYCHK = 1
@@ -1460,7 +1460,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1471,7 +1471,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.NUMJBS
     conditions:
       - logic: PXYCHK = 1
@@ -1484,7 +1484,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1495,7 +1495,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACDYSS
     conditions:
       - logic: PXYCHK = 1
@@ -1508,7 +1508,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1519,7 +1519,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRSS
     conditions:
       - logic: PXYCHK = 1
@@ -1532,7 +1532,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1543,7 +1543,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRS1
     conditions:
       - logic: PXYCHK = 1
@@ -1556,7 +1556,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1567,7 +1567,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRCS
     conditions:
       - logic: PXYCHK = 1
@@ -1580,7 +1580,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1591,7 +1591,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRUS
     conditions:
       - logic: PXYCHK = 1
@@ -1604,7 +1604,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1615,7 +1615,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACEQUS
     conditions:
       - logic: PXYCHK = 1
@@ -1628,7 +1628,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1639,7 +1639,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.USHRSS
     conditions:
       - logic: PXYCHK = 1
@@ -1652,7 +1652,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1663,7 +1663,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACHRSO
     conditions:
       - logic: PXYCHK = 1
@@ -1676,7 +1676,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1687,7 +1687,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.ACEQUO
     conditions:
       - logic: PXYCHK = 1
@@ -1700,7 +1700,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1711,7 +1711,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.USHRSO
     conditions:
       - logic: PXYCHK = 1
@@ -1724,7 +1724,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1735,7 +1735,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.WNTMRH
     conditions:
       - logic: PXYCHK = 1
@@ -1748,7 +1748,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1759,7 +1759,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.AVLMRH
     conditions:
       - logic: PXYCHK = 1
@@ -1772,7 +1772,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1783,7 +1783,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.NMMRHR
     conditions:
       - logic: PXYCHK = 1
@@ -1796,7 +1796,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1807,7 +1807,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SROTJB
     conditions:
       - logic: PXYCHK = 1
@@ -1820,7 +1820,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -1831,7 +1831,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHJOB
     conditions:
       - logic: PXYCHK=1
@@ -1844,7 +1844,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -1855,7 +1855,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHBUS
     conditions:
       - logic: PXYCHK=1
@@ -1868,7 +1868,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -1879,7 +1879,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHMTD
     conditions:
       - logic: PXYCHK=1
@@ -1892,7 +1892,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -1903,7 +1903,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHMTD_OTHER
     conditions:
       - questionText:
@@ -1915,7 +1915,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHACT
     conditions:
       - logic: PXYCHK=1
@@ -1928,7 +1928,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -1939,7 +1939,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHOTH
     conditions:
       - logic: PXYCHK=1
@@ -1952,7 +1952,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -1963,7 +1963,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHOTH_OTHER
     conditions:
       - questionText:
@@ -1975,7 +1975,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHDUR
     conditions:
       - logic: PXYCHK=1
@@ -1988,7 +1988,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -1999,7 +1999,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHYER
     conditions:
       - logic: PXYCHK=1
@@ -2012,7 +2012,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -2023,7 +2023,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHDES
     conditions:
       - logic: PXYCHK=1
@@ -2036,7 +2036,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -2047,7 +2047,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHDWY
     conditions:
       - logic: PXYCHK=1
@@ -2060,7 +2060,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -2071,7 +2071,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHDWY_OTHER
     conditions:
       - questionText:
@@ -2083,7 +2083,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHFTR
     conditions:
       - logic: PXYCHK=1
@@ -2096,7 +2096,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK=2
         questionText:
           EN:
@@ -2107,7 +2107,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHFAN
     conditions:
       - logic: PXYCHK = 1
@@ -2120,7 +2120,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -2131,7 +2131,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHAVN
     conditions:
       - logic: PXYCHK = 1
@@ -2144,7 +2144,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -2155,7 +2155,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHAVL
     conditions:
       - logic: PXYCHK = 1
@@ -2168,7 +2168,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -2179,7 +2179,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHNAR
     conditions:
       - questionText:
@@ -2191,7 +2191,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHMAC
     conditions:
       - logic: PXYCHK = 1
@@ -2204,7 +2204,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: PXYCHK = 2
         questionText:
           EN:
@@ -2215,7 +2215,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.SRHMAC_OTHER
     conditions:
       - questionText:
@@ -2227,7 +2227,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: POPSTANLFS_DICT.IMJISIC
     conditions:
       - logic: curocc() in 1:20
@@ -2240,5 +2240,4 @@ questions:
           EN:
             format: HTML
             text: |
-              
 ...

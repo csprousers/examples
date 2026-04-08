@@ -45,7 +45,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_POPULATION_SECTION
     conditions:
       - questionText:
@@ -58,7 +58,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_KEEP_ROW
     conditions:
       - questionText:
@@ -70,7 +70,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_NAME
     conditions:
       - logic: curocc() = 1
@@ -79,15 +79,15 @@ questions:
             format: HTML
             text: |
               <p>Can you please give the names of the persons who usually live in this household and visitors of the household who stayed here last night, starting with the head of the household.</p>
-              
+
               <p>Who is the head of household?</p>
-              
+
               <p><span class="instruction">Enter first name then last name.</span></p>
         helpText:
           EN:
             format: HTML
             text: |
-              
+
       - logic: curocc() > 1
         questionText:
           EN:
@@ -99,7 +99,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_RELATIONSHIP
     conditions:
       - questionText:
@@ -107,13 +107,13 @@ questions:
             format: HTML
             text: |
               <p>What is ~~HH_NAME~~'s relationship to the head of the household, ~~CapiHeadName()~~?</p>
-              
+
               <p><span class="instruction">Refer the relationship of any member of the household to the HEAD of that household.</span></p>
         helpText:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_SEX
     conditions:
       - questionText:
@@ -121,13 +121,13 @@ questions:
             format: HTML
             text: |
               <p>Is ~~HH_NAME~~ male or female?</p>
-              
+
               <p><span class="instruction">Be careful to get the sex of young children right - ask, do not guess. Always confirm or verify the sex of a person against their name.</span></p>
         helpText:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_MORE_ROWS
     conditions:
       - questionText:
@@ -135,7 +135,7 @@ questions:
             format: HTML
             text: |
               <p></p><p>You have listed ~~capi_number_of_persons~~ person(s):</p>
-              
+
               <p>~~~capi_household_name_sex~~~</p><p>
               </p><p>Is there anyone else in this household?</p>
               <p>Any (other) children? Relatives? Anyone not related to you? Or any visitors who spent the night?</p>
@@ -143,7 +143,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_MONTH_BORN
     conditions:
       - questionText:
@@ -155,7 +155,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_YEAR_BORN
     conditions:
       - questionText:
@@ -163,13 +163,13 @@ questions:
             format: HTML
             text: |
               <p>In what year was ~~HH_NAME~~ born?</p>
-              
+
               <p><span class="instruction">If year is not known enter 9999.</span></p>
         helpText:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_AGE
     conditions:
       - questionText:
@@ -177,15 +177,15 @@ questions:
             format: HTML
             text: |
               <p>How old was ~~HH_NAME~~ at ~~CapiPopulationHisHer()~~ last birthday?</p>
-              
+
               <p><span class="instruction">Ask and record the age of each household member in completed years (0 for children less than one year old).</span></p><span class="instruction">
-              
+
               </span><p><span class="instruction">If age is not known enter 999.</span></p>
         helpText:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_CITIZENSHIP
     conditions:
       - questionText:
@@ -197,7 +197,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_RESIDENCE_SITUATION
     conditions:
       - questionText:
@@ -209,7 +209,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_LITERACY
     conditions:
       - questionText:
@@ -221,7 +221,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_EDUCATION
     conditions:
       - questionText:
@@ -233,7 +233,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_WORK_STATUS
     conditions:
       - questionText:
@@ -245,7 +245,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_MARITAL_STATUS
     conditions:
       - questionText:
@@ -257,7 +257,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_MARITAL_AGE
     conditions:
       - questionText:
@@ -270,7 +270,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_CHILDREN_EVER_BORN
     conditions:
       - questionText:
@@ -282,7 +282,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_BOYS_EVER_BORN
     conditions:
       - questionText:
@@ -294,7 +294,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_BOYS_STILL_ALIVE
     conditions:
       - questionText:
@@ -306,7 +306,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_GIRLS_EVER_BORN
     conditions:
       - questionText:
@@ -318,7 +318,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_GIRLS_STILL_ALIVE
     conditions:
       - questionText:
@@ -330,7 +330,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_DWELLING_SECTION
     conditions:
       - questionText:
@@ -343,7 +343,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_TENURE
     conditions:
       - questionText:
@@ -355,7 +355,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_ROOF
     conditions:
       - questionText:
@@ -367,7 +367,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_WALL
     conditions:
       - questionText:
@@ -379,7 +379,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_FLOOR
     conditions:
       - questionText:
@@ -391,7 +391,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_WATER_SOURCE
     conditions:
       - questionText:
@@ -403,7 +403,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_TOILET
     conditions:
       - questionText:
@@ -415,7 +415,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_LIGHTING_SOURCE
     conditions:
       - questionText:
@@ -427,7 +427,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_COOKING_SOURCE
     conditions:
       - questionText:
@@ -439,7 +439,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_INTERNET
     conditions:
       - questionText:
@@ -451,7 +451,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_HOUSEHOLD_DICT.HH_CONCLUSION
     conditions:
       - questionText:
@@ -463,5 +463,4 @@ questions:
           EN:
             format: HTML
             text: |
-              
 ...

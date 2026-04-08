@@ -37,7 +37,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: MENU_DICT.INTERVIEWER_MENU
     conditions:
       - questionText:
@@ -51,7 +51,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: MENU_DICT.SUPERVISOR_MENU
     conditions:
       - questionText:
@@ -65,5 +65,4 @@ questions:
           EN:
             format: HTML
             text: |
-              
 ...

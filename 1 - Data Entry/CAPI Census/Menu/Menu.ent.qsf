@@ -39,7 +39,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_INTERVIEWER_MENU
     conditions:
       - questionText:
@@ -53,7 +53,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_VIEW_ALL_HOUSEHOLDS
     conditions:
       - questionText:
@@ -65,7 +65,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_VIEW_REJECTED_HOUSEHOLDS
     conditions:
       - questionText:
@@ -84,7 +84,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_MANAGE_STAFF_MEMBER
     conditions:
       - questionText:
@@ -97,7 +97,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_MANAGE_STAFF_NAME
     conditions:
       - logic: M_MANAGE_STAFF_NAME <> ""
@@ -110,7 +110,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
       - logic: M_MANAGE_STAFF_NAME = ""
         questionText:
           EN:
@@ -121,7 +121,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_INTERVIEWER_CODE
     conditions:
       - questionText:
@@ -133,7 +133,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_INTERVIEWER_EA
     conditions:
       - questionText:
@@ -145,7 +145,7 @@ questions:
           EN:
             format: HTML
             text: |
-              
+
   - name: PSC_MENU_DICT.M_REVIEW_EA
     conditions:
       - questionText:
