@@ -1,0 +1,15 @@
+# Use LF for all JSON specification files
+*.bch text eol=lf
+*.cmp text eol=lf
+*.csdocset text eol=lf
+*.csds text eol=lf
+*.cspack text eol=lf
+*.csprops text eol=lf
+*.dcf text eol=lf
+*.ent text eol=lf
+*.exf text eol=lf
+*.fqf text eol=lf
+*.ssf text eol=lf
+*.sva text eol=lf
+*.xl2cs text eol=lf
+*.xtb text eol=lf
