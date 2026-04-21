@@ -68,10 +68,10 @@ function LaunchMenuApp()
 
 	// Load the default settings from the existing menu PFF
 	Pff menu_pff;
-	menu_pff.load("../menu/menu.pff");
+	menu_pff.load("../Menu/Menu.pff");
 
 	// Must set Key to launch Menu. Default Key to case 1.
-	menu_pff.setProperty("Key", maketext("%d", 1));
+	menu_pff.setProperty("Key", 1);
 
 	// Run the household application
 	menu_pff.exec();
