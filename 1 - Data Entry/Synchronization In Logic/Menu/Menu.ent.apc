@@ -5,7 +5,7 @@ function syncWithHeadquarters()
 
 	// Connect to server
 	// Change the URL to match your server
-	if syncconnect(CSWeb, "http://www.myserver.org/api") = 1 then
+	if syncconnect("https://example.org/csweb/api") = 1 then
 
 		// Sync main data file.
 		// Note that HOUSEHOLDQUESTIONNAIRE_DICT must be added as
@@ -43,7 +43,7 @@ function syncWithSupervisor()
 	// We do not specify the device name to connect to
 	// which allows the interviewer to pick the device
 	// from a list of nearby devices.
-	if syncconnect(bluetooth) = 1 then
+	if syncconnect("Bluetooth") = 1 then
 
 		// Sync main data file.
 		// Note that HOUSEHOLDQUESTIONNAIRE_DICT must be added as

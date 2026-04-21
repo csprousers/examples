@@ -162,7 +162,7 @@ if INTERVIEWER_MENU = 1 then
 
 elseif INTERVIEWER_MENU = 2 then
 	// Sync with supervisor
-	if syncconnect(Bluetooth) = 1 then
+	if syncconnect("Bluetooth") = 1 then
 
 		// Upload changes in questionnaire data file to server
 		syncdata(PUT, POPSTANLFS_DICT);
@@ -199,7 +199,7 @@ if SUPERVISOR_MENU = 1 then
 
 elseif SUPERVISOR_MENU = 2 then
 	// Sync HQ
-	if syncconnect(Dropbox) = 1 then
+	if syncconnect("Dropbox") = 1 then
 
 		// Upload changes in questionnaire data file to server
 		syncdata(PUT, POPSTANLFS_DICT);

@@ -100,7 +100,7 @@ function SyncWithInterviewer()
 
 	numeric success = 1;
 
-	if syncconnect(Bluetooth) then
+	if syncconnect("Bluetooth") then
 
 		success = SyncDataWithInterviewer();
 
@@ -192,7 +192,7 @@ function SyncWithHQ(syncType)
 
 	SaveApplicationSnapshot();
 
-	if syncconnect(Dropbox) then
+	if syncconnect("Dropbox") then
 
 		if syncType = full_sync then
 #if exists(PSC_MENU_DICT)
