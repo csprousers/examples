@@ -152,7 +152,7 @@
           ]
         },
         {
-          "name": "POP_RECC",
+          "name": "POP_REC",
           "labels": [ { "text": "Person record" } ],
           "recordType": "3",
           "occurrences": {

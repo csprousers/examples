@@ -41,7 +41,7 @@ Item=HOUSE_NUMBER
 Item=TELEPHONE
 Item=HEAT
 Item=PC
-Item=POP_RECC000
+Item=POP_REC000
   
 Box=382,229,553,273,Thick
 Box=261,175,468,206,Thick
@@ -322,12 +322,12 @@ Text=Personal computer
  
   
 [Grid]
-Name=POP_RECC000
+Name=POP_REC000
 Label=Person record
 Form=2
 Required=No
 Type=Record
-TypeName=POP_RECC
+TypeName=POP_REC
 Max=35
 DisplaySize=53,227,366,534
 Orientation=Horizontal

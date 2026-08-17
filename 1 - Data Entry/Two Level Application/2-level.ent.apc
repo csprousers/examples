@@ -34,7 +34,7 @@ preproc
 postproc
 
 	x = x + 1;
-	errmsg("Household %d has %d persons", house_number, totocc(POP_RECC000));
+	errmsg("Household %d has %d persons", house_number, totocc(POP_REC000));
 
 
 PROC HOUSE_NUMBER
